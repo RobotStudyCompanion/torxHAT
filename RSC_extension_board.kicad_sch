@@ -4379,7 +4379,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_PinSocket_2.54mm:PinSocket_2x20_P2.54mm_Vertical"
+		(property "Footprint" "KiCad:M207812045R"
 			(at 137.414 103.378 0)
 			(effects
 				(font
