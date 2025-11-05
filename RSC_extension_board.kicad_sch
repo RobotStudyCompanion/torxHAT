@@ -9,25 +9,23 @@
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
-			(property "Reference" "D"
-				(at 31.75 7.62 0)
+			(property "Reference" "D3"
+				(at 11.43 5.08 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(justify left top)
 				)
 			)
 			(property "Value" "CDSOT23-T05"
-				(at 31.75 5.08 0)
+				(at 11.43 2.54 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(justify left top)
 				)
 			)
-			(property "Footprint" "SOT95P230X117-3N"
+			(property "Footprint" "CDSOT23-T05:SOT95P230X117-3N"
 				(at 31.75 -94.92 0)
 				(effects
 					(font
@@ -48,7 +46,7 @@
 				)
 			)
 			(property "Description" "BOURNS - CDSOT23-T05 - TVS Diode, CDSOT23, Unidirectional, 5 V, 13.5 V, SOT-23, 3 Pins"
-				(at 0 0 0)
+				(at 10.668 1.524 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -126,10 +124,60 @@
 					(hide yes)
 				)
 			)
+			(symbol "CDSOT23-T05_0_1"
+				(polyline
+					(pts
+						(xy 2.54 -2.54) (xy 7.62 -2.54) (xy 8.89 -1.27) (xy 7.62 0) (xy 2.54 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 8.89 -1.27) (xy 17.78 -1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 10.922 -1.778) (xy 10.922 -0.762) (xy 11.938 -1.27) (xy 10.922 -1.778)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 11.557 -0.762) (xy 11.938 -0.762) (xy 11.938 -1.778)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
 			(symbol "CDSOT23-T05_1_1"
 				(rectangle
-					(start 5.08 2.54)
-					(end 30.48 -5.08)
+					(start 5.08 1.27)
+					(end 17.78 -3.81)
 					(stroke
 						(width 0.254)
 						(type default)
@@ -141,7 +189,7 @@
 				(pin passive line
 					(at 0 0 0)
 					(length 5.08)
-					(name "ANODE_1"
+					(name ""
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -159,7 +207,7 @@
 				(pin passive line
 					(at 0 -2.54 0)
 					(length 5.08)
-					(name "ANODE_2"
+					(name ""
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -175,9 +223,9 @@
 					)
 				)
 				(pin passive line
-					(at 35.56 0 180)
+					(at 22.86 -1.27 180)
 					(length 5.08)
-					(name "CATHODE"
+					(name ""
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -7303,7 +7351,7 @@
 		(fields_autoplaced yes)
 		(uuid "e9148b55-c1b2-4f0c-8d23-b9601ab6971d")
 		(property "Reference" "D3"
-			(at 100.33 154.94 0)
+			(at 93.98 157.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7311,7 +7359,7 @@
 			)
 		)
 		(property "Value" "CDSOT23-T05"
-			(at 100.33 157.48 0)
+			(at 93.98 160.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7339,7 +7387,7 @@
 			)
 		)
 		(property "Description" "BOURNS - CDSOT23-T05 - TVS Diode, CDSOT23, Unidirectional, 5 V, 13.5 V, SOT-23, 3 Pins"
-			(at 82.55 162.56 0)
+			(at 93.218 161.036 0)
 			(effects
 				(font
 					(size 1.27 1.27)
