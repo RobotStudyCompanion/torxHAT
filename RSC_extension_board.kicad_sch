@@ -10,19 +10,21 @@
 			(in_bom yes)
 			(on_board yes)
 			(property "Reference" "D3"
-				(at 11.43 5.08 0)
+				(at 11.4936 -5.08 90)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
+					(justify right)
 				)
 			)
 			(property "Value" "CDSOT23-T05"
-				(at 11.43 2.54 0)
+				(at 8.9536 -5.08 90)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
+					(justify right)
 				)
 			)
 			(property "Footprint" "CDSOT23-T05:SOT95P230X117-3N"
@@ -176,8 +178,8 @@
 			)
 			(symbol "CDSOT23-T05_1_1"
 				(rectangle
-					(start 5.08 1.27)
-					(end 17.78 -3.81)
+					(start 7.62 1.27)
+					(end 13.97 -3.81)
 					(stroke
 						(width 0.254)
 						(type default)
@@ -187,7 +189,7 @@
 					)
 				)
 				(pin passive line
-					(at 0 0 0)
+					(at 2.54 0 0)
 					(length 5.08)
 					(name ""
 						(effects
@@ -205,7 +207,7 @@
 					)
 				)
 				(pin passive line
-					(at 0 -2.54 0)
+					(at 2.54 -2.54 0)
 					(length 5.08)
 					(name ""
 						(effects
@@ -223,7 +225,7 @@
 					)
 				)
 				(pin passive line
-					(at 22.86 -1.27 180)
+					(at 19.05 -1.27 180)
 					(length 5.08)
 					(name ""
 						(effects
@@ -2880,6 +2882,402 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "SMDC300F_24-2:SMDC300F_24-2"
+			(pin_names
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "F"
+				(at 13.97 6.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Value" "SMDC300F_24-2"
+				(at 13.97 3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Footprint" "SMDC030F2"
+				(at 13.97 -96.19 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://www.littelfuse.com/~/media/electronics/product_specifications/resettable_ptcs/littelfuse_ptc_smdc030f_2_product_specification.pdf.pdf"
+				(at 13.97 -196.19 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Description" "Resettable Fuses - PPTC 24V    3A-HD  40A MAX"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Height" "1"
+				(at 13.97 -396.19 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer_Name" "LITTELFUSE"
+				(at 13.97 -496.19 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer_Part_Number" "SMDC300F/24-2"
+				(at 13.97 -596.19 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Mouser Part Number" "650-SMDC300F/24-2"
+				(at 13.97 -696.19 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Littelfuse/SMDC300F-24-2?qs=pBN%2FbMTRZdcsk20bJLIO5A%3D%3D"
+				(at 13.97 -796.19 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Arrow Part Number" "SMDC300F/24-2"
+				(at 13.97 -896.19 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Arrow Price/Stock" "https://www.arrow.com/en/products/smdc300f24-2/littelfuse?utm_currency=USD&region=nac"
+				(at 13.97 -996.19 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(symbol "SMDC300F_24-2_1_1"
+				(rectangle
+					(start 5.08 1.27)
+					(end 12.7 -1.27)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(polyline
+					(pts
+						(xy 5.588 -2.032) (xy 7.112 -2.032)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 10.668 2.032) (xy 7.112 -2.032)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 10.668 2.032) (xy 12.192 2.032)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at 0 0 0)
+					(length 5.08)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 17.78 0 180)
+					(length 5.08)
+					(name "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Switch:SW_Wuerth_450301014042"
+			(pin_names
+				(offset 1)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "SW"
+				(at 0 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "SW_Wuerth_450301014042"
+				(at 0 -5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "Button_Switch_THT:SW_Slide-03_Wuerth-WS-SLTV_10x2.5x6.4_P2.54mm"
+				(at 0 -10.16 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://www.we-online.com/components/products/datasheet/450301014042.pdf"
+				(at 0 -7.62 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Switch slide, single pole double throw"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "changeover single-pole opposite-side-connection double-throw spdt ON-ON"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "SW*Wuerth*WS*SLTV*10x2.5x6.4*P2.54mm*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "SW_Wuerth_450301014042_0_1"
+				(circle
+					(center -2.032 0)
+					(radius 0.4572)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.651 0.254) (xy 1.651 2.286)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 2.032 2.54)
+					(radius 0.4572)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 2.032 -2.54)
+					(radius 0.4572)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "SW_Wuerth_450301014042_1_1"
+				(rectangle
+					(start -3.175 3.81)
+					(end 3.175 -3.81)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin passive line
+					(at -5.08 0 0)
+					(length 2.54)
+					(name "B"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 2.54 180)
+					(length 2.54)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 -2.54 180)
+					(length 2.54)
+					(name "C"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Transistor_FET:BSS138"
 			(pin_names
 				(offset 0)
@@ -3582,7 +3980,7 @@
 	)
 	(text "right now power. maybe later battery things?"
 		(exclude_from_sim no)
-		(at 35.814 153.162 0)
+		(at 14.224 146.304 0)
 		(effects
 			(font
 				(size 1.9558 1.9558)
@@ -3600,6 +3998,18 @@
 		(uuid "14c32001-916d-463c-beee-e6436d5a14d0")
 	)
 	(junction
+		(at 80.01 177.8)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "1b0352ce-1628-441d-b7a5-b1b7f9af23aa")
+	)
+	(junction
+		(at 80.01 166.37)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "2bac8d10-47f7-4642-a40c-8ed54b9a0b31")
+	)
+	(junction
 		(at 160.02 35.56)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3610,12 +4020,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "369529a6-33f3-4ed5-b583-bcf617cf5e16")
-	)
-	(junction
-		(at 80.01 177.8)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "36b31bda-733d-49b6-bca6-f61030e8b2aa")
 	)
 	(junction
 		(at 177.8 44.45)
@@ -3642,10 +4046,22 @@
 		(uuid "76adbb84-2c5a-4099-b7d3-295cfc51229e")
 	)
 	(junction
+		(at 107.95 153.67)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "7df9e207-6061-4d27-9582-bbeab529776a")
+	)
+	(junction
 		(at 160.02 44.45)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "91e91f13-35ce-48be-b9a9-dfd6482bcf72")
+	)
+	(junction
+		(at 52.07 165.1)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "930bb19a-0a3c-490d-b4f7-4f180e5b7dbb")
 	)
 	(junction
 		(at 35.56 120.65)
@@ -3664,12 +4080,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "9e0034e0-b420-43ef-b673-ccbdeac4931b")
-	)
-	(junction
-		(at 80.01 166.37)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "a7608cc8-5f04-4c96-93ea-c48087dfa743")
 	)
 	(junction
 		(at 237.49 26.67)
@@ -3694,12 +4104,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "c41dc195-32dc-421d-b388-a368481480c6")
-	)
-	(junction
-		(at 52.07 165.1)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "d1d3e21c-d450-4f32-b1a6-1be0ab1cbb18")
 	)
 	(junction
 		(at 237.49 76.2)
@@ -3739,6 +4143,16 @@
 	)
 	(wire
 		(pts
+			(xy 78.74 151.13) (xy 69.85 151.13)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "09cb8b6a-22d5-4ed8-99e9-23b92bdef9ff")
+	)
+	(wire
+		(pts
 			(xy 237.49 66.04) (xy 237.49 68.58)
 		)
 		(stroke
@@ -3746,6 +4160,36 @@
 			(type default)
 		)
 		(uuid "0c0ef8d7-e2fd-4404-a329-cbc8db0231ac")
+	)
+	(wire
+		(pts
+			(xy 46.99 180.34) (xy 45.72 180.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0fd91f76-2ee4-429d-849e-f704d553157e")
+	)
+	(wire
+		(pts
+			(xy 68.58 166.37) (xy 80.01 166.37)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "13a8e43b-c293-4baa-bd99-05a6ef44d54e")
+	)
+	(wire
+		(pts
+			(xy 107.95 149.86) (xy 107.95 153.67)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "14bd3c79-2bb3-40d7-a83c-891e43353aa8")
 	)
 	(wire
 		(pts
@@ -3789,6 +4233,16 @@
 	)
 	(wire
 		(pts
+			(xy 68.58 163.83) (xy 80.01 163.83)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "26ad33ef-0490-4fec-a3c9-8f0a2b9f8c11")
+	)
+	(wire
+		(pts
 			(xy 247.65 55.88) (xy 247.65 50.8)
 		)
 		(stroke
@@ -3809,7 +4263,7 @@
 	)
 	(wire
 		(pts
-			(xy 52.07 165.1) (xy 45.72 165.1)
+			(xy 45.72 165.1) (xy 52.07 165.1)
 		)
 		(stroke
 			(width 0)
@@ -3859,26 +4313,6 @@
 	)
 	(wire
 		(pts
-			(xy 53.34 165.1) (xy 52.07 165.1)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3b34c781-47cc-4f83-9b3c-8b091e9b657a")
-	)
-	(wire
-		(pts
-			(xy 80.01 163.83) (xy 80.01 166.37)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "451bdc00-113b-44f8-8bb0-b69c402d4165")
-	)
-	(wire
-		(pts
 			(xy 81.28 120.65) (xy 92.71 120.65)
 		)
 		(stroke
@@ -3899,6 +4333,16 @@
 	)
 	(wire
 		(pts
+			(xy 80.01 163.83) (xy 80.01 166.37)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4e16d651-795f-4b54-871a-073ce7a84709")
+	)
+	(wire
+		(pts
 			(xy 251.46 99.06) (xy 261.62 99.06)
 		)
 		(stroke
@@ -3909,6 +4353,16 @@
 	)
 	(wire
 		(pts
+			(xy 107.95 165.1) (xy 107.95 163.83)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5bbee473-15e7-4844-938a-8ee6986b961f")
+	)
+	(wire
+		(pts
 			(xy 251.46 73.66) (xy 261.62 73.66)
 		)
 		(stroke
@@ -3916,6 +4370,16 @@
 			(type default)
 		)
 		(uuid "5ceadb8a-b021-47a6-907b-91c5c356e3b6")
+	)
+	(wire
+		(pts
+			(xy 52.07 151.13) (xy 52.07 165.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5cfb98cb-d902-4860-ad99-c4d4f7ff3463")
 	)
 	(wire
 		(pts
@@ -4009,6 +4473,16 @@
 	)
 	(wire
 		(pts
+			(xy 52.07 165.1) (xy 52.07 172.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "78945280-b441-4850-aae8-3a47388f3d39")
+	)
+	(wire
+		(pts
 			(xy 35.56 118.11) (xy 33.02 118.11)
 		)
 		(stroke
@@ -4046,16 +4520,6 @@
 			(type default)
 		)
 		(uuid "896bdc5b-7c3b-479f-829d-5c88ff1fe8f6")
-	)
-	(wire
-		(pts
-			(xy 46.99 177.8) (xy 45.72 177.8)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8d51592f-970e-4c7c-b7f9-a25c2ae94bee")
 	)
 	(wire
 		(pts
@@ -4099,16 +4563,6 @@
 	)
 	(wire
 		(pts
-			(xy 80.01 166.37) (xy 80.01 177.8)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a1c84386-f1ed-4fb7-b065-70c245fe85b7")
-	)
-	(wire
-		(pts
 			(xy 247.65 29.21) (xy 250.19 29.21)
 		)
 		(stroke
@@ -4136,16 +4590,6 @@
 			(type default)
 		)
 		(uuid "a9b935f5-e568-43d2-835a-b5e15523b7ca")
-	)
-	(wire
-		(pts
-			(xy 46.99 180.34) (xy 45.72 180.34)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "aa54176e-f0db-4369-bed2-6dc7e6460ae9")
 	)
 	(wire
 		(pts
@@ -4229,16 +4673,6 @@
 	)
 	(wire
 		(pts
-			(xy 76.2 163.83) (xy 80.01 163.83)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b967a554-dd9d-49fe-a51c-3e945bc34976")
-	)
-	(wire
-		(pts
 			(xy 80.01 186.69) (xy 76.2 186.69)
 		)
 		(stroke
@@ -4269,13 +4703,13 @@
 	)
 	(wire
 		(pts
-			(xy 52.07 165.1) (xy 52.07 172.72)
+			(xy 88.9 153.67) (xy 107.95 153.67)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "c85beb71-e43f-418c-a7ec-f65a3688f782")
+		(uuid "c79b2223-25f2-4322-9a19-e0f4543ce3aa")
 	)
 	(wire
 		(pts
@@ -4329,7 +4763,7 @@
 	)
 	(wire
 		(pts
-			(xy 52.07 161.29) (xy 52.07 165.1)
+			(xy 107.95 153.67) (xy 107.95 156.21)
 		)
 		(stroke
 			(width 0)
@@ -4346,6 +4780,26 @@
 			(type default)
 		)
 		(uuid "da1562b2-98bd-4bf0-a4d0-9b48c8edc0b0")
+	)
+	(wire
+		(pts
+			(xy 46.99 177.8) (xy 45.72 177.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e4373ebd-f4ef-4f13-b33a-9b95a5a0663f")
+	)
+	(wire
+		(pts
+			(xy 80.01 166.37) (xy 80.01 177.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e707d3b1-95c7-4b4b-8479-c8e426a925ad")
 	)
 	(wire
 		(pts
@@ -4386,16 +4840,6 @@
 			(type default)
 		)
 		(uuid "eb953916-90da-494e-b8a7-36f1e47cb0fa")
-	)
-	(wire
-		(pts
-			(xy 76.2 166.37) (xy 80.01 166.37)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ebef8864-1c72-4c58-8a98-e53736960d05")
 	)
 	(wire
 		(pts
@@ -5555,7 +5999,7 @@
 	)
 	(symbol
 		(lib_id "power:+5V")
-		(at 52.07 161.29 0)
+		(at 107.95 149.86 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5564,7 +6008,7 @@
 		(fields_autoplaced yes)
 		(uuid "479c4347-2c2b-40e8-97c9-51b943b5221b")
 		(property "Reference" "#PWR013"
-			(at 52.07 165.1 0)
+			(at 107.95 153.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5573,7 +6017,7 @@
 			)
 		)
 		(property "Value" "+5V"
-			(at 52.07 156.21 0)
+			(at 107.95 144.78 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5581,7 +6025,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 52.07 161.29 0)
+			(at 107.95 149.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5590,7 +6034,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 52.07 161.29 0)
+			(at 107.95 149.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5599,7 +6043,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 52.07 161.29 0)
+			(at 107.95 149.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5681,6 +6125,77 @@
 			(project "RSC_extension_board"
 				(path "/1f48ed4c-84ce-4e77-88fc-25bf92dcee2d"
 					(reference "#PWR017")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switch:SW_Wuerth_450301014042")
+		(at 83.82 151.13 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "53de3bb5-eff9-4e43-b0d3-bded384e4ecf")
+		(property "Reference" "SW1"
+			(at 83.82 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SW_Wuerth_450301014042"
+			(at 83.82 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Button_Switch_THT:SW_Slide-03_Wuerth-WS-SLTV_10x2.5x6.4_P2.54mm"
+			(at 83.82 161.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.we-online.com/components/products/datasheet/450301014042.pdf"
+			(at 83.82 158.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Switch slide, single pole double throw"
+			(at 83.82 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "c1bf285d-9efe-4976-9982-69b016371eae")
+		)
+		(pin "1"
+			(uuid "ecfe69b9-acb2-43d1-b88a-f0c20e12473c")
+		)
+		(pin "3"
+			(uuid "9f01a324-f58b-4d76-a336-88bbcc571d4c")
+		)
+		(instances
+			(project ""
+				(path "/1f48ed4c-84ce-4e77-88fc-25bf92dcee2d"
+					(reference "SW1")
 					(unit 1)
 				)
 			)
@@ -6024,6 +6539,76 @@
 			(project "RSC_extension_board"
 				(path "/1f48ed4c-84ce-4e77-88fc-25bf92dcee2d"
 					(reference "J2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 107.95 160.02 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "77a33f9c-0289-4a5d-92de-8091ebc34a0c")
+		(property "Reference" "C5"
+			(at 104.14 161.2901 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100nF"
+			(at 104.14 158.7501 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
+			(at 106.9848 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 107.95 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 107.95 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "3f7aba54-4653-4016-b2f8-6c792ecee0ed")
+		)
+		(pin "2"
+			(uuid "51cd97c3-799f-4bf0-8bad-f22396567588")
+		)
+		(instances
+			(project "RSC_extension_board"
+				(path "/1f48ed4c-84ce-4e77-88fc-25bf92dcee2d"
+					(reference "C5")
 					(unit 1)
 				)
 			)
@@ -6392,6 +6977,72 @@
 		)
 	)
 	(symbol
+		(lib_id "power:Earth")
+		(at 107.95 165.1 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "9b31cfab-c42f-4c60-b759-a871de04cade")
+		(property "Reference" "#PWR023"
+			(at 107.95 171.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "Earth"
+			(at 101.346 166.624 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 107.95 165.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 107.95 165.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"Earth\""
+			(at 107.95 165.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "d6cacb44-0897-4075-bcc0-530026372f4a")
+		)
+		(instances
+			(project "RSC_extension_board"
+				(path "/1f48ed4c-84ce-4e77-88fc-25bf92dcee2d"
+					(reference "#PWR023")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Connector_Generic:Conn_01x02")
 		(at 27.94 120.65 180)
 		(unit 1)
@@ -6654,6 +7305,146 @@
 			(project "RSC_extension_board"
 				(path "/1f48ed4c-84ce-4e77-88fc-25bf92dcee2d"
 					(reference "#PWR018")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "SMDC300F_24-2:SMDC300F_24-2")
+		(at 52.07 151.13 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ace607f2-ac4d-4a70-b9ee-9999fac95d86")
+		(property "Reference" "F1"
+			(at 60.96 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SMDC300F_24-2"
+			(at 60.96 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "SMDC300F_24-2:SMDC030F2"
+			(at 66.04 247.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.littelfuse.com/~/media/electronics/product_specifications/resettable_ptcs/littelfuse_ptc_smdc030f_2_product_specification.pdf.pdf"
+			(at 66.04 347.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resettable Fuses - PPTC 24V    3A-HD  40A MAX"
+			(at 52.07 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" "1"
+			(at 66.04 547.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "LITTELFUSE"
+			(at 66.04 647.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "SMDC300F/24-2"
+			(at 66.04 747.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "650-SMDC300F/24-2"
+			(at 66.04 847.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Littelfuse/SMDC300F-24-2?qs=pBN%2FbMTRZdcsk20bJLIO5A%3D%3D"
+			(at 66.04 947.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Arrow Part Number" "SMDC300F/24-2"
+			(at 66.04 1047.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Arrow Price/Stock" "https://www.arrow.com/en/products/smdc300f24-2/littelfuse?utm_currency=USD&region=nac"
+			(at 66.04 1147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "d1c4435e-fd1f-496c-85d0-2c4eae170df6")
+		)
+		(pin "1"
+			(uuid "196235ac-9262-462c-8645-53f8f5c3d0a3")
+		)
+		(instances
+			(project ""
+				(path "/1f48ed4c-84ce-4e77-88fc-25bf92dcee2d"
+					(reference "F1")
 					(unit 1)
 				)
 			)
@@ -7552,7 +8343,7 @@
 	)
 	(symbol
 		(lib_id "CDSOT23-T05:CDSOT23-T05")
-		(at 76.2 166.37 180)
+		(at 71.12 166.37 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7561,7 +8352,7 @@
 		(fields_autoplaced yes)
 		(uuid "e9148b55-c1b2-4f0c-8d23-b9601ab6971d")
 		(property "Reference" "D3"
-			(at 65.9765 157.48 0)
+			(at 60.96 157.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7569,7 +8360,7 @@
 			)
 		)
 		(property "Value" "CDSOT23-T05"
-			(at 65.9765 160.02 0)
+			(at 60.96 160.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7577,7 +8368,7 @@
 			)
 		)
 		(property "Footprint" "CDSOT23-T05:SOT95P230X117-3N"
-			(at 44.45 71.45 0)
+			(at 39.37 71.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7587,7 +8378,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.mouser.ee/datasheet/3/40/1/CDSOT23_T03_T36C.pdf"
-			(at 44.45 -28.55 0)
+			(at 39.37 -28.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7597,7 +8388,7 @@
 			)
 		)
 		(property "Description" "BOURNS - CDSOT23-T05 - TVS Diode, CDSOT23, Unidirectional, 5 V, 13.5 V, SOT-23, 3 Pins"
-			(at 65.532 167.894 0)
+			(at 60.452 167.894 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7606,7 +8397,7 @@
 			)
 		)
 		(property "Height" "1.17"
-			(at 44.45 -228.55 0)
+			(at 39.37 -228.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7616,7 +8407,7 @@
 			)
 		)
 		(property "Manufacturer_Name" "Bourns"
-			(at 44.45 -328.55 0)
+			(at 39.37 -328.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7626,7 +8417,7 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" "CDSOT23-T05"
-			(at 44.45 -428.55 0)
+			(at 39.37 -428.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7636,7 +8427,7 @@
 			)
 		)
 		(property "Mouser Part Number" ""
-			(at 44.45 -528.55 0)
+			(at 39.37 -528.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7646,7 +8437,7 @@
 			)
 		)
 		(property "Mouser Price/Stock" ""
-			(at 44.45 -628.55 0)
+			(at 39.37 -628.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7656,7 +8447,7 @@
 			)
 		)
 		(property "Arrow Part Number" ""
-			(at 44.45 -728.55 0)
+			(at 39.37 -728.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7666,7 +8457,7 @@
 			)
 		)
 		(property "Arrow Price/Stock" ""
-			(at 44.45 -828.55 0)
+			(at 39.37 -828.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
