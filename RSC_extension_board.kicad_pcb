@@ -4191,338 +4191,6 @@
 			)
 		)
 	)
-	(footprint "SMDC300F_24-2:SMDC030F2"
-		(layer "F.Cu")
-		(uuid "a089b58f-6e49-42ff-b4c6-b0c458cbace4")
-		(at 147.01 68.37)
-		(descr "SMDC030F-2")
-		(tags "Resettable Fuse")
-		(property "Reference" "F1"
-			(at 0 0 0)
-			(layer "F.SilkS")
-			(uuid "fc8a80ef-e2e9-4987-b982-42c0eca8a1eb")
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.254)
-				)
-			)
-		)
-		(property "Value" "SMDC300F_24-2"
-			(at 0 0 0)
-			(layer "F.SilkS")
-			(hide yes)
-			(uuid "a445b69b-bf79-4c5e-81c0-62b27656e162")
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.254)
-				)
-			)
-		)
-		(property "Datasheet" "https://www.littelfuse.com/~/media/electronics/product_specifications/resettable_ptcs/littelfuse_ptc_smdc030f_2_product_specification.pdf.pdf"
-			(at 0 0 0)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "b32328a1-4b4f-4488-ba64-d23987acbc1d")
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Description" "Resettable Fuses - PPTC 24V    3A-HD  40A MAX"
-			(at 0 0 0)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "0d31706d-e5ad-46f9-a874-40ce998e2296")
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Height" "1"
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "c6f837c8-2903-4318-a0a9-33e43abd0b1e")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Manufacturer_Name" "LITTELFUSE"
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "798d5cac-b910-429d-8202-fd98607806c2")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Manufacturer_Part_Number" "SMDC300F/24-2"
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "ff0b7457-5942-49fc-b135-c5a040e802e7")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Mouser Part Number" "650-SMDC300F/24-2"
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "bc7d5531-d992-44ec-b4c3-b03deb1326c4")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Littelfuse/SMDC300F-24-2?qs=pBN%2FbMTRZdcsk20bJLIO5A%3D%3D"
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "5a77f23e-ec11-479e-9201-16903b273522")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Arrow Part Number" "SMDC300F/24-2"
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "d3c4b3e3-ee87-45f1-b93d-ba0eec3f9ec7")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Arrow Price/Stock" "https://www.arrow.com/en/products/smdc300f24-2/littelfuse?utm_currency=USD&region=nac"
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "8d881752-6937-4d30-bdd6-28083471cfc2")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(path "/ace607f2-ac4d-4a70-b9ee-9999fac95d86")
-		(sheetname "/")
-		(sheetfile "RSC_extension_board.kicad_sch")
-		(attr smd)
-		(fp_line
-			(start -4.8 -0.1)
-			(end -4.8 -0.1)
-			(stroke
-				(width 0.2)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "a2e2e4ef-dce3-4c04-aafe-fecb0cfae488")
-		)
-		(fp_line
-			(start -4.8 0.1)
-			(end -4.8 0.1)
-			(stroke
-				(width 0.2)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "f9fe6b54-ea1a-450e-8c07-47dc7c596ef3")
-		)
-		(fp_line
-			(start -2 -2.55)
-			(end 2 -2.55)
-			(stroke
-				(width 0.2)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "f7cdb58f-3e2a-4f66-aefa-5b828be5af80")
-		)
-		(fp_line
-			(start -2 2.55)
-			(end 2 2.55)
-			(stroke
-				(width 0.2)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "ad203d41-1362-457d-959d-43f8230adb5e")
-		)
-		(fp_arc
-			(start -4.8 -0.1)
-			(mid -4.7 0)
-			(end -4.8 0.1)
-			(stroke
-				(width 0.2)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "04728a12-c00f-4601-bdc9-7145be157a9e")
-		)
-		(fp_arc
-			(start -4.8 0.1)
-			(mid -4.9 0)
-			(end -4.8 -0.1)
-			(stroke
-				(width 0.2)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "69b8a1fa-b63b-43fd-9756-6fc0c7d77ddf")
-		)
-		(fp_line
-			(start -5.3 -3.65)
-			(end 5.3 -3.65)
-			(stroke
-				(width 0.1)
-				(type solid)
-			)
-			(layer "F.CrtYd")
-			(uuid "c1fd55b6-eb9d-4d58-996c-74abe1031342")
-		)
-		(fp_line
-			(start -5.3 3.65)
-			(end -5.3 -3.65)
-			(stroke
-				(width 0.1)
-				(type solid)
-			)
-			(layer "F.CrtYd")
-			(uuid "4cad9573-673e-495e-be48-fd83aee79c1f")
-		)
-		(fp_line
-			(start 5.3 -3.65)
-			(end 5.3 3.65)
-			(stroke
-				(width 0.1)
-				(type solid)
-			)
-			(layer "F.CrtYd")
-			(uuid "c08c86f3-9c4c-4202-b3fc-23fc44e19de8")
-		)
-		(fp_line
-			(start 5.3 3.65)
-			(end -5.3 3.65)
-			(stroke
-				(width 0.1)
-				(type solid)
-			)
-			(layer "F.CrtYd")
-			(uuid "9731b3fa-8ee8-40ea-8434-5db2af2331fe")
-		)
-		(fp_line
-			(start -3.75 -2.55)
-			(end 3.75 -2.55)
-			(stroke
-				(width 0.1)
-				(type solid)
-			)
-			(layer "F.Fab")
-			(uuid "2dac1228-b41d-47eb-82ae-dfbe7157f90c")
-		)
-		(fp_line
-			(start -3.75 2.55)
-			(end -3.75 -2.55)
-			(stroke
-				(width 0.1)
-				(type solid)
-			)
-			(layer "F.Fab")
-			(uuid "aef8e2fb-fa53-41d8-9104-2faf45ddd9d2")
-		)
-		(fp_line
-			(start 3.75 -2.55)
-			(end 3.75 2.55)
-			(stroke
-				(width 0.1)
-				(type solid)
-			)
-			(layer "F.Fab")
-			(uuid "5775aefd-0fa0-4a92-93c6-19f02a12cd1d")
-		)
-		(fp_line
-			(start 3.75 2.55)
-			(end -3.75 2.55)
-			(stroke
-				(width 0.1)
-				(type solid)
-			)
-			(layer "F.Fab")
-			(uuid "c10d423e-35b7-4918-b224-f3642f30d85c")
-		)
-		(fp_text user "${REFERENCE}"
-			(at 0 0 0)
-			(layer "F.Fab")
-			(uuid "4ba40864-3a3f-4760-a976-91c49c43ef22")
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.254)
-				)
-			)
-		)
-		(pad "1" smd rect
-			(at -3.3 0)
-			(size 2 5.3)
-			(layers "F.Cu" "F.Mask" "F.Paste")
-			(net 34 "Net-(U1-VBUS)")
-			(pinfunction "1")
-			(pintype "passive")
-			(uuid "c05299b0-ff0a-4a5e-a42a-3f4b7c7bfae7")
-		)
-		(pad "2" smd rect
-			(at 3.3 0)
-			(size 2 5.3)
-			(layers "F.Cu" "F.Mask" "F.Paste")
-			(net 35 "Net-(SW1-B)")
-			(pinfunction "2")
-			(pintype "passive")
-			(uuid "b9ac5e72-5f1a-4abc-8759-a80e20bec8f1")
-		)
-		(embedded_fonts no)
-		(model "SMDC300F_24-2.stp"
-			(offset
-				(xyz 0 0 0)
-			)
-			(scale
-				(xyz 1 1 1)
-			)
-			(rotate
-				(xyz 0 0 -180)
-			)
-		)
-	)
 	(footprint "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 		(layer "F.Cu")
 		(uuid "a1a72211-6437-4648-b6f3-a2abca72f4e7")
@@ -8314,6 +7982,295 @@
 		)
 		(embedded_fonts no)
 		(model "${KICAD9_3DMODEL_DIR}/Connector_PinHeader_2.54mm.3dshapes/PinHeader_1x02_P2.54mm_Vertical.step"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
+	)
+	(footprint "PTSLR08058V350:FUSC2516X100N"
+		(layer "F.Cu")
+		(uuid "ffedebd6-cce7-449a-afdb-757b7b32ee49")
+		(at 144 69)
+		(descr "PTSLR08058V300_11")
+		(tags "Diode with NC")
+		(property "Reference" "F1"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(uuid "6d798f18-5ff9-4111-a9e3-624486d8c20b")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.254)
+				)
+			)
+		)
+		(property "Value" "PTSLR08058V350"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "f4478959-bb91-4f69-9fc8-363ae629b89c")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.254)
+				)
+			)
+		)
+		(property "Datasheet" "https://www.eaton.com/content/dam/eaton/products/electronic-components/resources/data-sheet/eaton-ptslr0805-surface-mount-resettable-fuse-data-sheet.pdf"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "2572a9a7-2c75-4e41-9a1c-cabd615fa446")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" "PTSLR 0805 3.5A"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "d49f6c24-c2c2-4900-955c-c301c0296a69")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Height" "1"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "1799c175-4270-457c-b023-7fc79bf9f545")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer_Name" "Eaton"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "e2e2e4d0-48f7-4509-84a8-3d8ac47a5391")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer_Part_Number" "PTSLR08058V350"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "5df7e156-1cac-406e-b204-6564953b4ff2")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Mouser Part Number" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "b276add8-2e56-4956-bea4-3992698d7827")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Mouser Price/Stock" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "f452f9a6-3d4e-4f7c-8851-3965bd126f60")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Arrow Part Number" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "00492366-6382-409f-955c-3e597c4531e0")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Arrow Price/Stock" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "cbf2abce-e4ab-49c3-b6b4-5f602c0ee835")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(path "/e562da70-7db9-48b4-8826-c1843f9252eb")
+		(sheetname "/")
+		(sheetfile "RSC_extension_board.kicad_sch")
+		(attr smd)
+		(fp_line
+			(start 0 -0.7)
+			(end 0 0.7)
+			(stroke
+				(width 0.2)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "f10bed93-e4a3-4698-8435-781521eca5ef")
+		)
+		(fp_line
+			(start -1.905 -1.105)
+			(end 1.905 -1.105)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "053df687-de83-4f4a-a160-6a2b339f73c4")
+		)
+		(fp_line
+			(start -1.905 1.105)
+			(end -1.905 -1.105)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "157bdfb1-c601-4fa0-9d9b-da0623edd36d")
+		)
+		(fp_line
+			(start 1.905 -1.105)
+			(end 1.905 1.105)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "ca6589d6-eac6-4cac-846f-63419863255b")
+		)
+		(fp_line
+			(start 1.905 1.105)
+			(end -1.905 1.105)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "ef36564b-4db8-4fee-8b6f-4dd0efccc5d0")
+		)
+		(fp_line
+			(start -1.25 -0.8)
+			(end 1.25 -0.8)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "11c9e174-988e-4d02-bcec-f6695d06856a")
+		)
+		(fp_line
+			(start -1.25 0.8)
+			(end -1.25 -0.8)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "e6fc7a56-a6ba-4ac7-814d-df0fbf852bec")
+		)
+		(fp_line
+			(start 1.25 -0.8)
+			(end 1.25 0.8)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "2fdce840-ea28-453f-94ed-a247f36d1857")
+		)
+		(fp_line
+			(start 1.25 0.8)
+			(end -1.25 0.8)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "1ae9fd1b-3393-4211-bed4-ef77b474c4d2")
+		)
+		(fp_text user "${REFERENCE}"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(uuid "43844fde-1c57-4d83-b700-df6226f67320")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.254)
+				)
+			)
+		)
+		(pad "1" smd rect
+			(at -1.325 0)
+			(size 0.66 1.71)
+			(layers "F.Cu" "F.Mask" "F.Paste")
+			(net 34 "Net-(U1-VBUS)")
+			(pintype "passive")
+			(uuid "8f0ce163-64eb-4056-a3b8-40989db1f545")
+		)
+		(pad "2" smd rect
+			(at 1.325 0)
+			(size 0.66 1.71)
+			(layers "F.Cu" "F.Mask" "F.Paste")
+			(net 35 "Net-(SW1-B)")
+			(pintype "passive")
+			(uuid "2df15d83-8a07-48ad-a59d-0758d5329282")
+		)
+		(embedded_fonts no)
+		(model "PTSLR08058V350.stp"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
+		(model "C:/Users/raixt/Downloads/LIB_PTSLR08058V350 (1)/PTSLR08058V350/3D/PTSLR08058V350.stp"
 			(offset
 				(xyz 0 0 0)
 			)
