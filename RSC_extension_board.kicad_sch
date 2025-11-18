@@ -5,6 +5,331 @@
 	(uuid "1f48ed4c-84ce-4e77-88fc-25bf92dcee2d")
 	(paper "A4")
 	(lib_symbols
+		(symbol "2N7002-7-F:2N7002-7-F"
+			(pin_names
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "Q"
+				(at 11.43 3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Value" "2N7002-7-F"
+				(at 11.43 1.27 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Footprint" "SOT96P240X120-3N"
+				(at 11.43 -98.73 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://datasheet.datasheetarchive.com/originals/distributors/SFDatasheet-0/sf-0003625.pdf"
+				(at 11.43 -198.73 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Description" "MOSFET N-Channel 60V 0.21A SOT23 Diodes Inc 2N7002-7-F N-channel MOSFET Transistor, 0.115 A, 60 V, 3-Pin SOT-23"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Height" "1.2"
+				(at 11.43 -398.73 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer_Name" "Diodes Incorporated"
+				(at 11.43 -498.73 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer_Part_Number" "2N7002-7-F"
+				(at 11.43 -598.73 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Mouser Part Number" "621-2N7002-F"
+				(at 11.43 -698.73 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Diodes-Incorporated/2N7002-7-F?qs=jMXWnm70%252BC%252BAX%252BMLzUkTZg%3D%3D"
+				(at 11.43 -798.73 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Arrow Part Number" "2N7002-7-F"
+				(at 11.43 -898.73 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Arrow Price/Stock" "https://www.arrow.com/en/products/2n7002-7-f/diodes-incorporated?utm_currency=USD&region=europe"
+				(at 11.43 -998.73 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(symbol "2N7002-7-F_1_1"
+				(polyline
+					(pts
+						(xy 2.54 0) (xy 5.08 0)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 5.08 5.08) (xy 5.08 0)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 5.842 5.588) (xy 5.842 4.572)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 5.842 2.54) (xy 6.858 3.048) (xy 6.858 2.032) (xy 5.842 2.54)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 5.842 2.032) (xy 5.842 3.048)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 5.842 0) (xy 7.62 0)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 5.842 -0.508) (xy 5.842 0.508)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 6.35 2.54)
+					(radius 3.81)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 7.62 5.08) (xy 5.842 5.08)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 7.62 5.08) (xy 7.62 7.62)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 7.62 2.54) (xy 5.842 2.54)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 7.62 2.54) (xy 7.62 -2.54)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at 0 0 0)
+					(length 2.54)
+					(name "G"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 7.62 10.16 270)
+					(length 2.54)
+					(name "D"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 7.62 -5.08 90)
+					(length 2.54)
+					(name "S"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "CDSOT23-T05:CDSOT23-T05"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -4806,7 +5131,7 @@
 	)
 	(text "Power LED"
 		(exclude_from_sim no)
-		(at 165.862 118.11 0)
+		(at 164.592 138.43 0)
 		(effects
 			(font
 				(size 2.286 2.286)
@@ -4841,6 +5166,18 @@
 			)
 		)
 		(uuid "e71cae00-5a81-4c0a-ac71-d4cc4abd7ae7")
+	)
+	(text "Button LEDs"
+		(exclude_from_sim no)
+		(at 165.608 82.296 0)
+		(effects
+			(font
+				(size 2.286 2.286)
+				(thickness 0.4572)
+				(bold yes)
+			)
+		)
+		(uuid "eeb1c05a-1507-4b59-8ba5-84a1ce94d252")
 	)
 	(junction
 		(at 247.65 34.29)
@@ -5076,7 +5413,17 @@
 	)
 	(wire
 		(pts
-			(xy 137.16 134.62) (xy 143.51 134.62)
+			(xy 128.27 110.49) (xy 149.86 110.49)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "198c8271-60c0-462d-9870-7991a9fbdde6")
+	)
+	(wire
+		(pts
+			(xy 135.89 154.94) (xy 142.24 154.94)
 		)
 		(stroke
 			(width 0)
@@ -5356,6 +5703,16 @@
 	)
 	(wire
 		(pts
+			(xy 157.48 110.49) (xy 161.29 110.49)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "68f660cf-8efd-4d52-b4b0-1e4cc2b26a5b")
+	)
+	(wire
+		(pts
 			(xy 35.56 105.41) (xy 35.56 118.11)
 		)
 		(stroke
@@ -5446,7 +5803,7 @@
 	)
 	(wire
 		(pts
-			(xy 194.31 138.43) (xy 194.31 134.62)
+			(xy 193.04 158.75) (xy 193.04 154.94)
 		)
 		(stroke
 			(width 0)
@@ -5596,7 +5953,7 @@
 	)
 	(wire
 		(pts
-			(xy 151.13 134.62) (xy 166.37 134.62)
+			(xy 149.86 154.94) (xy 165.1 154.94)
 		)
 		(stroke
 			(width 0)
@@ -5636,7 +5993,7 @@
 	)
 	(wire
 		(pts
-			(xy 137.16 130.81) (xy 137.16 134.62)
+			(xy 135.89 151.13) (xy 135.89 154.94)
 		)
 		(stroke
 			(width 0)
@@ -5766,6 +6123,16 @@
 	)
 	(wire
 		(pts
+			(xy 168.91 96.52) (xy 168.91 100.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d8be2578-5090-40df-86a8-d79ac6869fda")
+	)
+	(wire
+		(pts
 			(xy 237.49 104.14) (xy 261.62 104.14)
 		)
 		(stroke
@@ -5836,6 +6203,16 @@
 	)
 	(wire
 		(pts
+			(xy 168.91 118.11) (xy 168.91 115.57)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "eb5a3195-8ffa-4f1c-8455-802e8c2aa6fb")
+	)
+	(wire
+		(pts
 			(xy 237.49 93.98) (xy 237.49 96.52)
 		)
 		(stroke
@@ -5853,6 +6230,16 @@
 			(type default)
 		)
 		(uuid "eca82676-c500-4a5e-a7e4-4cbb7a9feaea")
+	)
+	(wire
+		(pts
+			(xy 168.91 91.44) (xy 168.91 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ecca8674-a81f-4e8e-a0fa-f9f6fa26c0dc")
 	)
 	(wire
 		(pts
@@ -5926,7 +6313,7 @@
 	)
 	(wire
 		(pts
-			(xy 194.31 134.62) (xy 181.61 134.62)
+			(xy 193.04 154.94) (xy 180.34 154.94)
 		)
 		(stroke
 			(width 0)
@@ -5983,6 +6370,16 @@
 			(justify left bottom)
 		)
 		(uuid "15556e9f-ac92-4813-ba16-28a0fda87c77")
+	)
+	(label "SOME_GPIO_with_pwm"
+		(at 128.27 110.49 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "386f8cf4-6548-4059-bb19-38606e57e075")
 	)
 	(label "SDA"
 		(at 106.68 48.26 0)
@@ -6275,7 +6672,7 @@
 	)
 	(symbol
 		(lib_id "power:Earth")
-		(at 194.31 138.43 0)
+		(at 193.04 158.75 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6283,7 +6680,7 @@
 		(dnp no)
 		(uuid "12d3b89c-528b-44eb-91b3-5b5317a24f13")
 		(property "Reference" "#PWR030"
-			(at 194.31 144.78 0)
+			(at 193.04 165.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6292,7 +6689,7 @@
 			)
 		)
 		(property "Value" "Earth"
-			(at 187.706 139.954 0)
+			(at 186.436 160.274 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6301,7 +6698,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 194.31 138.43 0)
+			(at 193.04 158.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6310,7 +6707,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 194.31 138.43 0)
+			(at 193.04 158.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6319,7 +6716,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"Earth\""
-			(at 194.31 138.43 0)
+			(at 193.04 158.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6334,6 +6731,72 @@
 			(project "RSC_extension_board"
 				(path "/1f48ed4c-84ce-4e77-88fc-25bf92dcee2d"
 					(reference "#PWR030")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+5V")
+		(at 168.91 91.44 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "1631e695-ed7d-4881-b511-1a4fef66848f")
+		(property "Reference" "#PWR032"
+			(at 168.91 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+5V"
+			(at 168.91 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 168.91 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 168.91 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(at 168.91 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "83f152c0-2ec1-4762-9155-ae61c56615b5")
+		)
+		(instances
+			(project "RSC_extension_board"
+				(path "/1f48ed4c-84ce-4e77-88fc-25bf92dcee2d"
+					(reference "#PWR032")
 					(unit 1)
 				)
 			)
@@ -7415,6 +7878,76 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector_Generic:Conn_01x02")
+		(at 163.83 96.52 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "485337d4-3757-438a-afa8-a7ef348b3b25")
+		(property "Reference" "J10"
+			(at 161.29 96.5201 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Conn_01x02"
+			(at 161.29 93.9801 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical"
+			(at 163.83 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 163.83 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 163.83 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "c37433b7-03a7-4b0e-959d-8f4d4c73a835")
+		)
+		(pin "1"
+			(uuid "991bfce9-a31d-494c-a470-5c287e7143e0")
+		)
+		(instances
+			(project "RSC_extension_board"
+				(path "/1f48ed4c-84ce-4e77-88fc-25bf92dcee2d"
+					(reference "J10")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Switch:SW_Wuerth_450301014042")
 		(at 83.82 151.13 0)
 		(unit 1)
@@ -7487,7 +8020,7 @@
 	)
 	(symbol
 		(lib_id "power:+5V")
-		(at 137.16 130.81 0)
+		(at 135.89 151.13 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7496,7 +8029,7 @@
 		(fields_autoplaced yes)
 		(uuid "5419a7f9-7086-4832-a368-d0e4a038409a")
 		(property "Reference" "#PWR029"
-			(at 137.16 134.62 0)
+			(at 135.89 154.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7505,7 +8038,7 @@
 			)
 		)
 		(property "Value" "+5V"
-			(at 137.16 125.73 0)
+			(at 135.89 146.05 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7513,7 +8046,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 137.16 130.81 0)
+			(at 135.89 151.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7522,7 +8055,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 137.16 130.81 0)
+			(at 135.89 151.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7531,7 +8064,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 137.16 130.81 0)
+			(at 135.89 151.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7685,7 +8218,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 147.32 134.62 270)
+		(at 146.05 154.94 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7694,7 +8227,7 @@
 		(fields_autoplaced yes)
 		(uuid "5c3c57b7-a72f-4608-a3c6-78b353ed32ad")
 		(property "Reference" "R7"
-			(at 147.32 128.27 90)
+			(at 146.05 148.59 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7702,7 +8235,7 @@
 			)
 		)
 		(property "Value" "150"
-			(at 147.32 130.81 90)
+			(at 146.05 151.13 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7710,7 +8243,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
-			(at 147.32 132.842 90)
+			(at 146.05 153.162 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7719,7 +8252,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 147.32 134.62 0)
+			(at 146.05 154.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7728,7 +8261,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 147.32 134.62 0)
+			(at 146.05 154.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8093,6 +8626,74 @@
 			(project "RSC_extension_board"
 				(path "/1f48ed4c-84ce-4e77-88fc-25bf92dcee2d"
 					(reference "J1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 153.67 110.49 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "72bd587c-bf34-462a-ae93-64395ca259a0")
+		(property "Reference" "R8"
+			(at 153.67 104.14 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "150"
+			(at 153.67 106.68 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
+			(at 153.67 108.712 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 153.67 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 153.67 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "76048588-a168-4bc5-8abe-b8c2db72d7bd")
+		)
+		(pin "2"
+			(uuid "2382c031-a9d1-44d5-ad4e-3507e11888b7")
+		)
+		(instances
+			(project "RSC_extension_board"
+				(path "/1f48ed4c-84ce-4e77-88fc-25bf92dcee2d"
+					(reference "R8")
 					(unit 1)
 				)
 			)
@@ -8931,8 +9532,74 @@
 		)
 	)
 	(symbol
+		(lib_id "power:Earth")
+		(at 168.91 118.11 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "ac6a1806-7ebd-4427-ae20-9f4595967f44")
+		(property "Reference" "#PWR031"
+			(at 168.91 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "Earth"
+			(at 162.306 119.634 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 168.91 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 168.91 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"Earth\""
+			(at 168.91 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "8b9d4ebb-f196-4dad-bfa7-3bd90e4787dc")
+		)
+		(instances
+			(project "RSC_extension_board"
+				(path "/1f48ed4c-84ce-4e77-88fc-25bf92dcee2d"
+					(reference "#PWR031")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "KR_EELP41_22-Q1S1-36-A8J8-020-:KR_EELP41.22-Q1S1-36-A8J8-020-R18")
-		(at 181.61 134.62 180)
+		(at 180.34 154.94 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -8941,7 +9608,7 @@
 		(fields_autoplaced yes)
 		(uuid "aef2de40-3658-44d8-827d-549417a1449d")
 		(property "Reference" "LED1"
-			(at 173.99 127 0)
+			(at 172.72 147.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8949,7 +9616,7 @@
 			)
 		)
 		(property "Value" "KR_EELP41.22-Q1S1-36-A8J8-020-R18"
-			(at 173.99 129.54 0)
+			(at 172.72 149.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8957,7 +9624,7 @@
 			)
 		)
 		(property "Footprint" "KR_EELP41.22-Q1S1-36-A8J8-020-R18:KREELP4122Q1S136A8J8020R18"
-			(at 168.91 40.97 0)
+			(at 167.64 61.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8967,7 +9634,7 @@
 			)
 		)
 		(property "Datasheet" "https://look.ams-osram.com/m/7eda7e8e2ca21691/original/KR-EELP41-22.pdf"
-			(at 168.91 -59.03 0)
+			(at 167.64 -38.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8977,7 +9644,7 @@
 			)
 		)
 		(property "Description" "Red 624nm LED Indication - Discrete 1.95V 0603 (1608 Metric)"
-			(at 181.61 134.62 0)
+			(at 180.34 154.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8986,7 +9653,7 @@
 			)
 		)
 		(property "Height" "0.5"
-			(at 168.91 -259.03 0)
+			(at 167.64 -238.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8996,7 +9663,7 @@
 			)
 		)
 		(property "Manufacturer_Name" "ams OSRAM"
-			(at 168.91 -359.03 0)
+			(at 167.64 -338.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9006,7 +9673,7 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" "KR EELP41.22-Q1S1-36-A8J8-020-R18"
-			(at 168.91 -459.03 0)
+			(at 167.64 -438.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9016,7 +9683,7 @@
 			)
 		)
 		(property "Mouser Part Number" "720-P412Q1S136A8J802"
-			(at 168.91 -559.03 0)
+			(at 167.64 -538.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9026,7 +9693,7 @@
 			)
 		)
 		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/ams-OSRAM/KR-EELP41.22-Q1S1-36-A8J8-020-R18?qs=ZcfC38r4PouTxNZSRl%252Bn6g%3D%3D"
-			(at 168.91 -659.03 0)
+			(at 167.64 -638.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9036,7 +9703,7 @@
 			)
 		)
 		(property "Arrow Part Number" ""
-			(at 168.91 -759.03 0)
+			(at 167.64 -738.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9046,7 +9713,7 @@
 			)
 		)
 		(property "Arrow Price/Stock" ""
-			(at 168.91 -859.03 0)
+			(at 167.64 -838.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9638,6 +10305,151 @@
 			(project "RSC_extension_board"
 				(path "/1f48ed4c-84ce-4e77-88fc-25bf92dcee2d"
 					(reference "#PWR012")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "2N7002-7-F:2N7002-7-F")
+		(at 161.29 110.49 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c1f0eeed-18f0-4699-9843-adce2fdffdfe")
+		(property "Reference" "Q2"
+			(at 172.72 106.6799 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "2N7002-7-F"
+			(at 172.72 109.2199 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "2N7002-7-F:SOT96P240X120-3N"
+			(at 172.72 209.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://datasheet.datasheetarchive.com/originals/distributors/SFDatasheet-0/sf-0003625.pdf"
+			(at 172.72 309.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "MOSFET N-Channel 60V 0.21A SOT23 Diodes Inc 2N7002-7-F N-channel MOSFET Transistor, 0.115 A, 60 V, 3-Pin SOT-23"
+			(at 161.29 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" "1.2"
+			(at 172.72 509.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "Diodes Incorporated"
+			(at 172.72 609.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "2N7002-7-F"
+			(at 172.72 709.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "621-2N7002-F"
+			(at 172.72 809.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Diodes-Incorporated/2N7002-7-F?qs=jMXWnm70%252BC%252BAX%252BMLzUkTZg%3D%3D"
+			(at 172.72 909.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Arrow Part Number" "2N7002-7-F"
+			(at 172.72 1009.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Arrow Price/Stock" "https://www.arrow.com/en/products/2n7002-7-f/diodes-incorporated?utm_currency=USD&region=europe"
+			(at 172.72 1109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "c17d84f3-2e8c-4c64-afde-64028b308fb0")
+		)
+		(pin "2"
+			(uuid "77621ad2-fc84-4b3e-aab5-856d59ad5038")
+		)
+		(pin "3"
+			(uuid "e14a85b6-367a-47a2-a8f8-1aec4ebf058b")
+		)
+		(instances
+			(project ""
+				(path "/1f48ed4c-84ce-4e77-88fc-25bf92dcee2d"
+					(reference "Q2")
 					(unit 1)
 				)
 			)
