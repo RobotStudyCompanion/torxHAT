@@ -5169,7 +5169,7 @@
 	)
 	(text "Button LEDs"
 		(exclude_from_sim no)
-		(at 165.608 82.296 0)
+		(at 166.878 93.726 0)
 		(effects
 			(font
 				(size 2.286 2.286)
@@ -5413,7 +5413,7 @@
 	)
 	(wire
 		(pts
-			(xy 128.27 110.49) (xy 149.86 110.49)
+			(xy 129.54 121.92) (xy 151.13 121.92)
 		)
 		(stroke
 			(width 0)
@@ -5703,7 +5703,7 @@
 	)
 	(wire
 		(pts
-			(xy 157.48 110.49) (xy 161.29 110.49)
+			(xy 158.75 121.92) (xy 162.56 121.92)
 		)
 		(stroke
 			(width 0)
@@ -6123,7 +6123,7 @@
 	)
 	(wire
 		(pts
-			(xy 168.91 96.52) (xy 168.91 100.33)
+			(xy 170.18 107.95) (xy 170.18 111.76)
 		)
 		(stroke
 			(width 0)
@@ -6203,7 +6203,7 @@
 	)
 	(wire
 		(pts
-			(xy 168.91 118.11) (xy 168.91 115.57)
+			(xy 170.18 129.54) (xy 170.18 127)
 		)
 		(stroke
 			(width 0)
@@ -6233,7 +6233,7 @@
 	)
 	(wire
 		(pts
-			(xy 168.91 91.44) (xy 168.91 93.98)
+			(xy 170.18 102.87) (xy 170.18 105.41)
 		)
 		(stroke
 			(width 0)
@@ -6372,7 +6372,7 @@
 		(uuid "15556e9f-ac92-4813-ba16-28a0fda87c77")
 	)
 	(label "SOME_GPIO_with_pwm"
-		(at 128.27 110.49 0)
+		(at 129.54 121.92 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6738,7 +6738,7 @@
 	)
 	(symbol
 		(lib_id "power:+5V")
-		(at 168.91 91.44 0)
+		(at 170.18 102.87 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6747,7 +6747,7 @@
 		(fields_autoplaced yes)
 		(uuid "1631e695-ed7d-4881-b511-1a4fef66848f")
 		(property "Reference" "#PWR032"
-			(at 168.91 95.25 0)
+			(at 170.18 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6756,7 +6756,7 @@
 			)
 		)
 		(property "Value" "+5V"
-			(at 168.91 86.36 0)
+			(at 170.18 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6764,7 +6764,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 168.91 91.44 0)
+			(at 170.18 102.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6773,7 +6773,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 168.91 91.44 0)
+			(at 170.18 102.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6782,7 +6782,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 168.91 91.44 0)
+			(at 170.18 102.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7879,7 +7879,7 @@
 	)
 	(symbol
 		(lib_id "Connector_Generic:Conn_01x02")
-		(at 163.83 96.52 180)
+		(at 165.1 107.95 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7888,7 +7888,7 @@
 		(fields_autoplaced yes)
 		(uuid "485337d4-3757-438a-afa8-a7ef348b3b25")
 		(property "Reference" "J10"
-			(at 161.29 96.5201 0)
+			(at 162.56 107.9501 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7897,7 +7897,7 @@
 			)
 		)
 		(property "Value" "Conn_01x02"
-			(at 161.29 93.9801 0)
+			(at 162.56 105.4101 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7906,7 +7906,7 @@
 			)
 		)
 		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical"
-			(at 163.83 96.52 0)
+			(at 165.1 107.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7915,7 +7915,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 163.83 96.52 0)
+			(at 165.1 107.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7924,7 +7924,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 163.83 96.52 0)
+			(at 165.1 107.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8633,7 +8633,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 153.67 110.49 270)
+		(at 154.94 121.92 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -8642,7 +8642,7 @@
 		(fields_autoplaced yes)
 		(uuid "72bd587c-bf34-462a-ae93-64395ca259a0")
 		(property "Reference" "R8"
-			(at 153.67 104.14 90)
+			(at 154.94 115.57 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8650,7 +8650,7 @@
 			)
 		)
 		(property "Value" "150"
-			(at 153.67 106.68 90)
+			(at 154.94 118.11 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8658,7 +8658,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
-			(at 153.67 108.712 90)
+			(at 154.94 120.142 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8667,7 +8667,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 153.67 110.49 0)
+			(at 154.94 121.92 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8676,7 +8676,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 153.67 110.49 0)
+			(at 154.94 121.92 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9533,7 +9533,7 @@
 	)
 	(symbol
 		(lib_id "power:Earth")
-		(at 168.91 118.11 0)
+		(at 170.18 129.54 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -9541,7 +9541,7 @@
 		(dnp no)
 		(uuid "ac6a1806-7ebd-4427-ae20-9f4595967f44")
 		(property "Reference" "#PWR031"
-			(at 168.91 124.46 0)
+			(at 170.18 135.89 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9550,7 +9550,7 @@
 			)
 		)
 		(property "Value" "Earth"
-			(at 162.306 119.634 0)
+			(at 163.576 131.064 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9559,7 +9559,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 168.91 118.11 0)
+			(at 170.18 129.54 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9568,7 +9568,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 168.91 118.11 0)
+			(at 170.18 129.54 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9577,7 +9577,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"Earth\""
-			(at 168.91 118.11 0)
+			(at 170.18 129.54 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10312,7 +10312,7 @@
 	)
 	(symbol
 		(lib_id "2N7002-7-F:2N7002-7-F")
-		(at 161.29 110.49 0)
+		(at 162.56 121.92 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -10321,7 +10321,7 @@
 		(fields_autoplaced yes)
 		(uuid "c1f0eeed-18f0-4699-9843-adce2fdffdfe")
 		(property "Reference" "Q2"
-			(at 172.72 106.6799 0)
+			(at 173.99 118.1099 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10330,7 +10330,7 @@
 			)
 		)
 		(property "Value" "2N7002-7-F"
-			(at 172.72 109.2199 0)
+			(at 173.99 120.6499 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10339,7 +10339,7 @@
 			)
 		)
 		(property "Footprint" "2N7002-7-F:SOT96P240X120-3N"
-			(at 172.72 209.22 0)
+			(at 173.99 220.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10349,7 +10349,7 @@
 			)
 		)
 		(property "Datasheet" "https://datasheet.datasheetarchive.com/originals/distributors/SFDatasheet-0/sf-0003625.pdf"
-			(at 172.72 309.22 0)
+			(at 173.99 320.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10359,7 +10359,7 @@
 			)
 		)
 		(property "Description" "MOSFET N-Channel 60V 0.21A SOT23 Diodes Inc 2N7002-7-F N-channel MOSFET Transistor, 0.115 A, 60 V, 3-Pin SOT-23"
-			(at 161.29 110.49 0)
+			(at 162.56 121.92 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10368,7 +10368,7 @@
 			)
 		)
 		(property "Height" "1.2"
-			(at 172.72 509.22 0)
+			(at 173.99 520.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10378,7 +10378,7 @@
 			)
 		)
 		(property "Manufacturer_Name" "Diodes Incorporated"
-			(at 172.72 609.22 0)
+			(at 173.99 620.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10388,7 +10388,7 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" "2N7002-7-F"
-			(at 172.72 709.22 0)
+			(at 173.99 720.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10398,7 +10398,7 @@
 			)
 		)
 		(property "Mouser Part Number" "621-2N7002-F"
-			(at 172.72 809.22 0)
+			(at 173.99 820.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10408,7 +10408,7 @@
 			)
 		)
 		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Diodes-Incorporated/2N7002-7-F?qs=jMXWnm70%252BC%252BAX%252BMLzUkTZg%3D%3D"
-			(at 172.72 909.22 0)
+			(at 173.99 920.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10418,7 +10418,7 @@
 			)
 		)
 		(property "Arrow Part Number" "2N7002-7-F"
-			(at 172.72 1009.22 0)
+			(at 173.99 1020.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10428,7 +10428,7 @@
 			)
 		)
 		(property "Arrow Price/Stock" "https://www.arrow.com/en/products/2n7002-7-f/diodes-incorporated?utm_currency=USD&region=europe"
-			(at 172.72 1109.22 0)
+			(at 173.99 1120.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11801,6 +11801,48 @@
 				(path "/1f48ed4c-84ce-4e77-88fc-25bf92dcee2d"
 					(reference "C3")
 					(unit 1)
+				)
+			)
+		)
+	)
+	(sheet
+		(at 148.59 60.96)
+		(size 44.45 22.86)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "ac972c32-50eb-4eea-9775-75e5d24ce2c2")
+		(property "Sheetname" "voice"
+			(at 148.59 60.2484 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "voice.kicad_sch"
+			(at 148.59 84.4046 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "RSC_extension_board"
+				(path "/1f48ed4c-84ce-4e77-88fc-25bf92dcee2d"
+					(page "2")
 				)
 			)
 		)
