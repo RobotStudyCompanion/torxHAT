@@ -1029,6 +1029,191 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Switch:SW_Wuerth_450301014042"
+			(pin_names
+				(offset 1)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "SW"
+				(at 0 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "SW_Wuerth_450301014042"
+				(at 0 -5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "Button_Switch_THT:SW_Slide-03_Wuerth-WS-SLTV_10x2.5x6.4_P2.54mm"
+				(at 0 -10.16 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://www.we-online.com/components/products/datasheet/450301014042.pdf"
+				(at 0 -7.62 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Switch slide, single pole double throw"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "changeover single-pole opposite-side-connection double-throw spdt ON-ON"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "SW*Wuerth*WS*SLTV*10x2.5x6.4*P2.54mm*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "SW_Wuerth_450301014042_0_1"
+				(circle
+					(center -2.032 0)
+					(radius 0.4572)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.651 0.254) (xy 1.651 2.286)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 2.032 2.54)
+					(radius 0.4572)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 2.032 -2.54)
+					(radius 0.4572)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "SW_Wuerth_450301014042_1_1"
+				(rectangle
+					(start -3.175 3.81)
+					(end 3.175 -3.81)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin passive line
+					(at -5.08 0 0)
+					(length 2.54)
+					(name "B"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 2.54 180)
+					(length 2.54)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 -2.54 180)
+					(length 2.54)
+					(name "C"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "WM8960CGEFL_V:WM8960CGEFL_V"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -2586,7 +2771,7 @@
 	)
 	(wire
 		(pts
-			(xy 212.09 128.27) (xy 214.63 128.27)
+			(xy 212.09 147.32) (xy 214.63 147.32)
 		)
 		(stroke
 			(width 0)
@@ -2616,7 +2801,7 @@
 	)
 	(wire
 		(pts
-			(xy 242.57 120.65) (xy 251.46 120.65)
+			(xy 242.57 139.7) (xy 251.46 139.7)
 		)
 		(stroke
 			(width 0)
@@ -2806,7 +2991,7 @@
 	)
 	(wire
 		(pts
-			(xy 212.09 120.65) (xy 214.63 120.65)
+			(xy 212.09 139.7) (xy 214.63 139.7)
 		)
 		(stroke
 			(width 0)
@@ -2996,6 +3181,16 @@
 	)
 	(wire
 		(pts
+			(xy 218.44 107.95) (xy 223.52 107.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "82e59e08-9627-4a41-8e6d-7a28d1b9c637")
+	)
+	(wire
+		(pts
 			(xy 212.09 50.8) (xy 212.09 58.42)
 		)
 		(stroke
@@ -3036,7 +3231,7 @@
 	)
 	(wire
 		(pts
-			(xy 242.57 128.27) (xy 251.46 128.27)
+			(xy 242.57 147.32) (xy 251.46 147.32)
 		)
 		(stroke
 			(width 0)
@@ -3056,7 +3251,7 @@
 	)
 	(wire
 		(pts
-			(xy 212.09 119.38) (xy 212.09 120.65)
+			(xy 212.09 138.43) (xy 212.09 139.7)
 		)
 		(stroke
 			(width 0)
@@ -3106,7 +3301,7 @@
 	)
 	(wire
 		(pts
-			(xy 212.09 130.81) (xy 212.09 128.27)
+			(xy 212.09 149.86) (xy 212.09 147.32)
 		)
 		(stroke
 			(width 0)
@@ -3196,6 +3391,16 @@
 	)
 	(wire
 		(pts
+			(xy 233.68 110.49) (xy 242.57 110.49)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b90865f9-99d2-414b-8429-1835879f7925")
+	)
+	(wire
+		(pts
 			(xy 111.76 62.23) (xy 119.38 62.23)
 		)
 		(stroke
@@ -3213,6 +3418,16 @@
 			(type default)
 		)
 		(uuid "c1a6b3f2-2ac3-4786-b18a-d5856e820480")
+	)
+	(wire
+		(pts
+			(xy 218.44 113.03) (xy 223.52 113.03)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c1c8a6b1-f1ee-42a6-933e-9f20bf0eed01")
 	)
 	(wire
 		(pts
@@ -3434,8 +3649,18 @@
 		)
 		(uuid "fefcd135-bf3d-4f41-a02b-2e0d95bf188e")
 	)
+	(label "MCLK_EN"
+		(at 233.68 110.49 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "00740aa3-7f20-407d-a77a-58a56a06bc5c")
+	)
 	(label "MCLK"
-		(at 246.38 128.27 0)
+		(at 246.38 147.32 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3444,15 +3669,15 @@
 		)
 		(uuid "0c09aecb-eabd-429a-8dc5-0ef480f801c1")
 	)
-	(label "SCL"
-		(at 35.56 153.67 0)
+	(label "MCLK"
+		(at 35.56 138.43 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify left bottom)
 		)
-		(uuid "31dc1285-9e4e-43c6-b089-5fde6bbd80e6")
+		(uuid "1e887805-c2df-4664-a333-963fd1d4d3e2")
 	)
 	(label "RINPUT1"
 		(at 111.76 62.23 0)
@@ -3474,46 +3699,6 @@
 		)
 		(uuid "66f93f46-6316-400f-934b-90c04a48ad13")
 	)
-	(label "SDA"
-		(at 35.56 156.21 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "a9f120f9-d45f-41ea-97e9-5da0f2b062d8")
-	)
-	(label "I2S_LRCLK"
-		(at 35.56 148.59 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "b219aa50-9032-4a09-abd4-a56b44da87d5")
-	)
-	(label "I2S_DIN"
-		(at 35.56 151.13 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "b625195c-ed33-419c-8dd6-45865292aee2")
-	)
-	(label "MCLK"
-		(at 35.56 138.43 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "bdb055d0-241a-41c4-becc-144beabf4b77")
-	)
 	(label "LINPUT1"
 		(at 110.49 147.32 0)
 		(effects
@@ -3524,28 +3709,8 @@
 		)
 		(uuid "beabf0e5-f5e7-4b74-ac87-90da8ece1bf8")
 	)
-	(label "I2S_LRCLK"
-		(at 35.56 143.51 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "bfad92fe-0a97-4fed-a92e-938f694c79c3")
-	)
-	(label "I2S_BCLK"
-		(at 35.56 140.97 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "c685c439-8306-4b6e-8d75-2a1ff9f2fdb9")
-	)
 	(label "MCLK_EN"
-		(at 242.57 120.65 0)
+		(at 242.57 139.7 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3563,6 +3728,72 @@
 			(justify left bottom)
 		)
 		(uuid "eefdf993-dc4e-4700-ace2-bf5a50c9ab62")
+	)
+	(hierarchical_label "I2S_BCLK"
+		(shape input)
+		(at 35.56 140.97 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "495ce503-589f-4d56-8888-ee2b9f67db2b")
+	)
+	(hierarchical_label "SDA"
+		(shape input)
+		(at 35.56 156.21 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "6657d587-3651-47eb-82d5-f5928c4aa28b")
+	)
+	(hierarchical_label "I2S_LRCLK"
+		(shape input)
+		(at 35.56 143.51 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "8bf0642c-8930-453a-9dfc-4a5b166fbfa0")
+	)
+	(hierarchical_label "I2S_DOUT"
+		(shape input)
+		(at 35.56 148.59 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "bb5fab0c-7412-494d-bb99-e976a55ccb66")
+	)
+	(hierarchical_label "I2S_DIN"
+		(shape input)
+		(at 35.56 151.13 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "c85b6eaa-7dc2-436b-84f1-0b708c15ddea")
+	)
+	(hierarchical_label "SCL"
+		(shape input)
+		(at 35.56 153.67 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "d9dd6013-deec-4644-8d77-6fa11673f01b")
 	)
 	(symbol
 		(lib_id "Device:C")
@@ -4106,6 +4337,72 @@
 	)
 	(symbol
 		(lib_id "power:Earth")
+		(at 153.67 53.34 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "1e69c8f4-3dad-4b31-922e-bb6b548d9123")
+		(property "Reference" "#PWR066"
+			(at 153.67 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "Earth"
+			(at 147.066 54.864 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 153.67 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 153.67 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"Earth\""
+			(at 153.67 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "98e5fac3-afb3-4fe9-9b6b-6370e687ba20")
+		)
+		(instances
+			(project "RSC_extension_board"
+				(path "/1f48ed4c-84ce-4e77-88fc-25bf92dcee2d/ac972c32-50eb-4eea-9775-75e5d24ce2c2"
+					(reference "#PWR066")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:Earth")
 		(at 147.32 115.57 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -4439,6 +4736,76 @@
 			(project "RSC_extension_board"
 				(path "/1f48ed4c-84ce-4e77-88fc-25bf92dcee2d/ac972c32-50eb-4eea-9775-75e5d24ce2c2"
 					(reference "#PWR047")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switch:SW_Wuerth_450301014042")
+		(at 228.6 110.49 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "346bdac3-8c97-41ac-8dc6-acd9d79b9681")
+		(property "Reference" "SW2"
+			(at 226.822 102.616 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SW_Wuerth_450301014042"
+			(at 237.49 104.648 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Button_Switch_THT:SW_Slide-03_Wuerth-WS-SLTV_10x2.5x6.4_P2.54mm"
+			(at 228.6 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.we-online.com/components/products/datasheet/450301014042.pdf"
+			(at 228.6 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Switch slide, single pole double throw"
+			(at 228.6 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "f3dbb7f0-9f68-4137-915f-1f3b12a6bd59")
+		)
+		(pin "1"
+			(uuid "b49ea588-fd70-4327-a803-79330af91adb")
+		)
+		(pin "3"
+			(uuid "7f04f4fc-8ce3-4978-8d9a-fcb9a86c566a")
+		)
+		(instances
+			(project "RSC_extension_board"
+				(path "/1f48ed4c-84ce-4e77-88fc-25bf92dcee2d/ac972c32-50eb-4eea-9775-75e5d24ce2c2"
+					(reference "SW2")
 					(unit 1)
 				)
 			)
@@ -5430,7 +5797,7 @@
 	)
 	(symbol
 		(lib_id "ECS-3225MV:ECS-3225MV")
-		(at 213.36 119.38 0)
+		(at 213.36 138.43 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5439,7 +5806,7 @@
 		(fields_autoplaced yes)
 		(uuid "60eb6a32-05a6-4f40-acc0-6b5555351bcd")
 		(property "Reference" "Y1"
-			(at 232.41 111.76 0)
+			(at 232.41 130.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5447,7 +5814,7 @@
 			)
 		)
 		(property "Value" "ECS-3225MV"
-			(at 232.41 114.3 0)
+			(at 232.41 133.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5455,7 +5822,7 @@
 			)
 		)
 		(property "Footprint" "ECS3225MV"
-			(at 247.65 214.3 0)
+			(at 247.65 233.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5465,7 +5832,7 @@
 			)
 		)
 		(property "Datasheet" "https://ecsxtal.com/store/pdf/ECS-3225MV.pdf"
-			(at 247.65 314.3 0)
+			(at 247.65 333.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5475,7 +5842,7 @@
 			)
 		)
 		(property "Description" "24MHz XO (Standard) HCMOS Oscillator 1.62V ~ 3.63V Enable/Disable 4-SMD, No Lead"
-			(at 213.36 119.38 0)
+			(at 213.36 138.43 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5484,7 +5851,7 @@
 			)
 		)
 		(property "Height" "1.2"
-			(at 247.65 514.3 0)
+			(at 247.65 533.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5494,7 +5861,7 @@
 			)
 		)
 		(property "Manufacturer_Name" "ECS"
-			(at 247.65 614.3 0)
+			(at 247.65 633.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5504,7 +5871,7 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" "ECS-3225MV"
-			(at 247.65 714.3 0)
+			(at 247.65 733.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5514,7 +5881,7 @@
 			)
 		)
 		(property "Mouser Part Number" ""
-			(at 247.65 814.3 0)
+			(at 247.65 833.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5524,7 +5891,7 @@
 			)
 		)
 		(property "Mouser Price/Stock" ""
-			(at 247.65 914.3 0)
+			(at 247.65 933.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5534,7 +5901,7 @@
 			)
 		)
 		(property "Arrow Part Number" ""
-			(at 247.65 1014.3 0)
+			(at 247.65 1033.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5544,7 +5911,7 @@
 			)
 		)
 		(property "Arrow Price/Stock" ""
-			(at 247.65 1114.3 0)
+			(at 247.65 1133.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5912,6 +6279,72 @@
 	)
 	(symbol
 		(lib_id "power:Earth")
+		(at 218.44 113.03 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "6c126ae6-870a-4fef-8bf6-ab47f10c8067")
+		(property "Reference" "#PWR068"
+			(at 218.44 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "Earth"
+			(at 211.836 114.554 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 218.44 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 218.44 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"Earth\""
+			(at 218.44 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "6fbdb9af-8f90-4ac8-a1c2-69c3f18b7219")
+		)
+		(instances
+			(project "RSC_extension_board"
+				(path "/1f48ed4c-84ce-4e77-88fc-25bf92dcee2d/ac972c32-50eb-4eea-9775-75e5d24ce2c2"
+					(reference "#PWR068")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:Earth")
 		(at 195.58 54.61 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -6247,6 +6680,72 @@
 			(project "RSC_extension_board"
 				(path "/1f48ed4c-84ce-4e77-88fc-25bf92dcee2d/ac972c32-50eb-4eea-9775-75e5d24ce2c2"
 					(reference "#PWR044")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+5V")
+		(at 153.67 45.72 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "76192553-a224-483d-875f-c831ff64002b")
+		(property "Reference" "#PWR064"
+			(at 153.67 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+5V"
+			(at 153.67 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 153.67 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 153.67 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(at 153.67 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "3af34f58-7c48-47d5-9de5-2cb1e9411a99")
+		)
+		(instances
+			(project "RSC_extension_board"
+				(path "/1f48ed4c-84ce-4e77-88fc-25bf92dcee2d/ac972c32-50eb-4eea-9775-75e5d24ce2c2"
+					(reference "#PWR064")
 					(unit 1)
 				)
 			)
@@ -7226,6 +7725,76 @@
 	)
 	(symbol
 		(lib_id "Device:C")
+		(at 166.37 49.53 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "940c3d24-d36d-4efe-9a62-51171081f840")
+		(property "Reference" "C33"
+			(at 162.56 50.8001 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10uF"
+			(at 162.56 48.2601 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
+			(at 165.4048 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 166.37 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 166.37 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "93ad18c1-7892-4f4b-8efa-b0fda35f38b6")
+		)
+		(pin "2"
+			(uuid "30378724-fa89-45ef-b0d4-fb3e2d4dc606")
+		)
+		(instances
+			(project "RSC_extension_board"
+				(path "/1f48ed4c-84ce-4e77-88fc-25bf92dcee2d/ac972c32-50eb-4eea-9775-75e5d24ce2c2"
+					(reference "C33")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
 		(at 107.95 62.23 270)
 		(unit 1)
 		(exclude_from_sim no)
@@ -7441,7 +8010,7 @@
 	)
 	(symbol
 		(lib_id "power:+3.3V")
-		(at 212.09 119.38 0)
+		(at 212.09 138.43 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7450,7 +8019,7 @@
 		(fields_autoplaced yes)
 		(uuid "af748f22-5c79-425a-b2f5-64d7d2a4c271")
 		(property "Reference" "#PWR040"
-			(at 212.09 123.19 0)
+			(at 212.09 142.24 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7459,7 +8028,7 @@
 			)
 		)
 		(property "Value" "+3.3V"
-			(at 212.09 114.3 0)
+			(at 212.09 133.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7467,7 +8036,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 212.09 119.38 0)
+			(at 212.09 138.43 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7476,7 +8045,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 212.09 119.38 0)
+			(at 212.09 138.43 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7485,7 +8054,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
-			(at 212.09 119.38 0)
+			(at 212.09 138.43 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7773,7 +8342,7 @@
 	)
 	(symbol
 		(lib_id "power:Earth")
-		(at 212.09 130.81 0)
+		(at 212.09 149.86 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7781,7 +8350,7 @@
 		(dnp no)
 		(uuid "bc15a65f-048c-4ed3-9f21-8edd910285f7")
 		(property "Reference" "#PWR039"
-			(at 212.09 137.16 0)
+			(at 212.09 156.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7790,7 +8359,7 @@
 			)
 		)
 		(property "Value" "Earth"
-			(at 205.486 132.334 0)
+			(at 205.486 151.384 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7799,7 +8368,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 212.09 130.81 0)
+			(at 212.09 149.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7808,7 +8377,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 212.09 130.81 0)
+			(at 212.09 149.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7817,7 +8386,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"Earth\""
-			(at 212.09 130.81 0)
+			(at 212.09 149.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8114,6 +8683,72 @@
 		)
 	)
 	(symbol
+		(lib_id "power:Earth")
+		(at 166.37 53.34 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "cfdfdb42-920b-4322-8318-bb1268c7175e")
+		(property "Reference" "#PWR065"
+			(at 166.37 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "Earth"
+			(at 159.766 54.864 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 166.37 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 166.37 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"Earth\""
+			(at 166.37 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "b857a464-3219-4599-905d-32f6e422b14e")
+		)
+		(instances
+			(project "RSC_extension_board"
+				(path "/1f48ed4c-84ce-4e77-88fc-25bf92dcee2d/ac972c32-50eb-4eea-9775-75e5d24ce2c2"
+					(reference "#PWR065")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:FerriteBead")
 		(at 135.89 137.16 270)
 		(unit 1)
@@ -8182,6 +8817,76 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:C")
+		(at 153.67 49.53 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e25d5b62-8895-4e28-a98a-02596f88d401")
+		(property "Reference" "C34"
+			(at 149.86 50.8001 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10uF"
+			(at 149.86 48.2601 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
+			(at 152.7048 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 153.67 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 153.67 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "5251e914-2dd2-4b3a-922a-f0954e81bb6b")
+		)
+		(pin "2"
+			(uuid "79e4927a-ab5d-4375-a995-98bc3acceb4c")
+		)
+		(instances
+			(project "RSC_extension_board"
+				(path "/1f48ed4c-84ce-4e77-88fc-25bf92dcee2d/ac972c32-50eb-4eea-9775-75e5d24ce2c2"
+					(reference "C34")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:Earth")
 		(at 100.33 69.85 0)
 		(unit 1)
@@ -8242,6 +8947,72 @@
 			(project "RSC_extension_board"
 				(path "/1f48ed4c-84ce-4e77-88fc-25bf92dcee2d/ac972c32-50eb-4eea-9775-75e5d24ce2c2"
 					(reference "#PWR062")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3.3V")
+		(at 218.44 107.95 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e5c8a137-27da-4ca4-b95a-391a1d184153")
+		(property "Reference" "#PWR067"
+			(at 218.44 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3.3V"
+			(at 218.44 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 218.44 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 218.44 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
+			(at 218.44 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "78e03b10-6fde-4df1-a24b-51e6f435d5fb")
+		)
+		(instances
+			(project "RSC_extension_board"
+				(path "/1f48ed4c-84ce-4e77-88fc-25bf92dcee2d/ac972c32-50eb-4eea-9775-75e5d24ce2c2"
+					(reference "#PWR067")
 					(unit 1)
 				)
 			)
@@ -8378,6 +9149,72 @@
 			(project "RSC_extension_board"
 				(path "/1f48ed4c-84ce-4e77-88fc-25bf92dcee2d/ac972c32-50eb-4eea-9775-75e5d24ce2c2"
 					(reference "C9")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+5V")
+		(at 166.37 45.72 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "efd55162-70a6-42d5-8bd7-8b28fd56a516")
+		(property "Reference" "#PWR063"
+			(at 166.37 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+5V"
+			(at 166.37 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 166.37 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 166.37 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(at 166.37 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "1df30f22-0540-4667-9724-4bfb0fe542ad")
+		)
+		(instances
+			(project "RSC_extension_board"
+				(path "/1f48ed4c-84ce-4e77-88fc-25bf92dcee2d/ac972c32-50eb-4eea-9775-75e5d24ce2c2"
+					(reference "#PWR063")
 					(unit 1)
 				)
 			)
