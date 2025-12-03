@@ -5325,6 +5325,16 @@
 	)
 	(wire
 		(pts
+			(xy 29.21 73.66) (xy 39.37 73.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "000a6349-de83-4872-9833-6b017601ac3c")
+	)
+	(wire
+		(pts
 			(xy 195.58 48.26) (xy 199.39 48.26)
 		)
 		(stroke
@@ -5332,16 +5342,6 @@
 			(type default)
 		)
 		(uuid "0055afd8-d46b-4e8a-acd6-b03d4c49b495")
-	)
-	(wire
-		(pts
-			(xy 105.41 68.58) (xy 115.57 68.58)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "035eb0de-3132-4208-842b-32536bb40d44")
 	)
 	(wire
 		(pts
@@ -5495,16 +5495,6 @@
 	)
 	(wire
 		(pts
-			(xy 105.41 55.88) (xy 115.57 55.88)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2483f538-cb56-4135-9835-e60ed3ed42a8")
-	)
-	(wire
-		(pts
 			(xy 73.66 161.29) (xy 85.09 161.29)
 		)
 		(stroke
@@ -5635,6 +5625,16 @@
 	)
 	(wire
 		(pts
+			(xy 29.21 30.48) (xy 39.37 30.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3f8d06d3-4c12-4c50-bf5b-197df2d071bb")
+	)
+	(wire
+		(pts
 			(xy 346.71 182.88) (xy 370.84 182.88)
 		)
 		(stroke
@@ -5662,6 +5662,16 @@
 			(type default)
 		)
 		(uuid "4c4d19ed-6983-4b63-9e93-c585aec4b317")
+	)
+	(wire
+		(pts
+			(xy 29.21 33.02) (xy 39.37 33.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4c75502f-b1b0-40b1-86b3-5b50812ef0ff")
 	)
 	(wire
 		(pts
@@ -6035,16 +6045,6 @@
 	)
 	(wire
 		(pts
-			(xy 105.41 58.42) (xy 115.57 58.42)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "af37988c-d496-4ee4-837d-089b40653de9")
-	)
-	(wire
-		(pts
 			(xy 346.71 48.26) (xy 346.71 44.45)
 		)
 		(stroke
@@ -6265,16 +6265,6 @@
 	)
 	(wire
 		(pts
-			(xy 29.21 73.66) (xy 39.37 73.66)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "cf0197fb-a1a8-4fb1-9614-5582ebfaf098")
-	)
-	(wire
-		(pts
 			(xy 97.79 118.11) (xy 97.79 119.38)
 		)
 		(stroke
@@ -6292,6 +6282,16 @@
 			(type default)
 		)
 		(uuid "cf70bf5c-12c6-4f62-8f2d-b3ae997a6868")
+	)
+	(wire
+		(pts
+			(xy 29.21 68.58) (xy 39.37 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cfd74986-863f-4ba1-a7ff-4f53f42404a4")
 	)
 	(wire
 		(pts
@@ -6332,6 +6332,16 @@
 			(type default)
 		)
 		(uuid "d6998f12-49a6-45b8-bd3b-ae9071d5244d")
+	)
+	(wire
+		(pts
+			(xy 29.21 66.04) (xy 39.37 66.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d833ddf5-5647-4d6e-a47d-8e17f3d743a7")
 	)
 	(wire
 		(pts
@@ -6533,25 +6543,15 @@
 		)
 		(uuid "fb47cbfe-8f16-42c5-9189-38c2edc8aa89")
 	)
-	(label "M2_PWM"
-		(at 107.95 58.42 0)
+	(label "LED_PWM"
+		(at 29.21 68.58 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify left bottom)
 		)
-		(uuid "0d672588-dc46-4c83-a2d6-a72584394199")
-	)
-	(label "BUTTON"
-		(at 29.21 73.66 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "0d6fb1da-e3a8-4f55-8e79-4e7adec534ed")
+		(uuid "0c0090af-434c-47df-9eb6-33a2ea2ff89b")
 	)
 	(label "SDA"
 		(at 186.69 67.31 0)
@@ -6592,16 +6592,6 @@
 			(justify left bottom)
 		)
 		(uuid "18c03167-9408-421b-9ff8-ae4b898fafd1")
-	)
-	(label "M3_PWM"
-		(at 121.92 57.15 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "22b99365-172e-4e05-a31e-dc4838bb8758")
 	)
 	(label "LED_PWM"
 		(at 175.26 125.73 0)
@@ -6653,6 +6643,16 @@
 		)
 		(uuid "560f3a32-8ab0-4447-a97d-031c81959424")
 	)
+	(label "LED_3.3V"
+		(at 118.11 76.2 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "5a88f6d1-c0d2-4c58-b1bb-86704672c600")
+	)
 	(label "I2S_DIN"
 		(at 29.21 55.88 0)
 		(effects
@@ -6693,16 +6693,6 @@
 		)
 		(uuid "6c86c4f5-f23c-43a5-9c07-6f1377bc7a1b")
 	)
-	(label "LED_3.3V"
-		(at 107.95 68.58 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "76e079ee-747b-4cbd-8e42-d15986539a5b")
-	)
 	(label "I2S_LRCLK"
 		(at 186.69 74.93 0)
 		(effects
@@ -6712,6 +6702,16 @@
 			(justify left bottom)
 		)
 		(uuid "846414e6-769a-431e-ac9b-9621eb658c4e")
+	)
+	(label "M2_PWM"
+		(at 29.21 33.02 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "913f1201-c99e-4e20-9c43-9cb5d668cedf")
 	)
 	(label "I2S_BCLK"
 		(at 186.69 77.47 0)
@@ -6733,6 +6733,16 @@
 		)
 		(uuid "94565c82-fdc5-46ff-9537-e578109d0f2a")
 	)
+	(label "M1_PWM"
+		(at 29.21 30.48 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "9520ce02-a922-416c-b6dd-ef58538072ee")
+	)
 	(label "SCL"
 		(at 350.52 204.47 0)
 		(effects
@@ -6743,15 +6753,15 @@
 		)
 		(uuid "99b6ad6d-4b88-4fe2-a413-728d56412f62")
 	)
-	(label "M1_PWM"
-		(at 107.95 55.88 0)
+	(label "BUTTON"
+		(at 29.21 66.04 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify left bottom)
 		)
-		(uuid "a08a22ff-c8ff-49b8-872c-31c62a00f2d7")
+		(uuid "a039ed51-3433-4c6c-90ee-e049401ebab5")
 	)
 	(label "SCL"
 		(at 111.76 48.26 0)
@@ -6833,16 +6843,6 @@
 		)
 		(uuid "dae25e64-cbc1-4d11-aa43-a2a827724540")
 	)
-	(label "LED_PWM"
-		(at 125.73 60.96 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "dd13e1bd-b56c-4cfa-aa39-beaacfc0829f")
-	)
 	(label "TX_3.3V"
 		(at 29.21 38.1 0)
 		(effects
@@ -6852,6 +6852,16 @@
 			(justify left bottom)
 		)
 		(uuid "ebceeab2-7e87-406b-887d-a57c800912e3")
+	)
+	(label "M3_PWM"
+		(at 29.21 73.66 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "ec2bdc98-77eb-4bd9-aaf4-356a822907f4")
 	)
 	(label "RX_3.3V"
 		(at 360.68 124.46 0)
