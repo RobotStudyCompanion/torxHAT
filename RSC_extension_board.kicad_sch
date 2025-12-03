@@ -6365,6 +6365,16 @@
 	)
 	(wire
 		(pts
+			(xy 105.41 58.42) (xy 115.57 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "df1943d5-9ee2-4ecb-9836-eb5e1ac8e2b7")
+	)
+	(wire
+		(pts
 			(xy 105.41 48.26) (xy 115.57 48.26)
 		)
 		(stroke
@@ -6553,6 +6563,16 @@
 		)
 		(uuid "0c0090af-434c-47df-9eb6-33a2ea2ff89b")
 	)
+	(label "LED_3.3V"
+		(at 107.95 58.42 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "0dc43811-6296-4b28-a032-bcdf38874dea")
+	)
 	(label "SDA"
 		(at 186.69 67.31 0)
 		(effects
@@ -6642,16 +6662,6 @@
 			(justify left bottom)
 		)
 		(uuid "560f3a32-8ab0-4447-a97d-031c81959424")
-	)
-	(label "LED_3.3V"
-		(at 118.11 76.2 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "5a88f6d1-c0d2-4c58-b1bb-86704672c600")
 	)
 	(label "I2S_DIN"
 		(at 29.21 55.88 0)
