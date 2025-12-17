@@ -5735,6 +5735,16 @@
 	)
 	(wire
 		(pts
+			(xy 105.41 63.5) (xy 115.57 63.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "172f8833-bb79-4343-bf52-e5f460210945")
+	)
+	(wire
+		(pts
 			(xy 105.41 68.58) (xy 115.57 68.58)
 		)
 		(stroke
@@ -6092,16 +6102,6 @@
 			(type default)
 		)
 		(uuid "63b6e506-9a28-4b78-8a22-e8c926e43d7d")
-	)
-	(wire
-		(pts
-			(xy 105.41 66.04) (xy 115.57 66.04)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6499d7e0-ee68-4e71-a0fc-92a126eb468b")
 	)
 	(wire
 		(pts
@@ -7134,14 +7134,14 @@
 		(uuid "6c86c4f5-f23c-43a5-9c07-6f1377bc7a1b")
 	)
 	(label "SPI_CS"
-		(at 109.22 66.04 0)
+		(at 109.22 63.5 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify left bottom)
 		)
-		(uuid "70977f57-21ee-4a9b-bea7-9a26d11cc0ea")
+		(uuid "730e3994-38e5-4b76-b2c6-abb53043b233")
 	)
 	(label "SPI_MISO"
 		(at 106.68 68.58 0)
