@@ -743,6 +743,18 @@
     [
       "ac972c32-50eb-4eea-9775-75e5d24ce2c2",
       "voice"
+    ],
+    [
+      "8a23fee1-8a0a-4a00-88d2-3a4147ed7fcf",
+      "Buck converter"
+    ],
+    [
+      "a313b83a-a07e-4d1d-b36b-94744ea8af4d",
+      "USB_power_3A"
+    ],
+    [
+      "05204050-0c20-42af-9081-73af52e92f24",
+      "USB_power_20V"
     ]
   ],
   "text_variables": {}
