@@ -9885,7 +9885,7 @@
 			(color 0 0 0 0.0000)
 		)
 		(uuid "05204050-0c20-42af-9081-73af52e92f24")
-		(property "Sheetname" "USB_power_20V"
+		(property "Sheetname" "USB_power"
 			(at 102.87 203.7584 0)
 			(effects
 				(font
@@ -9894,7 +9894,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Sheetfile" "USB_power_20V.kicad_sch"
+		(property "Sheetfile" "USB_power.kicad_sch"
 			(at 102.87 231.7246 0)
 			(effects
 				(font
