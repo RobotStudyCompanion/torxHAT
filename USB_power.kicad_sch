@@ -4097,7 +4097,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "1a6dce3c-7549-4b36-b00a-d2038d9ee08d")
-		(property "Reference" "C64"
+		(property "Reference" "C65"
 			(at 200.66 59.6901 0)
 			(effects
 				(font
@@ -4151,7 +4151,7 @@
 		(instances
 			(project "RSC_extension_board"
 				(path "/1f48ed4c-84ce-4e77-88fc-25bf92dcee2d/05204050-0c20-42af-9081-73af52e92f24"
-					(reference "C64")
+					(reference "C65")
 					(unit 1)
 				)
 			)
@@ -4234,7 +4234,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "1bd34c8e-7878-4c3d-9cdb-5ff9dc95cc78")
-		(property "Reference" "C59"
+		(property "Reference" "C60"
 			(at 92.71 129.5401 0)
 			(effects
 				(font
@@ -4288,7 +4288,7 @@
 		(instances
 			(project "RSC_extension_board"
 				(path "/1f48ed4c-84ce-4e77-88fc-25bf92dcee2d/05204050-0c20-42af-9081-73af52e92f24"
-					(reference "C59")
+					(reference "C60")
 					(unit 1)
 				)
 			)
@@ -6125,7 +6125,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "9ddca740-1704-4d16-8353-9a01ac626dac")
-		(property "Reference" "C56"
+		(property "Reference" "C57"
 			(at 73.66 116.8401 0)
 			(effects
 				(font
@@ -6179,7 +6179,7 @@
 		(instances
 			(project "RSC_extension_board"
 				(path "/1f48ed4c-84ce-4e77-88fc-25bf92dcee2d/05204050-0c20-42af-9081-73af52e92f24"
-					(reference "C56")
+					(reference "C57")
 					(unit 1)
 				)
 			)
@@ -6195,7 +6195,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "9df3ca87-79ae-4d44-883e-69f521d1f65a")
-		(property "Reference" "C57"
+		(property "Reference" "C58"
 			(at 86.36 100.3301 0)
 			(effects
 				(font
@@ -6249,7 +6249,7 @@
 		(instances
 			(project "RSC_extension_board"
 				(path "/1f48ed4c-84ce-4e77-88fc-25bf92dcee2d/05204050-0c20-42af-9081-73af52e92f24"
-					(reference "C57")
+					(reference "C58")
 					(unit 1)
 				)
 			)
@@ -6836,7 +6836,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "cdaf2ef0-07b6-4c35-8e36-cb4ebd774ea0")
-		(property "Reference" "C60"
+		(property "Reference" "C61"
 			(at 95.25 60.9601 0)
 			(effects
 				(font
@@ -6890,7 +6890,7 @@
 		(instances
 			(project "RSC_extension_board"
 				(path "/1f48ed4c-84ce-4e77-88fc-25bf92dcee2d/05204050-0c20-42af-9081-73af52e92f24"
-					(reference "C60")
+					(reference "C61")
 					(unit 1)
 				)
 			)
@@ -6972,7 +6972,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d9af9489-4dc5-45e7-93c5-ae38db2d094a")
-		(property "Reference" "C61"
+		(property "Reference" "C62"
 			(at 146.05 83.8201 0)
 			(effects
 				(font
@@ -7026,7 +7026,7 @@
 		(instances
 			(project "RSC_extension_board"
 				(path "/1f48ed4c-84ce-4e77-88fc-25bf92dcee2d/05204050-0c20-42af-9081-73af52e92f24"
-					(reference "C61")
+					(reference "C62")
 					(unit 1)
 				)
 			)
@@ -7109,7 +7109,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f42dcfe2-b932-45d0-b301-86654e56abea")
-		(property "Reference" "C63"
+		(property "Reference" "C64"
 			(at 171.45 83.8201 0)
 			(effects
 				(font
@@ -7163,7 +7163,7 @@
 		(instances
 			(project "RSC_extension_board"
 				(path "/1f48ed4c-84ce-4e77-88fc-25bf92dcee2d/05204050-0c20-42af-9081-73af52e92f24"
-					(reference "C63")
+					(reference "C64")
 					(unit 1)
 				)
 			)
@@ -7179,7 +7179,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f4de3889-833e-4835-b388-8382875a8c30")
-		(property "Reference" "C58"
+		(property "Reference" "C59"
 			(at 86.36 116.8401 0)
 			(effects
 				(font
@@ -7233,7 +7233,7 @@
 		(instances
 			(project "RSC_extension_board"
 				(path "/1f48ed4c-84ce-4e77-88fc-25bf92dcee2d/05204050-0c20-42af-9081-73af52e92f24"
-					(reference "C58")
+					(reference "C59")
 					(unit 1)
 				)
 			)
@@ -7385,7 +7385,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "fbc0d6da-4309-4768-9478-9500a8e90175")
-		(property "Reference" "C62"
+		(property "Reference" "C63"
 			(at 158.75 83.8201 0)
 			(effects
 				(font
@@ -7439,7 +7439,7 @@
 		(instances
 			(project "RSC_extension_board"
 				(path "/1f48ed4c-84ce-4e77-88fc-25bf92dcee2d/05204050-0c20-42af-9081-73af52e92f24"
-					(reference "C62")
+					(reference "C63")
 					(unit 1)
 				)
 			)
