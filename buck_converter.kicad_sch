@@ -2473,6 +2473,217 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "PTSLR12106V700:PTSLR12106V700"
+			(pin_names
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "F"
+				(at 13.97 6.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Value" "PTSLR12106V700"
+				(at 13.97 3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Footprint" "PTSLR12106V700"
+				(at 13.97 -96.19 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://www.eaton.com/content/dam/eaton/products/electronic-components/resources/data-sheet/eaton-ptslr1210-surface-mount-resettable-fuse-data-sheet.pdf"
+				(at 13.97 -196.19 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Description" "PTC Resettable Fuse 6V 7 A Ih Surface Mount 1210 (3225 Metric), Concave"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Height" "1"
+				(at 13.97 -396.19 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer_Name" "Eaton"
+				(at 13.97 -496.19 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer_Part_Number" "PTSLR12106V700"
+				(at 13.97 -596.19 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Mouser Part Number" ""
+				(at 13.97 -696.19 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Mouser Price/Stock" ""
+				(at 13.97 -796.19 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Arrow Part Number" ""
+				(at 13.97 -896.19 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Arrow Price/Stock" ""
+				(at 13.97 -996.19 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(symbol "PTSLR12106V700_1_1"
+				(rectangle
+					(start 5.08 1.27)
+					(end 12.7 -1.27)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(polyline
+					(pts
+						(xy 5.588 -2.032) (xy 7.112 -2.032)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 10.668 2.032) (xy 7.112 -2.032)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 10.668 2.032) (xy 12.192 2.032)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at 0 0 0)
+					(length 5.08)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 17.78 0 180)
+					(length 5.08)
+					(name "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "power:+5V"
 			(power)
 			(pin_numbers
@@ -2958,13 +3169,13 @@
 		(uuid "64a90bdf-b252-4787-a707-c91b41baf31e")
 	)
 	(junction
-		(at 261.62 93.98)
+		(at 242.57 93.98)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "65f4c48f-37c1-4c58-b28c-ccbf4d2866cb")
 	)
 	(junction
-		(at 267.97 114.3)
+		(at 248.92 114.3)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "69675a5e-00cb-478d-bb56-eb34dbde4588")
@@ -3004,6 +3215,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "87c60a6e-11e5-4bbb-900a-b78b86eb828c")
+	)
+	(junction
+		(at 242.57 80.01)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "89e213f8-c012-49ad-be4b-9ad0e2c8b355")
 	)
 	(junction
 		(at 64.77 124.46)
@@ -3066,7 +3283,7 @@
 		(uuid "ac4c1b65-ecf1-4c66-96bf-377b103e3c37")
 	)
 	(junction
-		(at 261.62 104.14)
+		(at 242.57 104.14)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "b3fffacf-77f3-4ec4-a28e-827905836c2a")
@@ -3120,12 +3337,6 @@
 		(uuid "d0ed3c6d-c226-4eba-bdfc-3b54e89cb16b")
 	)
 	(junction
-		(at 261.62 87.63)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "d47b1cf2-63d5-4add-8bc6-aa6132622b4b")
-	)
-	(junction
 		(at 160.02 69.85)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3150,7 +3361,7 @@
 		(uuid "e2db5b2c-3801-4a95-8086-ba27a70a00bd")
 	)
 	(junction
-		(at 274.32 93.98)
+		(at 255.27 93.98)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "e56773df-693a-402d-83b2-4be7e6e9677d")
@@ -3181,7 +3392,7 @@
 	)
 	(wire
 		(pts
-			(xy 267.97 114.3) (xy 274.32 114.3)
+			(xy 248.92 114.3) (xy 255.27 114.3)
 		)
 		(stroke
 			(width 0)
@@ -3301,7 +3512,7 @@
 	)
 	(wire
 		(pts
-			(xy 261.62 106.68) (xy 261.62 104.14)
+			(xy 242.57 106.68) (xy 242.57 104.14)
 		)
 		(stroke
 			(width 0)
@@ -3421,7 +3632,7 @@
 	)
 	(wire
 		(pts
-			(xy 261.62 35.56) (xy 261.62 87.63)
+			(xy 262.89 35.56) (xy 262.89 80.01)
 		)
 		(stroke
 			(width 0)
@@ -3601,6 +3812,16 @@
 	)
 	(wire
 		(pts
+			(xy 242.57 80.01) (xy 234.95 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4b08b081-257b-4375-8285-313cd5045ed8")
+	)
+	(wire
+		(pts
 			(xy 251.46 60.96) (xy 240.03 60.96)
 		)
 		(stroke
@@ -3641,7 +3862,7 @@
 	)
 	(wire
 		(pts
-			(xy 274.32 93.98) (xy 274.32 100.33)
+			(xy 255.27 93.98) (xy 255.27 100.33)
 		)
 		(stroke
 			(width 0)
@@ -3751,7 +3972,7 @@
 	)
 	(wire
 		(pts
-			(xy 261.62 93.98) (xy 274.32 93.98)
+			(xy 242.57 93.98) (xy 255.27 93.98)
 		)
 		(stroke
 			(width 0)
@@ -3821,7 +4042,7 @@
 	)
 	(wire
 		(pts
-			(xy 152.4 104.14) (xy 261.62 104.14)
+			(xy 152.4 104.14) (xy 242.57 104.14)
 		)
 		(stroke
 			(width 0)
@@ -3891,7 +4112,7 @@
 	)
 	(wire
 		(pts
-			(xy 274.32 114.3) (xy 274.32 107.95)
+			(xy 255.27 114.3) (xy 255.27 107.95)
 		)
 		(stroke
 			(width 0)
@@ -3921,7 +4142,7 @@
 	)
 	(wire
 		(pts
-			(xy 149.86 101.6) (xy 254 101.6)
+			(xy 149.86 101.6) (xy 234.95 101.6)
 		)
 		(stroke
 			(width 0)
@@ -4021,6 +4242,16 @@
 	)
 	(wire
 		(pts
+			(xy 257.81 93.98) (xy 255.27 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "88e0a46d-1eb8-432e-a085-3d2701e42ad3")
+	)
+	(wire
+		(pts
 			(xy 195.58 124.46) (xy 195.58 138.43)
 		)
 		(stroke
@@ -4081,7 +4312,7 @@
 	)
 	(wire
 		(pts
-			(xy 254 101.6) (xy 254 87.63)
+			(xy 234.95 101.6) (xy 234.95 80.01)
 		)
 		(stroke
 			(width 0)
@@ -4391,16 +4622,6 @@
 	)
 	(wire
 		(pts
-			(xy 261.62 87.63) (xy 261.62 93.98)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c8f7ba96-91c7-4558-89c6-8a21e25f8e82")
-	)
-	(wire
-		(pts
 			(xy 135.89 50.8) (xy 135.89 49.53)
 		)
 		(stroke
@@ -4471,7 +4692,7 @@
 	)
 	(wire
 		(pts
-			(xy 251.46 35.56) (xy 261.62 35.56)
+			(xy 251.46 35.56) (xy 262.89 35.56)
 		)
 		(stroke
 			(width 0)
@@ -4508,6 +4729,16 @@
 			(type default)
 		)
 		(uuid "e1519ef2-0834-4e24-955c-65c61a5e1840")
+	)
+	(wire
+		(pts
+			(xy 278.13 93.98) (xy 275.59 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e2826633-fb1f-48bf-8125-c48678c63489")
 	)
 	(wire
 		(pts
@@ -4551,7 +4782,7 @@
 	)
 	(wire
 		(pts
-			(xy 261.62 114.3) (xy 267.97 114.3)
+			(xy 242.57 114.3) (xy 248.92 114.3)
 		)
 		(stroke
 			(width 0)
@@ -4561,7 +4792,7 @@
 	)
 	(wire
 		(pts
-			(xy 261.62 104.14) (xy 261.62 101.6)
+			(xy 242.57 104.14) (xy 242.57 101.6)
 		)
 		(stroke
 			(width 0)
@@ -4641,16 +4872,6 @@
 	)
 	(wire
 		(pts
-			(xy 261.62 87.63) (xy 254 87.63)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f3280775-ba96-47e1-8ab3-6ab04226e7e8")
-	)
-	(wire
-		(pts
 			(xy 74.93 115.57) (xy 83.82 115.57)
 		)
 		(stroke
@@ -4661,6 +4882,16 @@
 	)
 	(wire
 		(pts
+			(xy 242.57 80.01) (xy 262.89 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f6995f9a-75d7-4783-a6b7-75c04700a9c1")
+	)
+	(wire
+		(pts
 			(xy 87.63 120.65) (xy 106.68 120.65)
 		)
 		(stroke
@@ -4668,6 +4899,16 @@
 			(type default)
 		)
 		(uuid "f772ebaa-0255-44f7-b709-0f7052ddb00a")
+	)
+	(wire
+		(pts
+			(xy 242.57 80.01) (xy 242.57 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f82cdd3e-d2c0-4645-b4f8-7df0b2154a13")
 	)
 	(wire
 		(pts
@@ -5670,7 +5911,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 261.62 110.49 0)
+		(at 242.57 110.49 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5679,7 +5920,7 @@
 		(fields_autoplaced yes)
 		(uuid "2b77996b-f9c7-44e3-b8f2-f4b440716707")
 		(property "Reference" "R17"
-			(at 264.16 109.2199 0)
+			(at 245.11 109.2199 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5688,7 +5929,7 @@
 			)
 		)
 		(property "Value" "20k"
-			(at 264.16 111.7599 0)
+			(at 245.11 111.7599 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5697,7 +5938,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
-			(at 259.842 110.49 90)
+			(at 240.792 110.49 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5706,7 +5947,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 261.62 110.49 0)
+			(at 242.57 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5715,7 +5956,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 261.62 110.49 0)
+			(at 242.57 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6453,6 +6694,146 @@
 			(project "RSC_extension_board"
 				(path "/1f48ed4c-84ce-4e77-88fc-25bf92dcee2d/8a23fee1-8a0a-4a00-88d2-3a4147ed7fcf"
 					(reference "Q6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "PTSLR12106V700:PTSLR12106V700")
+		(at 257.81 93.98 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "4fce3e18-25a7-4cd5-9d30-20efadaf71e4")
+		(property "Reference" "F1"
+			(at 266.7 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "PTSLR12106V700"
+			(at 266.7 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "PTSLR12106V700"
+			(at 271.78 190.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.eaton.com/content/dam/eaton/products/electronic-components/resources/data-sheet/eaton-ptslr1210-surface-mount-resettable-fuse-data-sheet.pdf"
+			(at 271.78 290.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "PTC Resettable Fuse 6V 7 A Ih Surface Mount 1210 (3225 Metric), Concave"
+			(at 257.81 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" "1"
+			(at 271.78 490.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "Eaton"
+			(at 271.78 590.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "PTSLR12106V700"
+			(at 271.78 690.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" ""
+			(at 271.78 790.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" ""
+			(at 271.78 890.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Arrow Part Number" ""
+			(at 271.78 990.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Arrow Price/Stock" ""
+			(at 271.78 1090.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "3236dfc1-bcf2-408c-9e40-541cb938f051")
+		)
+		(pin "1"
+			(uuid "56e1f3d7-454d-4bc5-a380-b9bdc932dfef")
+		)
+		(instances
+			(project ""
+				(path "/1f48ed4c-84ce-4e77-88fc-25bf92dcee2d/8a23fee1-8a0a-4a00-88d2-3a4147ed7fcf"
+					(reference "F1")
 					(unit 1)
 				)
 			)
@@ -7218,7 +7599,7 @@
 	)
 	(symbol
 		(lib_id "power_ver2:GND")
-		(at 267.97 114.3 0)
+		(at 248.92 114.3 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7227,7 +7608,7 @@
 		(fields_autoplaced yes)
 		(uuid "6e2bd682-2898-4939-9b03-8ae782ff5562")
 		(property "Reference" "#PWR078"
-			(at 267.97 120.65 0)
+			(at 248.92 120.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7236,7 +7617,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 267.97 119.38 0)
+			(at 248.92 119.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7245,7 +7626,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 267.97 114.3 0)
+			(at 248.92 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7254,7 +7635,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 267.97 114.3 0)
+			(at 248.92 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7263,7 +7644,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 267.97 114.3 0)
+			(at 248.92 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7494,7 +7875,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 274.32 104.14 0)
+		(at 255.27 104.14 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7503,7 +7884,7 @@
 		(fields_autoplaced yes)
 		(uuid "8d8f5cca-a355-455a-b9f1-443ace060f6c")
 		(property "Reference" "C56"
-			(at 278.13 102.8699 0)
+			(at 259.08 102.8699 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7512,7 +7893,7 @@
 			)
 		)
 		(property "Value" "47uF"
-			(at 278.13 105.4099 0)
+			(at 259.08 105.4099 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7521,7 +7902,7 @@
 			)
 		)
 		(property "Footprint" "Inductor_SMD:L_1210_3225Metric_Pad1.42x2.65mm_HandSolder"
-			(at 275.2852 107.95 0)
+			(at 256.2352 107.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7530,7 +7911,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 274.32 104.14 0)
+			(at 255.27 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7539,7 +7920,7 @@
 			)
 		)
 		(property "Description" "GRM32ER61E226KE15L"
-			(at 274.32 104.14 0)
+			(at 255.27 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8638,7 +9019,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 261.62 97.79 0)
+		(at 242.57 97.79 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -8647,7 +9028,7 @@
 		(fields_autoplaced yes)
 		(uuid "c1fd6c14-008c-472e-b7f9-5e498fd8dffd")
 		(property "Reference" "R16"
-			(at 264.16 96.5199 0)
+			(at 245.11 96.5199 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8656,7 +9037,7 @@
 			)
 		)
 		(property "Value" "105k"
-			(at 264.16 99.0599 0)
+			(at 245.11 99.0599 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8665,7 +9046,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
-			(at 259.842 97.79 90)
+			(at 240.792 97.79 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8674,7 +9055,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 261.62 97.79 0)
+			(at 242.57 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8683,7 +9064,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 261.62 97.79 0)
+			(at 242.57 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8708,7 +9089,7 @@
 	)
 	(symbol
 		(lib_id "power:+5V")
-		(at 274.32 93.98 0)
+		(at 278.13 93.98 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -8717,7 +9098,7 @@
 		(fields_autoplaced yes)
 		(uuid "c6a55a50-6f8c-472e-9f99-29e17e733052")
 		(property "Reference" "#PWR079"
-			(at 274.32 97.79 0)
+			(at 278.13 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8726,7 +9107,7 @@
 			)
 		)
 		(property "Value" "+5V"
-			(at 274.32 88.9 0)
+			(at 278.13 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8734,7 +9115,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 274.32 93.98 0)
+			(at 278.13 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8743,7 +9124,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 274.32 93.98 0)
+			(at 278.13 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8752,7 +9133,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 274.32 93.98 0)
+			(at 278.13 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
