@@ -6618,7 +6618,7 @@
 				)
 			)
 		)
-		(property "Footprint" "KiCad:M207812045R"
+		(property "Footprint" "KiCad:M207812045R_bottomLayer"
 			(at 142.494 100.838 0)
 			(effects
 				(font
