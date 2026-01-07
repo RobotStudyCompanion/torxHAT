@@ -2862,7 +2862,7 @@
 			(embedded_fonts no)
 		)
 	)
-	(text "Based on WEBENCH® POWER DESIGNER generations:\nhttps://webench.ti.com/appinfo/webench/scripts/SDP.cgi?ID=C41C10B83019F89E"
+	(text "Based on WEBENCH® POWER DESIGNER generations:\nhttps://webench.ti.com/appinfo/webench/scripts/SDP.cgi?ID=7ECE0A1D317B02D5\n"
 		(exclude_from_sim no)
 		(at 178.308 169.926 0)
 		(effects
