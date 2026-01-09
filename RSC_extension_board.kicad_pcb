@@ -26218,6 +26218,30 @@
 			)
 		)
 	)
+	(gr_rect
+		(start 95 45)
+		(end 180 101)
+		(stroke
+			(width 0.2)
+			(type dash)
+		)
+		(fill no)
+		(locked yes)
+		(layer "Dwgs.User")
+		(uuid "7e0516dd-30b4-406c-93da-fbe183b8cd04")
+	)
+	(gr_rect
+		(start 95 45)
+		(end 160 75)
+		(stroke
+			(width 0.2)
+			(type dash)
+		)
+		(fill no)
+		(locked yes)
+		(layer "Dwgs.User")
+		(uuid "e8125627-ac3e-4478-9996-f3591d83aa47")
+	)
 	(gr_arc
 		(start 95 47.45)
 		(mid 95.87868 45.32868)
@@ -26309,6 +26333,32 @@
 		(locked yes)
 		(layer "Edge.Cuts")
 		(uuid "d5098167-1c73-44a7-bb47-a3c750aef61f")
+	)
+	(gr_text "Zero"
+		(locked yes)
+		(at 158 74.5 0)
+		(layer "Dwgs.User")
+		(uuid "149f17a9-9624-48ac-8791-a380f0543c52")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+			(justify bottom)
+		)
+	)
+	(gr_text "B+"
+		(locked yes)
+		(at 178.5 100.5 0)
+		(layer "Dwgs.User")
+		(uuid "a78c8b23-5fa1-4a41-a5ed-fb3d16ac2d0c")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+			(justify bottom)
+		)
 	)
 	(segment
 		(start 152.9355 87.346)
