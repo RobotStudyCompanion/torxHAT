@@ -2723,7 +2723,7 @@
 			(embedded_fonts no)
 		)
 	)
-	(text "12V 3A\nhttps://www.infineon.com/assets/row/public/documents/24/49/\ninfineon-ez-pd-bcr-datasheet-usb-type-c-port-controller-for-power-sinks-datasheet-en.pdf"
+	(text "20V 2.5A\nhttps://www.infineon.com/assets/row/public/documents/24/49/\ninfineon-ez-pd-bcr-datasheet-usb-type-c-port-controller-for-power-sinks-datasheet-en.pdf"
 		(exclude_from_sim no)
 		(at 168.656 141.732 0)
 		(effects
@@ -4745,7 +4745,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "35ffbf77-1109-4aca-969a-6cf7c2528f7a")
 		(property "Reference" "R23"
@@ -4757,7 +4757,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "0"
+		(property "Value" "DNP"
 			(at 129.54 153.6699 0)
 			(effects
 				(font
@@ -4815,7 +4815,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp yes)
+		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "3c70b1db-fe26-4962-aa6b-507ff7ac2f92")
 		(property "Reference" "R22"
@@ -4827,7 +4827,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "DNP"
+		(property "Value" "0"
 			(at 129.54 143.5099 0)
 			(effects
 				(font
@@ -5509,7 +5509,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "0"
+		(property "Value" "2k4"
 			(at 162.56 153.6699 0)
 			(effects
 				(font
@@ -6262,7 +6262,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "9eb5a92c-67cc-4fcb-924d-21c7bc5de1d3")
 		(property "Reference" "R20"
@@ -6274,7 +6274,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "2k4"
+		(property "Value" "DNP"
 			(at 111.76 153.6699 0)
 			(effects
 				(font
@@ -6504,7 +6504,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "5k1"
+		(property "Value" "0"
 			(at 111.76 143.5099 0)
 			(effects
 				(font
@@ -6562,7 +6562,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp yes)
+		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a78e2299-00ee-4427-b3f7-fcfe52092a02")
 		(property "Reference" "R29"
@@ -6574,7 +6574,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "DNP"
+		(property "Value" "5k1"
 			(at 162.56 143.5099 0)
 			(effects
 				(font
@@ -7258,7 +7258,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "5k1"
+		(property "Value" "2k4"
 			(at 147.32 153.6699 0)
 			(effects
 				(font
