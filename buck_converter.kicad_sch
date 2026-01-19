@@ -1095,7 +1095,7 @@
 			(embedded_fonts no)
 		)
 	)
-	(text "https://www.ti.com/lit/ds/symlink/lmr60440.pdf"
+	(text "20v to 5v 4A each\nhttps://www.ti.com/lit/ds/symlink/lmr60440.pdf"
 		(exclude_from_sim no)
 		(at 178.562 169.164 0)
 		(effects
