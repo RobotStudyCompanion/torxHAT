@@ -217,615 +217,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "BSC084P03NS3GATMA1:BSC084P03NS3GATMA1"
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "Q"
-				(at 21.59 7.62 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-				)
-			)
-			(property "Value" "BSC084P03NS3GATMA1"
-				(at 21.59 5.08 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-				)
-			)
-			(property "Footprint" "BSC054N04NSG"
-				(at 21.59 -94.92 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "https://www.infineon.com/dgdl/Infineon-BSC084P03NS3_G-DS-v02_01-en.pdf?fileId=db3a304320896aa20120c83fdcd7326c"
-				(at 21.59 -194.92 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-					(hide yes)
-				)
-			)
-			(property "Description" "MOSFET P-Ch -30V -78.6A TDSON-8 OptiMOS P3"
-				(at -0.508 3.556 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Height" "1"
-				(at 21.59 -394.92 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-					(hide yes)
-				)
-			)
-			(property "Manufacturer_Name" "Infineon"
-				(at 21.59 -494.92 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-					(hide yes)
-				)
-			)
-			(property "Manufacturer_Part_Number" "BSC084P03NS3GATMA1"
-				(at 21.59 -594.92 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-					(hide yes)
-				)
-			)
-			(property "Mouser Part Number" "726-BSC084P03NS3GATM"
-				(at 21.59 -694.92 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-					(hide yes)
-				)
-			)
-			(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Infineon-Technologies/BSC084P03NS3GATMA1?qs=K00xGehIljsA0utGkXXbwA%3D%3D"
-				(at 21.59 -794.92 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-					(hide yes)
-				)
-			)
-			(property "Arrow Part Number" "BSC084P03NS3GATMA1"
-				(at 21.59 -894.92 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-					(hide yes)
-				)
-			)
-			(property "Arrow Price/Stock" "https://www.arrow.com/en/products/bsc084p03ns3gatma1/infineon-technologies-ag?utm_currency=USD&region=nac"
-				(at 21.59 -994.92 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-					(hide yes)
-				)
-			)
-			(symbol "BSC084P03NS3GATMA1_0_1"
-				(polyline
-					(pts
-						(xy 0 -3.81) (xy 2.54 -3.81)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 -6.35) (xy 2.54 -6.35)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 -8.89) (xy 2.54 -8.89)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.54 -6.35) (xy 5.08 -6.35)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.54 -8.89) (xy 2.54 -3.81)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 5.08 -6.35) (xy 5.842 -6.35)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 5.334 -8.128) (xy 6.35 -8.128)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 5.715 -8.636) (xy 9.525 -8.636)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center 5.842 -6.35)
-					(radius 0.254)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(polyline
-					(pts
-						(xy 5.842 -8.128) (xy 5.842 -5.588) (xy 9.398 -5.588) (xy 9.398 -8.128)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 7.112 -8.128) (xy 8.128 -8.128)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 7.62 -6.604) (xy 7.239 -7.62) (xy 8.001 -7.62) (xy 7.62 -6.604)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(circle
-					(center 7.62 -7.239)
-					(radius 2.794)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 7.62 -8.636) (xy 7.62 -12.7)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 8.001 -5.588) (xy 7.366 -5.969) (xy 7.366 -5.207) (xy 8.001 -5.588)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 8.128 -6.096) (xy 8.001 -5.969) (xy 8.001 -5.207) (xy 7.874 -5.08)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 8.89 -8.128) (xy 9.906 -8.128)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center 9.398 -6.35)
-					(radius 0.254)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(polyline
-					(pts
-						(xy 10.16 -6.35) (xy 12.7 -6.35)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 10.16 -6.35) (xy 7.62 -6.35) (xy 7.62 -8.128)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 12.7 -1.27) (xy 15.24 -1.27)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 12.7 -3.81) (xy 15.24 -3.81)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 12.7 -6.35) (xy 15.24 -6.35)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 12.7 -8.89) (xy 15.24 -8.89)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 12.7 -11.43) (xy 12.7 -1.27)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 12.7 -11.43) (xy 15.24 -11.43)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "BSC084P03NS3GATMA1_1_1"
-				(rectangle
-					(start 0 0)
-					(end 15.24 -12.7)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(pin passive line
-					(at -5.08 -3.81 0)
-					(length 5.08)
-					(name "S_1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -5.08 -6.35 0)
-					(length 5.08)
-					(name "S_2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -5.08 -8.89 0)
-					(length 5.08)
-					(name "S_3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 7.62 -17.78 90)
-					(length 5.08)
-					(name "G"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 20.32 -1.27 180)
-					(length 5.08)
-					(name "D_1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "5"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 20.32 -3.81 180)
-					(length 5.08)
-					(name "D_2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "6"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 20.32 -6.35 180)
-					(length 5.08)
-					(name "D_3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "7"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 20.32 -8.89 180)
-					(length 5.08)
-					(name "D_4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "8"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 20.32 -11.43 180)
-					(length 5.08)
-					(name "D_5"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "9"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "CYPD3177:CYPD3177-24LQ"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -2534,6 +1925,342 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Transistor_FET:DMP3013SFV"
+			(pin_names
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "Q"
+				(at 5.08 1.905 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "DMP3013SFV"
+				(at 5.08 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" "Package_SON:Diodes_PowerDI3333-8"
+				(at 5.08 -1.905 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(italic yes)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://www.diodes.com/assets/Datasheets/DMP3013SFV.pdf"
+				(at 5.08 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Description" "-12A Id, -30V Vds, P-Channel Power MOSFET, 9.5mOhm Ron, 33.7nC Qg (typ), PowerDI3333-8"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "P-Channel MOSFET"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "Diodes*PowerDI3333*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "DMP3013SFV_0_1"
+				(polyline
+					(pts
+						(xy 0.254 1.905) (xy 0.254 -1.905)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.254 0) (xy -2.54 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.762 2.286) (xy 0.762 1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.762 1.778) (xy 3.302 1.778) (xy 3.302 -1.778) (xy 0.762 -1.778)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.762 0.508) (xy 0.762 -0.508)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.762 -1.27) (xy 0.762 -2.286)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 1.651 0)
+					(radius 2.794)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.286 0) (xy 1.27 0.381) (xy 1.27 -0.381) (xy 2.286 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 2.54) (xy 2.54 1.778)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 2.54 1.778)
+					(radius 0.254)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(circle
+					(center 2.54 -1.778)
+					(radius 0.254)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 -2.54) (xy 2.54 0) (xy 0.762 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.794 -0.508) (xy 2.921 -0.381) (xy 3.683 -0.381) (xy 3.81 -0.254)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 3.302 -0.381) (xy 2.921 0.254) (xy 3.683 0.254) (xy 3.302 -0.381)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "DMP3013SFV_1_1"
+				(pin passive line
+					(at -5.08 0 0)
+					(length 2.54)
+					(name "G"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 2.54 5.08 270)
+					(length 2.54)
+					(name "D"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 2.54 -5.08 90)
+					(length 2.54)
+					(name "S"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 2.54 -5.08 90)
+					(length 2.54)
+					(hide yes)
+					(name "S"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 2.54 -5.08 90)
+					(length 2.54)
+					(hide yes)
+					(name "S"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "power:+3.3V"
 			(power)
 			(pin_numbers
@@ -2971,12 +2698,6 @@
 		(uuid "38719300-89eb-4707-bbe1-e5567f9e6293")
 	)
 	(junction
-		(at 106.68 49.53)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "3a7e1be7-a94a-450c-bab2-e2bdfca83038")
-	)
-	(junction
 		(at 90.17 107.95)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3013,22 +2734,10 @@
 		(uuid "738514cc-f100-4b42-b2a2-874f728b6595")
 	)
 	(junction
-		(at 157.48 46.99)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "7a38c307-c981-4142-926a-0a3a2128367b")
-	)
-	(junction
 		(at 204.47 49.53)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "7d1bc30c-7b82-499b-8ef8-c94662e6ccca")
-	)
-	(junction
-		(at 132.08 49.53)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "7fe70cd2-889d-4687-8654-da9d547772f4")
 	)
 	(junction
 		(at 99.06 49.53)
@@ -3055,18 +2764,6 @@
 		(uuid "98087322-395d-4b42-8c56-fd1ecc19f720")
 	)
 	(junction
-		(at 157.48 52.07)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "98e9241a-095c-4430-98dd-7eaa77cc05a1")
-	)
-	(junction
-		(at 182.88 49.53)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "a4b93147-8b29-4daa-9224-435f331ac648")
-	)
-	(junction
 		(at 119.38 68.58)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3085,12 +2782,6 @@
 		(uuid "ad5d0be3-be90-4726-ad57-71b05bf2fcc9")
 	)
 	(junction
-		(at 157.48 49.53)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "bc38d12d-fd0c-4f32-be23-7858a1af3d0b")
-	)
-	(junction
 		(at 77.47 110.49)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3103,22 +2794,10 @@
 		(uuid "eaa17441-5be7-4885-ac65-04e278dbb68c")
 	)
 	(junction
-		(at 132.08 52.07)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "eed5dd51-a019-4860-a25c-48a38e9d4800")
-	)
-	(junction
 		(at 149.86 78.74)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "f1f0e197-e5df-447a-9744-d6d596bd33be")
-	)
-	(junction
-		(at 132.08 46.99)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "f2d24be7-4047-4806-9f30-f9ea0e7c6412")
 	)
 	(junction
 		(at 135.89 68.58)
@@ -3149,16 +2828,6 @@
 			(type default)
 		)
 		(uuid "0618b1fe-bed2-44da-94e1-620640124886")
-	)
-	(wire
-		(pts
-			(xy 106.68 46.99) (xy 106.68 49.53)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "06669354-7079-4833-8800-c4bdcc0eeae1")
 	)
 	(wire
 		(pts
@@ -3202,16 +2871,6 @@
 	)
 	(wire
 		(pts
-			(xy 182.88 49.53) (xy 204.47 49.53)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0eec74a3-7f9c-49c6-aa16-c98309e115db")
-	)
-	(wire
-		(pts
 			(xy 135.89 49.53) (xy 147.32 49.53)
 		)
 		(stroke
@@ -3229,16 +2888,6 @@
 			(type default)
 		)
 		(uuid "1154d65e-705d-4cbd-8adb-c657beeee404")
-	)
-	(wire
-		(pts
-			(xy 132.08 49.53) (xy 132.08 52.07)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "18e6a499-ca37-476d-9c34-4b3b7efed048")
 	)
 	(wire
 		(pts
@@ -3422,6 +3071,16 @@
 	)
 	(wire
 		(pts
+			(xy 175.26 49.53) (xy 204.47 49.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5be0cb27-2edb-4c03-a216-3e8313cf279c")
+	)
+	(wire
+		(pts
 			(xy 144.78 148.59) (xy 144.78 147.32)
 		)
 		(stroke
@@ -3452,16 +3111,6 @@
 	)
 	(wire
 		(pts
-			(xy 132.08 49.53) (xy 135.89 49.53)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "62a275ae-01d9-47a8-ab46-e5cfb0f0340d")
-	)
-	(wire
-		(pts
 			(xy 90.17 95.25) (xy 104.14 95.25)
 		)
 		(stroke
@@ -3472,17 +3121,7 @@
 	)
 	(wire
 		(pts
-			(xy 182.88 49.53) (xy 182.88 52.07)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6af2c3ca-fd46-4cc1-b810-3ea530c2cce4")
-	)
-	(wire
-		(pts
-			(xy 170.18 60.96) (xy 170.18 68.58)
+			(xy 170.18 57.15) (xy 170.18 68.58)
 		)
 		(stroke
 			(width 0)
@@ -3499,6 +3138,16 @@
 			(type default)
 		)
 		(uuid "74ed0074-ddbf-4c0f-955c-5f5c24127911")
+	)
+	(wire
+		(pts
+			(xy 124.46 49.53) (xy 135.89 49.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "75a2adf4-107d-430f-86f6-14aedf3145be")
 	)
 	(wire
 		(pts
@@ -3552,7 +3201,7 @@
 	)
 	(wire
 		(pts
-			(xy 104.14 49.53) (xy 106.68 49.53)
+			(xy 104.14 49.53) (xy 114.3 49.53)
 		)
 		(stroke
 			(width 0)
@@ -3602,16 +3251,6 @@
 	)
 	(wire
 		(pts
-			(xy 132.08 52.07) (xy 132.08 54.61)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "94d2b9cd-9855-42aa-8a63-0494505af4b2")
-	)
-	(wire
-		(pts
 			(xy 72.39 95.25) (xy 90.17 95.25)
 		)
 		(stroke
@@ -3632,7 +3271,7 @@
 	)
 	(wire
 		(pts
-			(xy 147.32 49.53) (xy 157.48 49.53)
+			(xy 147.32 49.53) (xy 165.1 49.53)
 		)
 		(stroke
 			(width 0)
@@ -3649,16 +3288,6 @@
 			(type default)
 		)
 		(uuid "9ade7bc8-478b-48cd-ab22-2995e522ca43")
-	)
-	(wire
-		(pts
-			(xy 132.08 46.99) (xy 132.08 49.53)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9bb4cafe-1922-453f-8a4f-57a925c8f06b")
 	)
 	(wire
 		(pts
@@ -3679,16 +3308,6 @@
 			(type default)
 		)
 		(uuid "9e072209-bb01-4739-af2e-cc69581234b4")
-	)
-	(wire
-		(pts
-			(xy 157.48 44.45) (xy 157.48 46.99)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a2971c8f-83e8-4c3c-a4ba-dfd3f49a26eb")
 	)
 	(wire
 		(pts
@@ -3792,16 +3411,6 @@
 	)
 	(wire
 		(pts
-			(xy 157.48 46.99) (xy 157.48 49.53)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "bb0ab240-c010-42b1-a3f4-2125db4da1a0")
-	)
-	(wire
-		(pts
 			(xy 135.89 68.58) (xy 147.32 68.58)
 		)
 		(stroke
@@ -3819,16 +3428,6 @@
 			(type default)
 		)
 		(uuid "c6af205d-50c1-4b9c-b5b1-81af21aa9e18")
-	)
-	(wire
-		(pts
-			(xy 106.68 52.07) (xy 106.68 49.53)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ca7d8b8f-6ed5-4724-b31c-c87e9054b462")
 	)
 	(wire
 		(pts
@@ -3862,16 +3461,6 @@
 	)
 	(wire
 		(pts
-			(xy 157.48 52.07) (xy 157.48 54.61)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d0aaf879-4e9e-48cc-80ca-d352cff38097")
-	)
-	(wire
-		(pts
 			(xy 116.84 133.35) (xy 116.84 147.32)
 		)
 		(stroke
@@ -3882,7 +3471,7 @@
 	)
 	(wire
 		(pts
-			(xy 119.38 60.96) (xy 119.38 68.58)
+			(xy 119.38 57.15) (xy 119.38 68.58)
 		)
 		(stroke
 			(width 0)
@@ -3902,16 +3491,6 @@
 	)
 	(wire
 		(pts
-			(xy 132.08 44.45) (xy 132.08 46.99)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e08b572c-7afd-446b-9c0d-4b2b04f10d5f")
-	)
-	(wire
-		(pts
 			(xy 135.89 62.23) (xy 135.89 68.58)
 		)
 		(stroke
@@ -3919,16 +3498,6 @@
 			(type default)
 		)
 		(uuid "e0f9c78b-bfc5-4cf6-990c-3a7b3ba978a0")
-	)
-	(wire
-		(pts
-			(xy 182.88 46.99) (xy 182.88 49.53)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e38ada1e-4b46-48de-8bd7-ce412ad0c5ca")
 	)
 	(wire
 		(pts
@@ -3949,16 +3518,6 @@
 			(type default)
 		)
 		(uuid "e63fbd96-b829-43ec-a031-4fcd49d9411d")
-	)
-	(wire
-		(pts
-			(xy 157.48 49.53) (xy 157.48 52.07)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e79d49e0-d44d-4e02-a304-ab284984ba30")
 	)
 	(wire
 		(pts
@@ -4729,167 +4288,6 @@
 			(project "RSC_extension_board"
 				(path "/1f48ed4c-84ce-4e77-88fc-25bf92dcee2d/05204050-0c20-42af-9081-73af52e92f24"
 					(reference "#PWR092")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "BSC084P03NS3GATMA1:BSC084P03NS3GATMA1")
-		(at 177.8 43.18 0)
-		(mirror y)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "2c0f94d1-3570-402d-be08-cf3b1d35239d")
-		(property "Reference" "Q4"
-			(at 173.228 39.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "BSC084P03NS3GATMA1"
-			(at 173.228 41.91 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "BSC054N04NSG"
-			(at 156.21 138.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.infineon.com/dgdl/Infineon-BSC084P03NS3_G-DS-v02_01-en.pdf?fileId=db3a304320896aa20120c83fdcd7326c"
-			(at 156.21 238.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Description" "MOSFET P-Ch -30V -78.6A TDSON-8 OptiMOS P3"
-			(at 177.8 43.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Height" "1"
-			(at 156.21 438.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Name" "Infineon"
-			(at 156.21 538.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Part_Number" "BSC084P03NS3GATMA1"
-			(at 156.21 638.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Mouser Part Number" "726-BSC084P03NS3GATM"
-			(at 156.21 738.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Infineon-Technologies/BSC084P03NS3GATMA1?qs=K00xGehIljsA0utGkXXbwA%3D%3D"
-			(at 156.21 838.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Arrow Part Number" "BSC084P03NS3GATMA1"
-			(at 156.21 938.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Arrow Price/Stock" "https://www.arrow.com/en/products/bsc084p03ns3gatma1/infineon-technologies-ag?utm_currency=USD&region=nac"
-			(at 156.21 1038.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(pin "9"
-			(uuid "8a0e33a0-67db-4f62-b702-664193a35deb")
-		)
-		(pin "1"
-			(uuid "5c897c7a-22c6-4964-825d-78f50cb6079c")
-		)
-		(pin "8"
-			(uuid "346db3c3-edef-4e49-b2c2-a008ec32319b")
-		)
-		(pin "3"
-			(uuid "2782abfe-5751-468a-807d-c05fe82a69cd")
-		)
-		(pin "5"
-			(uuid "e1d4d995-8f10-4004-b464-7d4d0bc89461")
-		)
-		(pin "6"
-			(uuid "1f900b68-0efa-4d15-badc-f791838f1637")
-		)
-		(pin "2"
-			(uuid "6b1e0e47-9f18-4ce1-88af-02b74c209478")
-		)
-		(pin "7"
-			(uuid "37f41db4-b568-4cdb-901d-9db473537af8")
-		)
-		(pin "4"
-			(uuid "90928394-51fb-4356-89ab-938f563f9a56")
-		)
-		(instances
-			(project "RSC_extension_board"
-				(path "/1f48ed4c-84ce-4e77-88fc-25bf92dcee2d/05204050-0c20-42af-9081-73af52e92f24"
-					(reference "Q4")
 					(unit 1)
 				)
 			)
@@ -6201,6 +5599,166 @@
 		)
 	)
 	(symbol
+		(lib_id "Transistor_FET:DMP3013SFV")
+		(at 119.38 52.07 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "8ff4e5d4-ab01-438c-9d46-b2d1ca584a48")
+		(property "Reference" "Q5"
+			(at 119.38 43.18 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "DMP3013SFV"
+			(at 119.38 45.72 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_SON:Diodes_PowerDI3333-8"
+			(at 121.285 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.diodes.com/assets/Datasheets/DMP3013SFV.pdf"
+			(at 123.19 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" "-12A Id, -30V Vds, P-Channel Power MOSFET, 9.5mOhm Ron, 33.7nC Qg (typ), PowerDI3333-8"
+			(at 119.38 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "79034402-0ad4-437d-9553-0351656a77a0")
+		)
+		(pin "1"
+			(uuid "24c8b702-54b0-4d4d-a486-6f8b40b8b3fe")
+		)
+		(pin "2"
+			(uuid "be94ca9e-2d34-4ed0-bf43-e06ec0652ea6")
+		)
+		(pin "5"
+			(uuid "f01b33c4-ee5c-4718-8e58-c26b77a6cfe2")
+		)
+		(pin "4"
+			(uuid "4fcc8803-e606-4456-8f51-1448a43fee00")
+		)
+		(instances
+			(project ""
+				(path "/1f48ed4c-84ce-4e77-88fc-25bf92dcee2d/05204050-0c20-42af-9081-73af52e92f24"
+					(reference "Q5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Transistor_FET:DMP3013SFV")
+		(at 170.18 52.07 270)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "9379044a-63bc-43b6-a3a1-7e2f00c91591")
+		(property "Reference" "Q3"
+			(at 170.18 43.18 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "DMP3013SFV"
+			(at 170.18 45.72 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_SON:Diodes_PowerDI3333-8"
+			(at 168.275 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.diodes.com/assets/Datasheets/DMP3013SFV.pdf"
+			(at 166.37 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" "-12A Id, -30V Vds, P-Channel Power MOSFET, 9.5mOhm Ron, 33.7nC Qg (typ), PowerDI3333-8"
+			(at 170.18 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "083bd6e6-4e67-486e-8532-9ff63d085e96")
+		)
+		(pin "1"
+			(uuid "1f9ce300-f99b-48f2-addb-54a22a87801d")
+		)
+		(pin "2"
+			(uuid "a756ebb2-c9f2-4896-978a-fca16c3ad03c")
+		)
+		(pin "5"
+			(uuid "867d68a5-1313-46fc-8484-a08349e8ed1b")
+		)
+		(pin "4"
+			(uuid "d5db0a5d-2bd1-4e5b-962f-11fcfb9fa767")
+		)
+		(instances
+			(project "RSC_extension_board"
+				(path "/1f48ed4c-84ce-4e77-88fc-25bf92dcee2d/05204050-0c20-42af-9081-73af52e92f24"
+					(reference "Q3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "CYPD3177:CYPD3177-24LQ")
 		(at 121.92 110.49 0)
 		(unit 1)
@@ -6544,166 +6102,6 @@
 			(project "RSC_extension_board"
 				(path "/1f48ed4c-84ce-4e77-88fc-25bf92dcee2d/05204050-0c20-42af-9081-73af52e92f24"
 					(reference "R9")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "BSC084P03NS3GATMA1:BSC084P03NS3GATMA1")
-		(at 111.76 43.18 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "a20a4733-df92-42db-a438-1713d4dc3bc3")
-		(property "Reference" "Q3"
-			(at 122.682 39.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "BSC084P03NS3GATMA1"
-			(at 122.682 41.91 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "BSC054N04NSG"
-			(at 133.35 138.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.infineon.com/dgdl/Infineon-BSC084P03NS3_G-DS-v02_01-en.pdf?fileId=db3a304320896aa20120c83fdcd7326c"
-			(at 133.35 238.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Description" "MOSFET P-Ch -30V -78.6A TDSON-8 OptiMOS P3"
-			(at 111.76 43.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Height" "1"
-			(at 133.35 438.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Name" "Infineon"
-			(at 133.35 538.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Part_Number" "BSC084P03NS3GATMA1"
-			(at 133.35 638.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Mouser Part Number" "726-BSC084P03NS3GATM"
-			(at 133.35 738.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Infineon-Technologies/BSC084P03NS3GATMA1?qs=K00xGehIljsA0utGkXXbwA%3D%3D"
-			(at 133.35 838.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Arrow Part Number" "BSC084P03NS3GATMA1"
-			(at 133.35 938.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Arrow Price/Stock" "https://www.arrow.com/en/products/bsc084p03ns3gatma1/infineon-technologies-ag?utm_currency=USD&region=nac"
-			(at 133.35 1038.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(pin "9"
-			(uuid "934ce859-784a-42f6-80bc-d52de16d2de7")
-		)
-		(pin "1"
-			(uuid "2bb139bf-5b46-443f-a340-313157b17203")
-		)
-		(pin "8"
-			(uuid "d5ac99cb-f794-49ba-84a3-a1c185b6d4ba")
-		)
-		(pin "3"
-			(uuid "18317213-a6aa-4995-808e-d7656720ca49")
-		)
-		(pin "5"
-			(uuid "a4ff8e9e-e009-4e68-ae4a-446c32badf4e")
-		)
-		(pin "6"
-			(uuid "1e7b8ff1-da7b-4cdb-920b-b2d85ebc37b5")
-		)
-		(pin "2"
-			(uuid "9ab8c975-9e86-4bf3-ac24-d6a5462b2a3e")
-		)
-		(pin "7"
-			(uuid "e08a00a2-2d3c-4e88-8e75-311300a0479c")
-		)
-		(pin "4"
-			(uuid "91135dd7-873a-4a80-a84a-ccb7d5330ca3")
-		)
-		(instances
-			(project "RSC_extension_board"
-				(path "/1f48ed4c-84ce-4e77-88fc-25bf92dcee2d/05204050-0c20-42af-9081-73af52e92f24"
-					(reference "Q3")
 					(unit 1)
 				)
 			)
