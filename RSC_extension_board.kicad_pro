@@ -570,7 +570,7 @@
       "plot": "",
       "pos_files": "",
       "specctra_dsn": "",
-      "step": "RSC_extension_board.glb",
+      "step": "RSC_extension_board.step",
       "svg": "",
       "vrml": ""
     },
