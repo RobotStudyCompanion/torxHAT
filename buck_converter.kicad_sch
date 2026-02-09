@@ -4832,7 +4832,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_DFN_QFN:LMR60440"
+		(property "Footprint" "KiCad:QFN-9_2.5x2.0mm_RAK"
 			(at 132.08 63.5 0)
 			(effects
 				(font
@@ -4989,7 +4989,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_DFN_QFN:LMR60440"
+		(property "Footprint" "KiCad:QFN-9_2.5x2.0mm_RAK"
 			(at 132.08 123.19 0)
 			(effects
 				(font
