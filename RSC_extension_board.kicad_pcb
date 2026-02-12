@@ -24419,6 +24419,59 @@
 		(net 1)
 		(uuid "f005bcb6-ed87-4980-8598-9d11252b6b73")
 	)
+	(gr_line
+		(start 160.5 139.5)
+		(end 160.5 169.55)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "Dwgs.User")
+		(uuid "0480927c-ed5f-4271-9c7a-e8c07a3e4ac0")
+	)
+	(gr_arc
+		(start 98.5 193.05)
+		(mid 96.37868 192.17132)
+		(end 95.5 190.05)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "Dwgs.User")
+		(uuid "26c75970-b537-4cc4-bf53-66479f7b3333")
+	)
+	(gr_arc
+		(start 157.5 136.5)
+		(mid 159.62132 137.37868)
+		(end 160.5 139.5)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "Dwgs.User")
+		(uuid "29f4adce-e602-4127-968b-57ffb6b3e5c4")
+	)
+	(gr_arc
+		(start 95.5 139.5)
+		(mid 96.37868 137.37868)
+		(end 98.5 136.5)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "Dwgs.User")
+		(uuid "36cc3590-c3d0-45d5-965a-34c3775b1dac")
+	)
+	(gr_line
+		(start 132.75 193.05)
+		(end 98.5 193.05)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "Dwgs.User")
+		(uuid "5eb5d4a7-3ee7-4ced-8872-35ec0b957631")
+	)
 	(gr_rect
 		(start 95 45)
 		(end 180 101)
@@ -24431,6 +24484,36 @@
 		(layer "Dwgs.User")
 		(uuid "7e0516dd-30b4-406c-93da-fbe183b8cd04")
 	)
+	(gr_line
+		(start 98.5 136.5)
+		(end 157.5 136.5)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "Dwgs.User")
+		(uuid "9d2721f1-2109-4c1f-a914-525aaf53e8b6")
+	)
+	(gr_line
+		(start 95.5 190.05)
+		(end 95.5 139.5)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "Dwgs.User")
+		(uuid "9dae20de-5e91-4398-8842-521f86e2aab1")
+	)
+	(gr_line
+		(start 132.75 169.55)
+		(end 160.5 169.55)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "Dwgs.User")
+		(uuid "a2220c1e-afe2-43ac-89ff-74f55dad7cf5")
+	)
 	(gr_rect
 		(start 95 45)
 		(end 160 75)
@@ -24442,6 +24525,16 @@
 		(locked yes)
 		(layer "Dwgs.User")
 		(uuid "e8125627-ac3e-4478-9996-f3591d83aa47")
+	)
+	(gr_line
+		(start 132.75 193.05)
+		(end 132.75 169.55)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "Dwgs.User")
+		(uuid "f931fd90-7c5f-406c-9348-ad3296dc43cd")
 	)
 	(gr_arc
 		(start 95 47.45)
