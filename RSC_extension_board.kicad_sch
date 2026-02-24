@@ -6932,6 +6932,26 @@
 	)
 	(wire
 		(pts
+			(xy 148.59 214.63) (xy 156.21 214.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "91375ce7-8a99-4d83-b40a-410948cea978")
+	)
+	(wire
+		(pts
+			(xy 148.59 217.17) (xy 156.21 217.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "919b57ad-a3ac-4dc1-b603-a438000fcb5b")
+	)
+	(wire
+		(pts
 			(xy 342.9 133.35) (xy 367.03 133.35)
 		)
 		(stroke
@@ -7870,6 +7890,16 @@
 		)
 		(uuid "0c0090af-434c-47df-9eb6-33a2ea2ff89b")
 	)
+	(label "SDA"
+		(at 148.59 214.63 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "0d75049d-7ff6-4627-86af-637f7ec5c49a")
+	)
 	(label "LED_3.3V"
 		(at 107.95 58.42 0)
 		(effects
@@ -8059,6 +8089,16 @@
 			(justify left bottom)
 		)
 		(uuid "39629e7e-d606-463f-8b4a-3d21d518b1b1")
+	)
+	(label "SCL"
+		(at 148.59 217.17 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "3f8eb62e-e7b6-4f45-80dd-8abf478b5fb7")
 	)
 	(label "GPIO08"
 		(at 54.61 173.99 0)
@@ -15298,6 +15338,26 @@
 					(size 1.27 1.27)
 				)
 				(justify left top)
+			)
+		)
+		(pin "SCL" input
+			(at 156.21 217.17 180)
+			(uuid "e8f1dae4-6a30-41df-9eed-6907ace846e8")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "SDA" input
+			(at 156.21 214.63 180)
+			(uuid "f5ce1a25-4ccb-45fb-bbb0-2c8f40ea83f5")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
 			)
 		)
 		(instances
