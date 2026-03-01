@@ -14641,7 +14641,7 @@
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
-		(on_board no)
+		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e67de924-b42e-4065-99f3-39fac5bf4b8f")
@@ -14663,7 +14663,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "SparkFun-Qwiic:qwiic_5mm"
 			(at 369.57 190.5 0)
 			(effects
 				(font
