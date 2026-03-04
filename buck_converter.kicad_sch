@@ -2976,7 +2976,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "GND1"
+		(property "Value" "GND2"
 			(at 158.75 149.0979 0)
 			(effects
 				(font
@@ -3113,7 +3113,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "RT1"
+		(property "Value" "RT2"
 			(at 129.54 143.5099 90)
 			(effects
 				(font
@@ -3179,7 +3179,7 @@
 				)
 			)
 		)
-		(property "Value" "MODE1"
+		(property "Value" "MODE2"
 			(at 109.728 139.7 90)
 			(effects
 				(font
@@ -3515,7 +3515,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "SW1"
+		(property "Value" "SW2"
 			(at 167.64 127.5079 0)
 			(effects
 				(font
@@ -3858,7 +3858,7 @@
 				)
 			)
 		)
-		(property "Value" "EN1"
+		(property "Value" "EN2"
 			(at 97.028 127 90)
 			(effects
 				(font
@@ -5816,7 +5816,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "VIN1"
+		(property "Value" "VIN2"
 			(at 115.57 108.4579 0)
 			(effects
 				(font
@@ -5883,7 +5883,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "VOUT1"
+		(property "Value" "VOUT2"
 			(at 203.2 127.5079 0)
 			(effects
 				(font
@@ -6559,7 +6559,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "FB1"
+		(property "Value" "FB2"
 			(at 179.07 145.5419 0)
 			(effects
 				(font
