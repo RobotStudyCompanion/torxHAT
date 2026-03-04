@@ -25125,7 +25125,7 @@
 		(start 126.3 101)
 		(end 98 101)
 		(stroke
-			(width 0.2)
+			(width 0.05)
 			(type solid)
 		)
 		(layer "Edge.Cuts")
@@ -25172,8 +25172,8 @@
 		(mid 130.17868 76.55736)
 		(end 132.3 75.67868)
 		(stroke
-			(width 0.2)
-			(type default)
+			(width 0.05)
+			(type solid)
 		)
 		(locked yes)
 		(layer "Edge.Cuts")
@@ -25183,7 +25183,7 @@
 		(start 129.3 98)
 		(end 129.3 78.67868)
 		(stroke
-			(width 0.2)
+			(width 0.05)
 			(type solid)
 		)
 		(locked yes)
@@ -25216,7 +25216,7 @@
 		(start 156.9787 75.67868)
 		(end 132.3 75.67868)
 		(stroke
-			(width 0.2)
+			(width 0.05)
 			(type solid)
 		)
 		(locked yes)
@@ -25227,7 +25227,7 @@
 		(start 159.978679 72.67868)
 		(end 160 47.45)
 		(stroke
-			(width 0.2)
+			(width 0.05)
 			(type solid)
 		)
 		(layer "Edge.Cuts")
