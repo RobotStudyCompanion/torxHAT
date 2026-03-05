@@ -12334,7 +12334,7 @@
 			(pinfunction "VIN")
 			(pintype "passive")
 			(solder_paste_margin_ratio 0.065)
-			(uuid "24ec983d-f7d7-456b-8470-36230e0033a0")
+			(uuid "59e26f6c-d279-44cc-b930-81d447b699e7")
 		)
 		(pad "2" thru_hole circle
 			(at -0.7 0 180)
@@ -12358,7 +12358,7 @@
 			(pinfunction "PGND")
 			(pintype "passive")
 			(solder_paste_margin_ratio -0.065)
-			(uuid "205f790e-3d42-4b49-b486-2092af91c376")
+			(uuid "8705c6f8-b0b7-46fd-b7b4-b89446dbdf32")
 		)
 		(pad "2" smd roundrect
 			(at 0 0 180)
@@ -12369,7 +12369,7 @@
 			(pinfunction "PGND")
 			(pintype "passive")
 			(solder_paste_margin_ratio 0.065)
-			(uuid "205f790e-3d42-4b49-b486-2092af91c376")
+			(uuid "b52e761b-a74c-43f9-bdd3-4631015a9bf1")
 		)
 		(pad "2" thru_hole circle
 			(at 0.7 0 180)
@@ -12381,7 +12381,7 @@
 			(pinfunction "PGND")
 			(pintype "passive")
 			(solder_paste_margin_ratio -0.065)
-			(uuid "205f790e-3d42-4b49-b486-2092af91c376")
+			(uuid "47012147-ebb2-4ef0-a27a-521894383373")
 		)
 		(pad "3" smd roundrect
 			(at -0.9 0.9275 180)
@@ -12403,7 +12403,7 @@
 			(pinfunction "SW")
 			(pintype "passive")
 			(solder_paste_margin_ratio 0.065)
-			(uuid "fb9be1cc-1241-4136-9bb4-9fe38396ad3f")
+			(uuid "ed570e6f-7c1d-489a-aa1a-8d698c32918e")
 		)
 		(pad "4" smd roundrect
 			(at -0.075 1.125 180)
@@ -12436,7 +12436,7 @@
 			(pinfunction "PG")
 			(pintype "passive")
 			(solder_paste_margin_ratio 0.065)
-			(uuid "83e88e98-affd-4bb8-a860-d2b8681be3b9")
+			(uuid "4a2c6a14-9a95-4796-886d-6bde1722c0ea")
 		)
 		(pad "6" smd roundrect
 			(at 0.875 0.525 180)
@@ -12480,7 +12480,7 @@
 			(pinfunction "RT")
 			(pintype "passive")
 			(solder_paste_margin_ratio 0.065)
-			(uuid "8abd0a90-0d7a-498e-892c-1220e4cb9b23")
+			(uuid "5a68e241-96e6-473d-b109-f8724d02fe33")
 		)
 		(pad "9" smd roundrect
 			(at -0.075 -1.125 180)
@@ -17761,7 +17761,7 @@
 			(pinfunction "VIN")
 			(pintype "passive")
 			(solder_paste_margin_ratio 0.065)
-			(uuid "aaa4eaad-355e-4233-9fbc-cf02ef44c14c")
+			(uuid "e0d81906-8e2b-4d07-86eb-8f0f3c5778ff")
 		)
 		(pad "2" thru_hole circle
 			(at -0.7 0 90)
@@ -17785,7 +17785,7 @@
 			(pinfunction "PGND")
 			(pintype "passive")
 			(solder_paste_margin_ratio -0.065)
-			(uuid "1fc5c5f3-eb07-4128-830f-a3c618c87ba4")
+			(uuid "ff8d9a13-e80b-4c7b-a913-cc661a63d8dc")
 		)
 		(pad "2" smd roundrect
 			(at 0 0 90)
@@ -17796,7 +17796,7 @@
 			(pinfunction "PGND")
 			(pintype "passive")
 			(solder_paste_margin_ratio 0.065)
-			(uuid "1fc5c5f3-eb07-4128-830f-a3c618c87ba4")
+			(uuid "3926cbb5-e9c4-4121-bb6a-846ba561c81f")
 		)
 		(pad "2" thru_hole circle
 			(at 0.7 0 90)
@@ -17808,7 +17808,7 @@
 			(pinfunction "PGND")
 			(pintype "passive")
 			(solder_paste_margin_ratio -0.065)
-			(uuid "1fc5c5f3-eb07-4128-830f-a3c618c87ba4")
+			(uuid "836c0802-d7a2-46ca-bcfc-31a5fed8f146")
 		)
 		(pad "3" smd roundrect
 			(at -0.9 0.9275 90)
@@ -17830,7 +17830,7 @@
 			(pinfunction "SW")
 			(pintype "passive")
 			(solder_paste_margin_ratio 0.065)
-			(uuid "087b071d-c246-4685-bb83-84bbc309504b")
+			(uuid "995a51bf-974e-4758-bd64-eeb15165cfb4")
 		)
 		(pad "4" smd roundrect
 			(at -0.075 1.125 90)
@@ -17863,7 +17863,7 @@
 			(pinfunction "PG")
 			(pintype "passive")
 			(solder_paste_margin_ratio 0.065)
-			(uuid "067a08c3-b57b-4e48-ad68-cd28c5d6ca12")
+			(uuid "2878596a-6331-49a4-ab4b-1ad7addb344c")
 		)
 		(pad "6" smd roundrect
 			(at 0.875 0.525 90)
@@ -17907,7 +17907,7 @@
 			(pinfunction "RT")
 			(pintype "passive")
 			(solder_paste_margin_ratio 0.065)
-			(uuid "f798859d-4f7e-402e-8f74-98bc977f793f")
+			(uuid "99185546-f23f-42ea-9627-131fdc3103ba")
 		)
 		(pad "9" smd roundrect
 			(at -0.075 -1.125 90)
