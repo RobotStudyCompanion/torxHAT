@@ -567,7 +567,7 @@
       "gencad": "",
       "idf": "",
       "netlist": "",
-      "plot": "",
+      "plot": "C:/Users/raixt/Desktop/gerber/",
       "pos_files": "",
       "specctra_dsn": "",
       "step": "RSC_extension_board.step",
