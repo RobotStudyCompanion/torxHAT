@@ -847,7 +847,7 @@
 		(path "/8a23fee1-8a0a-4a00-88d2-3a4147ed7fcf/7d439277-30ca-45e4-8f7e-7e73f8ffce41")
 		(sheetname "/Buck converter/")
 		(sheetfile "buck_converter.kicad_sch")
-		(attr smd)
+		(attr smd dnp)
 		(fp_line
 			(start -0.254724 0.5225)
 			(end 0.254724 0.5225)
@@ -1046,7 +1046,7 @@
 		(path "/7f79ab27-27bf-45a6-905f-9c025a28bcbc")
 		(sheetname "/")
 		(sheetfile "RSC_extension_board.kicad_sch")
-		(attr through_hole)
+		(attr through_hole exclude_from_bom)
 		(fp_line
 			(start -1.33 24.19)
 			(end 1.33 24.19)
@@ -2708,7 +2708,7 @@
 		(path "/8a23fee1-8a0a-4a00-88d2-3a4147ed7fcf/be0bd91e-29d2-42aa-8c97-b5e51fe9c48c")
 		(sheetname "/Buck converter/")
 		(sheetfile "buck_converter.kicad_sch")
-		(attr smd)
+		(attr smd dnp)
 		(fp_line
 			(start -0.254724 -0.5225)
 			(end 0.254724 -0.5225)
@@ -3106,7 +3106,7 @@
 		(path "/8a23fee1-8a0a-4a00-88d2-3a4147ed7fcf/3a4c82d3-58a7-4ef7-a885-f7414972fa70")
 		(sheetname "/Buck converter/")
 		(sheetfile "buck_converter.kicad_sch")
-		(attr smd)
+		(attr smd dnp)
 		(fp_line
 			(start -0.254724 0.5225)
 			(end 0.254724 0.5225)
@@ -4468,7 +4468,7 @@
 		(path "/2269a9ac-fabc-4840-b97c-59e5da1ec843")
 		(sheetname "/")
 		(sheetfile "RSC_extension_board.kicad_sch")
-		(attr through_hole)
+		(attr through_hole exclude_from_bom)
 		(fp_line
 			(start -1.38 6.46)
 			(end 1.38 6.46)
@@ -9154,7 +9154,7 @@
 		(path "/726dce84-6cb0-4068-a275-d9d65b2f23f8")
 		(sheetname "/")
 		(sheetfile "RSC_extension_board.kicad_sch")
-		(attr through_hole)
+		(attr through_hole exclude_from_bom)
 		(fp_line
 			(start -1.38 6.46)
 			(end 1.38 6.46)
@@ -9967,7 +9967,7 @@
 		(tags "Inductor")
 		(property "Reference" "L1"
 			(at 0 0 90)
-			(layer "Cmts.User")
+			(layer "F.SilkS")
 			(uuid "204b7b34-a8fd-47d4-81a4-abe8179ea37c")
 			(effects
 				(font
@@ -10017,7 +10017,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "050b5686-e8e2-46f4-886b-05b936342363")
+			(uuid "4b09e606-bf7a-43ba-adc0-ca10e23a8a83")
 			(effects
 				(font
 					(size 1 1)
@@ -10030,7 +10030,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "da70ebd1-68d3-4559-8cb7-19cfe1de9905")
+			(uuid "abb0ee60-abc6-424b-aac5-fee1972e729b")
 			(effects
 				(font
 					(size 1 1)
@@ -10043,7 +10043,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "7470249f-84c9-4ce5-8ddb-1e578c04eac3")
+			(uuid "5549f463-f205-4352-bc64-4fbbd22183ea")
 			(effects
 				(font
 					(size 1 1)
@@ -10056,7 +10056,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "05fa0553-9007-485e-b494-8388aa0c962d")
+			(uuid "c0c3e9f2-0c7f-49d1-bf99-72995fbd7bae")
 			(effects
 				(font
 					(size 1 1)
@@ -10069,7 +10069,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "d3b5dc22-fe8c-4f95-9aea-66c0c0566a62")
+			(uuid "b21d7f31-b1f4-4d51-8fea-e5be24aa5395")
 			(effects
 				(font
 					(size 1 1)
@@ -10082,7 +10082,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "a067d6c7-d0e4-492a-8c15-cb7c4fd75a38")
+			(uuid "02651279-5d97-4b41-9a7f-a8c26e765cce")
 			(effects
 				(font
 					(size 1 1)
@@ -10095,7 +10095,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "ff8f4a22-8a9b-45da-8433-28e27e0b3571")
+			(uuid "5913d184-98d2-4711-86fb-83b5856a20dc")
 			(effects
 				(font
 					(size 1 1)
@@ -10115,7 +10115,7 @@
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "43ea42dc-46bb-4fa5-948f-5ab6a77ffed7")
+			(uuid "7db122ea-938d-48c6-b2a8-394c5e5bde8d")
 		)
 		(fp_line
 			(start -2.05 -2.05)
@@ -10125,7 +10125,7 @@
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "4d8d4a60-ec89-436e-b015-2054345d01c0")
+			(uuid "cc54a152-9772-4988-af5d-7dd826f4f015")
 		)
 		(fp_line
 			(start 2.05 2.05)
@@ -10135,7 +10135,7 @@
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "aaa9794d-8273-403f-9e58-d20f92b597af")
+			(uuid "18611865-cf3c-4ad9-84b0-3808158eed3e")
 		)
 		(fp_line
 			(start -2.05 2.05)
@@ -10145,7 +10145,7 @@
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "a59897cf-a13a-4208-9088-e692a81ece62")
+			(uuid "aad910f6-5fc3-45e6-a9fe-33f3aa641da2")
 		)
 		(fp_line
 			(start 3.05 -3.05)
@@ -10155,7 +10155,7 @@
 				(type solid)
 			)
 			(layer "F.CrtYd")
-			(uuid "9874aaee-34e7-4628-9e05-563286b9959a")
+			(uuid "6fec6721-58ff-453f-baaf-20d30ecaf042")
 		)
 		(fp_line
 			(start -3.05 -3.05)
@@ -10165,7 +10165,7 @@
 				(type solid)
 			)
 			(layer "F.CrtYd")
-			(uuid "49e1b3b4-bd10-41f9-8e54-2737f6847a81")
+			(uuid "812d04d1-f7df-4f65-a09d-398f14e1dfc3")
 		)
 		(fp_line
 			(start 3.05 3.05)
@@ -10175,7 +10175,7 @@
 				(type solid)
 			)
 			(layer "F.CrtYd")
-			(uuid "1386b99e-b1dc-4653-918a-c31663841af3")
+			(uuid "96f1e4e2-7e49-4e4a-8966-f9d9dba0ba83")
 		)
 		(fp_line
 			(start -3.05 3.05)
@@ -10185,7 +10185,7 @@
 				(type solid)
 			)
 			(layer "F.CrtYd")
-			(uuid "c43e5ced-2e4d-4a03-acc8-33374339efa8")
+			(uuid "a2c289d8-290f-4e6e-a7dc-2aacf279d458")
 		)
 		(fp_line
 			(start 2.05 -2.05)
@@ -10195,7 +10195,7 @@
 				(type solid)
 			)
 			(layer "F.Fab")
-			(uuid "31fb5223-bc79-45e4-a45f-70bf55ee82e9")
+			(uuid "cebcaab4-19a4-4281-9f2c-0f9047575e33")
 		)
 		(fp_line
 			(start -2.05 -2.05)
@@ -10205,7 +10205,7 @@
 				(type solid)
 			)
 			(layer "F.Fab")
-			(uuid "b1a57b13-e737-420f-b6c3-ba4ee59410f4")
+			(uuid "b5ac275b-0aaf-4cb1-8fce-e7fb1c68760b")
 		)
 		(fp_line
 			(start 2.05 2.05)
@@ -10215,7 +10215,7 @@
 				(type solid)
 			)
 			(layer "F.Fab")
-			(uuid "f42f1cef-eaa0-406d-809e-eb3fd827924f")
+			(uuid "ca7ef7a0-1c4f-4298-820b-ae4446ce412a")
 		)
 		(fp_line
 			(start -2.05 2.05)
@@ -10225,7 +10225,7 @@
 				(type solid)
 			)
 			(layer "F.Fab")
-			(uuid "a37155cf-df27-4f1f-bdac-9cb99fc5d584")
+			(uuid "b54ed841-c6d9-4f6d-a97b-6f8a6ed7dd96")
 		)
 		(fp_text user "${REFERENCE}"
 			(at 0 0 90)
@@ -10737,7 +10737,7 @@
 		(path "/8a23fee1-8a0a-4a00-88d2-3a4147ed7fcf/b59a6f7c-a56c-4f92-841a-192d75667686")
 		(sheetname "/Buck converter/")
 		(sheetfile "buck_converter.kicad_sch")
-		(attr smd)
+		(attr smd dnp)
 		(fp_line
 			(start -0.254724 -0.5225)
 			(end 0.254724 -0.5225)
@@ -11232,7 +11232,7 @@
 		(path "/485337d4-3757-438a-afa8-a7ef348b3b25")
 		(sheetname "/")
 		(sheetfile "RSC_extension_board.kicad_sch")
-		(attr through_hole)
+		(attr through_hole exclude_from_bom)
 		(fp_line
 			(start -1.38 -1.38)
 			(end 0 -1.38)
@@ -11485,7 +11485,7 @@
 		(path "/1d6cc105-eca4-48db-bfc2-88597d05c667")
 		(sheetname "/")
 		(sheetfile "RSC_extension_board.kicad_sch")
-		(attr through_hole)
+		(attr through_hole exclude_from_bom)
 		(fp_line
 			(start -1.38 6.46)
 			(end 1.38 6.46)
@@ -11948,7 +11948,7 @@
 		(path "/8a23fee1-8a0a-4a00-88d2-3a4147ed7fcf/8ea62c6d-c40e-46b5-a8bb-f8792b601b54")
 		(sheetname "/Buck converter/")
 		(sheetfile "buck_converter.kicad_sch")
-		(attr smd)
+		(attr smd dnp)
 		(fp_line
 			(start -0.254724 -0.5225)
 			(end 0.254724 -0.5225)
@@ -14714,7 +14714,7 @@
 		(tags "Inductor")
 		(property "Reference" "L2"
 			(at 0 0 90)
-			(layer "Cmts.User")
+			(layer "F.SilkS")
 			(uuid "156d4b83-1b74-4866-abdd-eb0b199894b5")
 			(effects
 				(font
@@ -14764,7 +14764,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "afea50c8-60b9-418f-9aa2-d9e3e8ca47a0")
+			(uuid "00f0eb60-c862-47e8-bba4-062546f54265")
 			(effects
 				(font
 					(size 1 1)
@@ -14777,7 +14777,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "34727537-0a65-48a4-8569-727dfdf9c50e")
+			(uuid "b96445ce-4823-4505-95c2-d6abe54c24c3")
 			(effects
 				(font
 					(size 1 1)
@@ -14790,7 +14790,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "f53e7791-79f0-4003-b810-b5e3b084b3d9")
+			(uuid "fbdaf84a-020d-44a7-b182-3447ac89b48b")
 			(effects
 				(font
 					(size 1 1)
@@ -14803,7 +14803,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "554c57eb-2952-4572-983e-0a11d4de2b44")
+			(uuid "59ce0acf-b84c-434c-9b45-222beb3338e3")
 			(effects
 				(font
 					(size 1 1)
@@ -14816,7 +14816,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "c605138c-981c-4bef-9f8c-a2df312faaa4")
+			(uuid "3dbfe812-8606-4fe5-8653-4d44dcaaa40c")
 			(effects
 				(font
 					(size 1 1)
@@ -14829,7 +14829,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "228d117c-8598-4b92-92b5-5fbccf91ac67")
+			(uuid "9326a783-e9d8-49cc-b82c-b174925ec490")
 			(effects
 				(font
 					(size 1 1)
@@ -14842,7 +14842,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "115fcefc-5d16-4740-8aa3-441021f430fd")
+			(uuid "ca2d3ce9-96e5-474e-81ce-277dad8e4363")
 			(effects
 				(font
 					(size 1 1)
@@ -14862,7 +14862,7 @@
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "384066ca-c001-43c4-b871-bd0d7f52f401")
+			(uuid "6f912f4f-a9ec-4c81-82f6-68883fdc1dc1")
 		)
 		(fp_line
 			(start -2.05 -2.05)
@@ -14872,7 +14872,7 @@
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "1d279485-5a52-40e0-a4a3-6f360cc6f4ce")
+			(uuid "14805051-0283-4c8d-a026-5131ff546e7b")
 		)
 		(fp_line
 			(start 2.05 2.05)
@@ -14882,7 +14882,7 @@
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "a517d430-6c36-4bec-8479-a649f2fc7531")
+			(uuid "9afebf2e-a710-4365-873f-1c904b5d7a30")
 		)
 		(fp_line
 			(start -2.05 2.05)
@@ -14892,7 +14892,7 @@
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "26be38e1-a75a-442a-9225-fc03c229f351")
+			(uuid "ea5aea87-9301-4b2e-ae1f-8ee5e5d0e892")
 		)
 		(fp_line
 			(start 3.05 -3.05)
@@ -14902,7 +14902,7 @@
 				(type solid)
 			)
 			(layer "F.CrtYd")
-			(uuid "0917e3aa-04e9-4977-a2ac-89818281778b")
+			(uuid "51886d88-2c94-4c5b-8285-5e87916ac48a")
 		)
 		(fp_line
 			(start -3.05 -3.05)
@@ -14912,7 +14912,7 @@
 				(type solid)
 			)
 			(layer "F.CrtYd")
-			(uuid "03b87f0b-37f8-4989-9da5-a41c3412b202")
+			(uuid "04bd42c3-617b-4a8e-bd23-d97c39577ab2")
 		)
 		(fp_line
 			(start 3.05 3.05)
@@ -14922,7 +14922,7 @@
 				(type solid)
 			)
 			(layer "F.CrtYd")
-			(uuid "ef29e2ce-c61e-4470-86a3-e6345c78e17c")
+			(uuid "819f2699-c20b-4d5f-92b4-8a387bccd515")
 		)
 		(fp_line
 			(start -3.05 3.05)
@@ -14932,7 +14932,7 @@
 				(type solid)
 			)
 			(layer "F.CrtYd")
-			(uuid "8effd51b-825f-4bd6-8137-ad40e5c74bf1")
+			(uuid "69014b33-80b6-49fe-b1f8-17087e6d0c89")
 		)
 		(fp_line
 			(start 2.05 -2.05)
@@ -14942,7 +14942,7 @@
 				(type solid)
 			)
 			(layer "F.Fab")
-			(uuid "5e18ba60-f841-4724-87c3-a7e7741e1cbc")
+			(uuid "7b8bbf97-bd0f-4cd3-b3bc-a759e867bfdf")
 		)
 		(fp_line
 			(start -2.05 -2.05)
@@ -14952,7 +14952,7 @@
 				(type solid)
 			)
 			(layer "F.Fab")
-			(uuid "a3731423-abd2-4d4d-baaa-115f310cf66e")
+			(uuid "d3eac781-2f74-4143-9f8b-cf262e5b8c97")
 		)
 		(fp_line
 			(start 2.05 2.05)
@@ -14962,7 +14962,7 @@
 				(type solid)
 			)
 			(layer "F.Fab")
-			(uuid "a9e0a9db-af9a-40e8-9247-f879feaf32ee")
+			(uuid "9198a2db-5009-4565-893b-e9650088fa8c")
 		)
 		(fp_line
 			(start -2.05 2.05)
@@ -14972,7 +14972,7 @@
 				(type solid)
 			)
 			(layer "F.Fab")
-			(uuid "c3d7a9c8-5143-479a-b67f-4978420d3d78")
+			(uuid "80238375-57c3-4062-882a-27ebbcdf6f97")
 		)
 		(fp_text user "${REFERENCE}"
 			(at 0 0 90)
@@ -15086,7 +15086,7 @@
 		(path "/12bdf4b9-be6c-42a7-b43a-4656af0b67f4")
 		(sheetname "/")
 		(sheetfile "RSC_extension_board.kicad_sch")
-		(attr through_hole)
+		(attr through_hole exclude_from_bom)
 		(fp_line
 			(start -1.38 6.46)
 			(end 1.38 6.46)
@@ -16345,7 +16345,7 @@
 		(path "/05204050-0c20-42af-9081-73af52e92f24/e47e6584-6ba0-46e4-88b3-9ed2c7d14053")
 		(sheetname "/USB_power/")
 		(sheetfile "USB_power.kicad_sch")
-		(attr through_hole)
+		(attr through_hole exclude_from_bom)
 		(fp_line
 			(start -1.38 -1.38)
 			(end 0 -1.38)
@@ -18156,7 +18156,7 @@
 		(path "/1a04623e-6f5a-4bb5-a878-7c920af7b5a1")
 		(sheetname "/")
 		(sheetfile "RSC_extension_board.kicad_sch")
-		(attr through_hole)
+		(attr through_hole exclude_from_bom)
 		(fp_line
 			(start -1.38 -1.38)
 			(end 0 -1.38)
@@ -18431,7 +18431,7 @@
 		(path "/8a23fee1-8a0a-4a00-88d2-3a4147ed7fcf/98b7d8ac-8c0c-4409-bf0c-72268e4ad0b9")
 		(sheetname "/Buck converter/")
 		(sheetfile "buck_converter.kicad_sch")
-		(attr smd)
+		(attr smd dnp)
 		(fp_line
 			(start -0.254724 0.5225)
 			(end 0.254724 0.5225)
@@ -18630,7 +18630,7 @@
 		(path "/7d80487b-0cf7-4efe-addf-4ece77798cad")
 		(sheetname "/")
 		(sheetfile "RSC_extension_board.kicad_sch")
-		(attr through_hole)
+		(attr through_hole exclude_from_bom)
 		(fp_line
 			(start -1.38 6.46)
 			(end 1.38 6.46)
@@ -18896,7 +18896,7 @@
 		(path "/e67de924-b42e-4065-99f3-39fac5bf4b8f")
 		(sheetname "/")
 		(sheetfile "RSC_extension_board.kicad_sch")
-		(attr board_only exclude_from_pos_files)
+		(attr board_only exclude_from_pos_files exclude_from_bom)
 		(fp_poly
 			(pts
 				(xy -1.585671 -0.207396) (xy -1.547301 -0.194776) (xy -1.512502 -0.172432) (xy -1.50341 -0.164656)
@@ -19470,7 +19470,7 @@
 		(tags "Connector")
 		(property "Reference" "J4"
 			(at -1.27 -4.19 0)
-			(layer "Cmts.User")
+			(layer "F.SilkS")
 			(uuid "b76544e0-f79d-4c89-b1bb-cf92b06b0a97")
 			(effects
 				(font
@@ -19520,7 +19520,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "58c793d9-7b36-4f79-9928-715a84898e92")
+			(uuid "ce5c41df-bf88-48ce-93af-3c618206afbc")
 			(effects
 				(font
 					(size 1 1)
@@ -19533,7 +19533,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "50e5dc9b-4b6e-4de9-8035-cd0e83a1704b")
+			(uuid "0d0f6859-0b09-4af9-a708-2fe5619fdf20")
 			(effects
 				(font
 					(size 1 1)
@@ -19546,7 +19546,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "19f79026-8307-4d7a-bfa9-44364f0b7d8e")
+			(uuid "125f9f32-71ac-4168-9428-339b077e2e3f")
 			(effects
 				(font
 					(size 1 1)
@@ -19559,7 +19559,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "bc0286d3-c2e1-421e-9d4b-4193811bb351")
+			(uuid "2bb51203-fdf8-4b8a-982f-f75e46cda1b1")
 			(effects
 				(font
 					(size 1 1)
@@ -19572,7 +19572,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "8640920e-c226-43a7-a801-b7f833ba3240")
+			(uuid "a826f6ee-1037-4979-8f1a-79b873b574a4")
 			(effects
 				(font
 					(size 1 1)
@@ -19585,7 +19585,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "3e0eb221-a5ab-4c5d-932f-ad2f67a10154")
+			(uuid "e541e068-64fc-4f1f-9344-670a80b1f19c")
 			(effects
 				(font
 					(size 1 1)
@@ -19598,7 +19598,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "19b5f691-c866-4fc5-b16c-0b9ff646b499")
+			(uuid "cbcedc17-4db6-4a49-b051-092756294d24")
 			(effects
 				(font
 					(size 1 1)
@@ -19618,7 +19618,7 @@
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "ab4f40ce-46cd-4335-b25f-f5b56957b97b")
+			(uuid "750476b3-25f2-4c91-8a3d-c431d7dcb46f")
 		)
 		(fp_line
 			(start -25.4 -5.13)
@@ -19628,7 +19628,7 @@
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "82a0db32-c818-4635-b871-80cdfc59e404")
+			(uuid "03d43824-b044-492e-932f-763571388d0e")
 		)
 		(fp_line
 			(start 25.4 -7.67)
@@ -19638,7 +19638,7 @@
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "56aef5d2-5b94-49a9-a41a-81ffb902a858")
+			(uuid "7d7f5faa-b66c-4338-9b34-6af1f6c86551")
 		)
 		(fp_line
 			(start 25.4 -5.13)
@@ -19648,7 +19648,7 @@
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "37f4f44a-8da4-41d3-ac14-b4508c47d2e7")
+			(uuid "b546392e-31e3-47e6-af53-564f69a18ed0")
 		)
 		(fp_circle
 			(center -25.28 2.09)
@@ -19659,7 +19659,7 @@
 			)
 			(fill no)
 			(layer "F.SilkS")
-			(uuid "dac6a9b5-bd4c-4714-afc8-1d5af47b033c")
+			(uuid "3e4407c4-cc7f-43a5-b839-b8adf27c29d3")
 		)
 		(fp_line
 			(start -26.6 -8.87)
@@ -19669,7 +19669,7 @@
 				(type solid)
 			)
 			(layer "F.CrtYd")
-			(uuid "1329e6b1-6c6c-4a58-864f-c8d40d5a96d2")
+			(uuid "010277a2-5ced-4c76-9f34-0a97333ac0be")
 		)
 		(fp_line
 			(start -26.6 4.685)
@@ -19679,7 +19679,7 @@
 				(type solid)
 			)
 			(layer "F.CrtYd")
-			(uuid "a8f2926e-44d9-4d3a-bda4-c036334b1bec")
+			(uuid "67a600e9-f688-4188-8fd0-836cd9797f71")
 		)
 		(fp_line
 			(start 26.6 -8.87)
@@ -19689,7 +19689,7 @@
 				(type solid)
 			)
 			(layer "F.CrtYd")
-			(uuid "d2930892-0665-4490-a24b-a7dc14765cb4")
+			(uuid "5f11269e-2751-4622-8096-a211c0fa451a")
 		)
 		(fp_line
 			(start 26.6 4.685)
@@ -19699,7 +19699,7 @@
 				(type solid)
 			)
 			(layer "F.CrtYd")
-			(uuid "89383896-328d-4823-9302-b38c61cdef6a")
+			(uuid "89e3979e-1ed7-43e1-8eb9-890a7d91a0be")
 		)
 		(fp_line
 			(start -25.4 -7.67)
@@ -19709,7 +19709,7 @@
 				(type solid)
 			)
 			(layer "F.Fab")
-			(uuid "66d5ce75-c610-42fd-a2db-dd636d16fb2b")
+			(uuid "cae3d8aa-e938-4075-a989-2e38fae02ee9")
 		)
 		(fp_line
 			(start -25.4 -5.13)
@@ -19719,7 +19719,7 @@
 				(type solid)
 			)
 			(layer "F.Fab")
-			(uuid "8e5c6434-9f35-4d6c-ba33-f6577b49e896")
+			(uuid "6ab5d8cd-f701-4c11-8af5-b551231ec0fa")
 		)
 		(fp_line
 			(start 25.4 -7.67)
@@ -19729,7 +19729,7 @@
 				(type solid)
 			)
 			(layer "F.Fab")
-			(uuid "55e86d04-0194-4830-821a-25d2ce83c712")
+			(uuid "24113b34-068f-4081-90b5-9f153f22b46e")
 		)
 		(fp_line
 			(start 25.4 -5.13)
@@ -19739,7 +19739,7 @@
 				(type solid)
 			)
 			(layer "F.Fab")
-			(uuid "59b7c9de-e870-4628-97a3-cb659b690bb5")
+			(uuid "18337811-2ba3-42f4-bdfb-d93bd93e58a2")
 		)
 		(fp_text user "${REFERENCE}"
 			(at -1.27 -4.19 0)
@@ -19757,14 +19757,14 @@
 			(size 1.78 1.78)
 			(drill 1.78)
 			(layers "*.Cu" "*.Mask")
-			(uuid "9166f433-94f5-45f9-8edc-bdb9e1ce5c86")
+			(uuid "dcfb2759-d0fb-45b4-afa4-4ae3cbc14178")
 		)
 		(pad "" np_thru_hole circle
 			(at 22.86 -6.4)
 			(size 1.78 1.78)
 			(drill 1.78)
 			(layers "*.Cu" "*.Mask")
-			(uuid "678badad-596c-403f-81c3-cff86afe24b4")
+			(uuid "d2cf8476-fa70-4585-a39a-1f0ade42cfd2")
 		)
 		(pad "1" smd rect
 			(at -24.13 2.09)
@@ -20792,7 +20792,7 @@
 		(path "/9b957558-99e1-4ab0-94b6-dd89d86ed0f3")
 		(sheetname "/")
 		(sheetfile "RSC_extension_board.kicad_sch")
-		(attr through_hole)
+		(attr through_hole exclude_from_bom)
 		(fp_line
 			(start -1.38 -1.38)
 			(end 0 -1.38)
@@ -21251,7 +21251,7 @@
 		(path "/8a23fee1-8a0a-4a00-88d2-3a4147ed7fcf/50f580ca-d795-44e1-bf1c-ae954a31db54")
 		(sheetname "/Buck converter/")
 		(sheetfile "buck_converter.kicad_sch")
-		(attr exclude_from_pos_files)
+		(attr exclude_from_pos_files exclude_from_bom)
 		(fp_circle
 			(center 0 0)
 			(end 0 -0.7)
@@ -21360,7 +21360,7 @@
 		(path "/8a23fee1-8a0a-4a00-88d2-3a4147ed7fcf/6ee4df5b-a26e-4fd1-9577-6bc8fa64b8f8")
 		(sheetname "/Buck converter/")
 		(sheetfile "buck_converter.kicad_sch")
-		(attr exclude_from_pos_files)
+		(attr exclude_from_pos_files exclude_from_bom)
 		(fp_circle
 			(center 0 0)
 			(end 0 -0.7)
@@ -21469,7 +21469,7 @@
 		(path "/8a23fee1-8a0a-4a00-88d2-3a4147ed7fcf/ad03e77e-1f4c-4ace-ab42-04a3d77f0086")
 		(sheetname "/Buck converter/")
 		(sheetfile "buck_converter.kicad_sch")
-		(attr exclude_from_pos_files)
+		(attr exclude_from_pos_files exclude_from_bom)
 		(fp_circle
 			(center 0 0)
 			(end 0 -0.7)
@@ -21967,7 +21967,7 @@
 		(path "/8a23fee1-8a0a-4a00-88d2-3a4147ed7fcf/61564bc5-9d9d-4324-b001-2e4ab04e306e")
 		(sheetname "/Buck converter/")
 		(sheetfile "buck_converter.kicad_sch")
-		(attr exclude_from_pos_files)
+		(attr exclude_from_pos_files exclude_from_bom)
 		(fp_circle
 			(center 0 0)
 			(end 0 -0.7)
@@ -22529,7 +22529,7 @@
 		(path "/8a23fee1-8a0a-4a00-88d2-3a4147ed7fcf/4594f0d5-4752-403c-a0f3-84816163af27")
 		(sheetname "/Buck converter/")
 		(sheetfile "buck_converter.kicad_sch")
-		(attr exclude_from_pos_files)
+		(attr exclude_from_pos_files exclude_from_bom)
 		(fp_circle
 			(center 0 0)
 			(end 0 -0.7)
@@ -22638,7 +22638,7 @@
 		(path "/8a23fee1-8a0a-4a00-88d2-3a4147ed7fcf/a6a2ca16-121b-48ed-beba-99e7b2aec956")
 		(sheetname "/Buck converter/")
 		(sheetfile "buck_converter.kicad_sch")
-		(attr exclude_from_pos_files)
+		(attr exclude_from_pos_files exclude_from_bom)
 		(fp_circle
 			(center 0 0)
 			(end 0 -0.7)
@@ -22747,7 +22747,7 @@
 		(path "/8a23fee1-8a0a-4a00-88d2-3a4147ed7fcf/3874f37d-6ad4-4712-9c0e-79884bbface1")
 		(sheetname "/Buck converter/")
 		(sheetfile "buck_converter.kicad_sch")
-		(attr exclude_from_pos_files)
+		(attr exclude_from_pos_files exclude_from_bom)
 		(fp_circle
 			(center 0 0)
 			(end 0 -0.7)
@@ -22856,7 +22856,7 @@
 		(path "/8a23fee1-8a0a-4a00-88d2-3a4147ed7fcf/1a100a94-59d0-4398-91e9-839c2b8ee1d3")
 		(sheetname "/Buck converter/")
 		(sheetfile "buck_converter.kicad_sch")
-		(attr exclude_from_pos_files)
+		(attr exclude_from_pos_files exclude_from_bom)
 		(fp_circle
 			(center 0 0)
 			(end 0 -0.7)
@@ -22965,7 +22965,7 @@
 		(path "/8a23fee1-8a0a-4a00-88d2-3a4147ed7fcf/e4751f69-3031-4e32-849e-51180435f2cb")
 		(sheetname "/Buck converter/")
 		(sheetfile "buck_converter.kicad_sch")
-		(attr exclude_from_pos_files)
+		(attr exclude_from_pos_files exclude_from_bom)
 		(fp_circle
 			(center 0 0)
 			(end 0 -0.7)
@@ -23074,7 +23074,7 @@
 		(path "/8a23fee1-8a0a-4a00-88d2-3a4147ed7fcf/8039fee8-9433-419a-9670-a24a16c82c54")
 		(sheetname "/Buck converter/")
 		(sheetfile "buck_converter.kicad_sch")
-		(attr exclude_from_pos_files)
+		(attr exclude_from_pos_files exclude_from_bom)
 		(fp_circle
 			(center 0 0)
 			(end 0 -0.7)
@@ -23183,7 +23183,7 @@
 		(path "/8a23fee1-8a0a-4a00-88d2-3a4147ed7fcf/bffc4147-81f8-4649-ab3c-7b9dcc7be367")
 		(sheetname "/Buck converter/")
 		(sheetfile "buck_converter.kicad_sch")
-		(attr exclude_from_pos_files)
+		(attr exclude_from_pos_files exclude_from_bom)
 		(fp_circle
 			(center 0 0)
 			(end 0 -0.7)
@@ -23292,7 +23292,7 @@
 		(path "/8a23fee1-8a0a-4a00-88d2-3a4147ed7fcf/acc40c14-f32b-4890-95b8-31066960bf03")
 		(sheetname "/Buck converter/")
 		(sheetfile "buck_converter.kicad_sch")
-		(attr exclude_from_pos_files)
+		(attr exclude_from_pos_files exclude_from_bom)
 		(fp_circle
 			(center 0 0)
 			(end 0 -0.7)
@@ -24368,7 +24368,7 @@
 		(path "/8a23fee1-8a0a-4a00-88d2-3a4147ed7fcf/f880450c-be4b-4f8c-bedf-0abc200cd768")
 		(sheetname "/Buck converter/")
 		(sheetfile "buck_converter.kicad_sch")
-		(attr exclude_from_pos_files)
+		(attr exclude_from_pos_files exclude_from_bom)
 		(fp_circle
 			(center 0 0)
 			(end 0 -0.7)
@@ -24477,7 +24477,7 @@
 		(path "/8a23fee1-8a0a-4a00-88d2-3a4147ed7fcf/4b302286-1585-4c19-8411-5313b0f59fd0")
 		(sheetname "/Buck converter/")
 		(sheetfile "buck_converter.kicad_sch")
-		(attr exclude_from_pos_files)
+		(attr exclude_from_pos_files exclude_from_bom)
 		(fp_circle
 			(center 0 0)
 			(end 0 -0.7)
@@ -24586,7 +24586,7 @@
 		(path "/8a23fee1-8a0a-4a00-88d2-3a4147ed7fcf/8f9d1f3d-75f9-4d0f-8fed-df29961a8cf5")
 		(sheetname "/Buck converter/")
 		(sheetfile "buck_converter.kicad_sch")
-		(attr exclude_from_pos_files)
+		(attr exclude_from_pos_files exclude_from_bom)
 		(fp_circle
 			(center 0 0)
 			(end 0 -0.7)
@@ -24695,7 +24695,7 @@
 		(path "/8a23fee1-8a0a-4a00-88d2-3a4147ed7fcf/c195d289-c06d-4bee-8edc-055b7794d0fc")
 		(sheetname "/Buck converter/")
 		(sheetfile "buck_converter.kicad_sch")
-		(attr exclude_from_pos_files)
+		(attr exclude_from_pos_files exclude_from_bom)
 		(fp_circle
 			(center 0 0)
 			(end 0 -0.7)
