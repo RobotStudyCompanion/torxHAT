@@ -13054,7 +13054,7 @@
 				)
 			)
 		)
-		(property "Value" "TSM-120-01-L-DH-A-K-TR"
+		(property "Value" "TSM-120-02-F-DH"
 			(at 123.19 48.26 0)
 			(effects
 				(font
@@ -13111,7 +13111,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer_Part_Number" "TSM-120-01-L-DH-A-K-TR"
+		(property "Manufacturer_Part_Number" "TSM-120-02-F-DH"
 			(at 115.57 -493.32 0)
 			(effects
 				(font
@@ -13121,7 +13121,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser Part Number" "200-TSM12001LDHAKTR"
+		(property "Mouser Part Number" "200-TSM12002FDH"
 			(at 115.57 -593.32 0)
 			(effects
 				(font
@@ -13131,7 +13131,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Samtec/TSM-120-01-L-DH-A-K-TR?qs=Cqqh%252BS766wkIdpcdtjp1jQ%3D%3D"
+		(property "Mouser Price/Stock" ""
 			(at 115.57 -693.32 0)
 			(effects
 				(font
