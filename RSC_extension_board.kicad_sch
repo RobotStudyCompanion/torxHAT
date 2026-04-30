@@ -4,6 +4,11 @@
 	(generator_version "9.0")
 	(uuid "1f48ed4c-84ce-4e77-88fc-25bf92dcee2d")
 	(paper "A4")
+	(title_block
+		(title "RSC hat board")
+		(date "2026-04-30")
+		(rev "A")
+	)
 	(lib_symbols
 		(symbol "2N7002-7-F:2N7002-7-F"
 			(pin_names
