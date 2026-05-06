@@ -8,6 +8,7 @@
 		(title "RSC hat board")
 		(date "2026-04-30")
 		(rev "A")
+		(comment 1 "Author: Raiko Torga")
 	)
 	(lib_symbols
 		(symbol "2N7002-7-F:2N7002-7-F"
