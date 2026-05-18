@@ -6,7 +6,7 @@
 	(paper "A4")
 	(title_block
 		(title "RSC hat board")
-		(date "2026-04-30")
+		(date "2026-05-18")
 		(rev "A")
 		(comment 1 "Author: Raiko Torga")
 	)
@@ -2438,6 +2438,17 @@
 			)
 			(embedded_fonts no)
 		)
+	)
+	(text "This circuit is based on the Adafruit Voice Bonnet schematic design:\nhttps://github.com/adafruit/Adafruit-Voice-Bonnet-PCB/blob/master/Adafruit%20Voice%20Bonnet.sch\n"
+		(exclude_from_sim no)
+		(at 177.292 168.402 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "7d9b2a1e-9473-441d-8b25-9450e14da10d")
 	)
 	(junction
 		(at 223.52 43.18)
