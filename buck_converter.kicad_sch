@@ -6,7 +6,7 @@
 	(paper "A4")
 	(title_block
 		(title "RSC hat board")
-		(date "2026-05-18")
+		(date "2026-05-19")
 		(rev "A")
 		(comment 1 "Author: Raiko Torga")
 	)
@@ -1208,7 +1208,7 @@
 			(embedded_fonts no)
 		)
 	)
-	(text "Input: DC 9 V - 20 V Output: 5 V at 4 A each\nhttps://www.ti.com/lit/ds/symlink/lmr60440.pdf"
+	(text "Input: DC 9 V - 20 V Output: 5.1 V at 4 A each\nhttps://www.ti.com/lit/ds/symlink/lmr60440.pdf"
 		(exclude_from_sim no)
 		(at 178.562 169.164 0)
 		(effects
@@ -2304,7 +2304,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "SHUNT"
+		(property "Value" "82k"
 			(at 194.31 76.1999 0)
 			(effects
 				(font
@@ -3037,7 +3037,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp yes)
+		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "3a4c82d3-58a7-4ef7-a885-f7414972fa70")
 		(property "Reference" "RFBB2"
@@ -3049,7 +3049,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "DNP"
+		(property "Value" "20k"
 			(at 194.31 148.5899 0)
 			(effects
 				(font
@@ -4000,7 +4000,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "SHUNT"
+		(property "Value" "82k"
 			(at 194.31 135.8899 0)
 			(effects
 				(font
@@ -5670,7 +5670,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp yes)
+		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "be0bd91e-29d2-42aa-8c97-b5e51fe9c48c")
 		(property "Reference" "RFBB1"
@@ -5682,7 +5682,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "DNP"
+		(property "Value" "20k"
 			(at 194.31 88.8999 0)
 			(effects
 				(font
