@@ -35,9 +35,6 @@ Audio HATs considered:
 ---
 
 ## Author
-
-Raiko Torga
-
-University of Tartu
-
-Robotic Study Companion
+Raiko Torga  
+Supervised & reviewed by Matevž Borjan Zorec and Farnaz Baksh  
+© Robotic Study Companion 2026
