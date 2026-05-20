@@ -37,4 +37,4 @@ Audio HATs considered:
 ## Author
 Raiko Torga  
 Supervised & reviewed by Matevž Borjan Zorec and Farnaz Baksh  
-© Robotic Study Companion 2026
+© Robotic Study Companion 2026 
