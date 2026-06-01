@@ -6,7 +6,7 @@
 	(paper "A4")
 	(title_block
 		(title "RSC hat board")
-		(date "2026-05-19")
+		(date "2026-06-01")
 		(rev "A")
 		(comment 1 "Author: Raiko Torga")
 	)
@@ -1674,7 +1674,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "KR_EELP41_22-Q1S1-36-A8J8-020-:KR_EELP41.22-Q1S1-36-A8J8-020-R18"
+		(symbol "KW_EELP41_RU-S1U1-3K6L-3X4X-5-:KW_EELP41.RU-S1U1-3K6L-3X4X-5-R18"
 			(pin_names
 				(hide yes)
 			)
@@ -1690,7 +1690,7 @@
 					(justify left bottom)
 				)
 			)
-			(property "Value" "KR_EELP41.22-Q1S1-36-A8J8-020-R18"
+			(property "Value" "KW_EELP41.RU-S1U1-3K6L-3X4X-5-R18"
 				(at 12.7 6.35 0)
 				(effects
 					(font
@@ -1699,7 +1699,7 @@
 					(justify left bottom)
 				)
 			)
-			(property "Footprint" "KREELP4122Q1S136A8J8020R18"
+			(property "Footprint" "KWEELP41RUS1U13K6L3X4X5R18"
 				(at 12.7 -93.65 0)
 				(effects
 					(font
@@ -1709,7 +1709,7 @@
 					(hide yes)
 				)
 			)
-			(property "Datasheet" "https://look.ams-osram.com/m/7eda7e8e2ca21691/original/KR-EELP41-22.pdf"
+			(property "Datasheet" "https://look.ams-osram.com/m/154cb4bb5a0ca73d/original/KW-EELP41-RU.pdf"
 				(at 12.7 -193.65 0)
 				(effects
 					(font
@@ -1719,7 +1719,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "Red 624nm LED Indication - Discrete 1.95V 0603 (1608 Metric)"
+			(property "Description" "White LED Indication - Discrete 2.75V 0603 (1608 Metric)"
 				(at 0 0 0)
 				(effects
 					(font
@@ -1748,7 +1748,7 @@
 					(hide yes)
 				)
 			)
-			(property "Manufacturer_Part_Number" "KR EELP41.22-Q1S1-36-A8J8-020-R18"
+			(property "Manufacturer_Part_Number" "KW EELP41.RU-S1U1-3K6L-3X4X-5-R18"
 				(at 12.7 -593.65 0)
 				(effects
 					(font
@@ -1758,7 +1758,7 @@
 					(hide yes)
 				)
 			)
-			(property "Mouser Part Number" "720-P412Q1S136A8J802"
+			(property "Mouser Part Number" "720-P41RUS1U13K6L345"
 				(at 12.7 -693.65 0)
 				(effects
 					(font
@@ -1768,7 +1768,7 @@
 					(hide yes)
 				)
 			)
-			(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/ams-OSRAM/KR-EELP41.22-Q1S1-36-A8J8-020-R18?qs=ZcfC38r4PouTxNZSRl%252Bn6g%3D%3D"
+			(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/ams-OSRAM/KW-EELP41.RU-S1U1-3K6L-3X4X-5-R18?qs=ZcfC38r4PovE0VJj4jOecw%3D%3D"
 				(at 12.7 -793.65 0)
 				(effects
 					(font
@@ -1798,7 +1798,7 @@
 					(hide yes)
 				)
 			)
-			(symbol "KR_EELP41.22-Q1S1-36-A8J8-020-R18_1_1"
+			(symbol "KW_EELP41.RU-S1U1-3K6L-3X4X-5-R18_1_1"
 				(polyline
 					(pts
 						(xy 2.54 0) (xy 5.08 0)
@@ -9778,7 +9778,7 @@
 				)
 			)
 		)
-		(property "Value" "150"
+		(property "Value" "1k"
 			(at 77.47 146.05 90)
 			(effects
 				(font
@@ -11398,146 +11398,6 @@
 			(project "RSC_extension_board"
 				(path "/1f48ed4c-84ce-4e77-88fc-25bf92dcee2d"
 					(reference "#PWR029")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "KR_EELP41_22-Q1S1-36-A8J8-020-:KR_EELP41.22-Q1S1-36-A8J8-020-R18")
-		(at 111.76 149.86 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "aef2de40-3658-44d8-827d-549417a1449d")
-		(property "Reference" "LED1"
-			(at 104.14 142.24 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "KR_EELP41.22-Q1S1-36-A8J8-020-R18"
-			(at 104.14 144.78 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "KR_EELP41.22-Q1S1-36-A8J8-020-R18:KREELP4122Q1S136A8J8020R18"
-			(at 99.06 56.21 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://look.ams-osram.com/m/7eda7e8e2ca21691/original/KR-EELP41-22.pdf"
-			(at 99.06 -43.79 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Description" "Red 624nm LED Indication - Discrete 1.95V 0603 (1608 Metric)"
-			(at 111.76 149.86 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Height" "0.5"
-			(at 99.06 -243.79 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Name" "ams OSRAM"
-			(at 99.06 -343.79 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Part_Number" "KR EELP41.22-Q1S1-36-A8J8-020-R18"
-			(at 99.06 -443.79 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Mouser Part Number" "720-P412Q1S136A8J802"
-			(at 99.06 -543.79 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/ams-OSRAM/KR-EELP41.22-Q1S1-36-A8J8-020-R18?qs=ZcfC38r4PouTxNZSRl%252Bn6g%3D%3D"
-			(at 99.06 -643.79 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Arrow Part Number" ""
-			(at 99.06 -743.79 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Arrow Price/Stock" ""
-			(at 99.06 -843.79 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "935c369b-3e77-4b77-ad5a-f8f44deca36d")
-		)
-		(pin "1"
-			(uuid "347a52a9-09cc-4fed-b75c-cceef75bfb88")
-		)
-		(instances
-			(project ""
-				(path "/1f48ed4c-84ce-4e77-88fc-25bf92dcee2d"
-					(reference "LED1")
 					(unit 1)
 				)
 			)
@@ -13550,6 +13410,146 @@
 			(project ""
 				(path "/1f48ed4c-84ce-4e77-88fc-25bf92dcee2d"
 					(reference "J4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "KW_EELP41_RU-S1U1-3K6L-3X4X-5-:KW_EELP41.RU-S1U1-3K6L-3X4X-5-R18")
+		(at 111.76 149.86 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "eb5aaf7e-fb87-4651-b2ae-2e26ce4ccfc6")
+		(property "Reference" "LED1"
+			(at 104.14 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "KW_EELP41.RU-S1U1-3K6L-3X4X-5-R18"
+			(at 104.14 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "KWEELP41RUS1U13K6L3X4X5R18"
+			(at 99.06 56.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://look.ams-osram.com/m/154cb4bb5a0ca73d/original/KW-EELP41-RU.pdf"
+			(at 99.06 -43.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Description" "White LED Indication - Discrete 2.75V 0603 (1608 Metric)"
+			(at 111.76 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" "0.5"
+			(at 99.06 -243.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "ams OSRAM"
+			(at 99.06 -343.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "KW EELP41.RU-S1U1-3K6L-3X4X-5-R18"
+			(at 99.06 -443.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "720-P41RUS1U13K6L345"
+			(at 99.06 -543.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/ams-OSRAM/KW-EELP41.RU-S1U1-3K6L-3X4X-5-R18?qs=ZcfC38r4PovE0VJj4jOecw%3D%3D"
+			(at 99.06 -643.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Arrow Part Number" ""
+			(at 99.06 -743.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Arrow Price/Stock" ""
+			(at 99.06 -843.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "460e9aa2-c5b0-4f8b-adf5-d28b32b8bdad")
+		)
+		(pin "2"
+			(uuid "0308b145-1f4c-4119-8ff4-a03ae041ab9e")
+		)
+		(instances
+			(project ""
+				(path "/1f48ed4c-84ce-4e77-88fc-25bf92dcee2d"
+					(reference "LED1")
 					(unit 1)
 				)
 			)
