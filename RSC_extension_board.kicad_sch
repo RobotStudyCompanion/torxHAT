@@ -7422,16 +7422,6 @@
 		)
 		(uuid "21f511c4-9716-46ef-9741-ddd26fd618d5")
 	)
-	(label "GPIO05"
-		(at 93.98 66.04 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "2c202337-6bd1-48d7-8926-440116aa61fc")
-	)
 	(label "I2S_DOUT"
 		(at 63.5 78.74 0)
 		(effects
@@ -7882,6 +7872,16 @@
 		)
 		(uuid "a2c409a7-7b37-4e94-be1f-263fd1d5267b")
 	)
+	(label "SERVO_EN"
+		(at 31.75 66.04 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "a76c8944-261f-4806-96f5-968a9fc87aa1")
+	)
 	(label "LED_5V"
 		(at 195.58 49.53 0)
 		(effects
@@ -7921,16 +7921,6 @@
 			(justify left bottom)
 		)
 		(uuid "b4802c87-62f1-415d-99d3-e878b5fe2989")
-	)
-	(label "GPIO05"
-		(at 31.75 66.04 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "b73a4323-2d21-4d3f-9b92-8af81ee6cea7")
 	)
 	(label "GPIO06"
 		(at 31.75 68.58 0)
@@ -8061,6 +8051,16 @@
 			(justify left bottom)
 		)
 		(uuid "de8f18bc-1e7b-41fb-969e-3acd30367369")
+	)
+	(label "SERVO_EN"
+		(at 93.98 66.04 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "e0c1be53-329b-4270-a1d7-a219590263d6")
 	)
 	(label "GPIO06"
 		(at 93.98 68.58 0)

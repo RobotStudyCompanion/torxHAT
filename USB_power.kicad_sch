@@ -2796,6 +2796,28 @@
 			(embedded_fonts no)
 		)
 	)
+	(text "Config: 15V max & 9V min\n\nR9: 5.1kΩ (VBUS_MIN pull-up)\nR10: 1kΩ (VBUS_MIN pull-down)\nR12: 5.1kΩ (VBUS_MAX pull-up)\nR13: 5.1kΩ (VBUS_MAX pull-down)"
+		(exclude_from_sim no)
+		(at 84.328 149.098 0)
+		(effects
+			(font
+				(size 1.524 1.524)
+				(thickness 0.127)
+			)
+		)
+		(uuid "52ceea3e-4d41-419a-ba05-ae084701aba0")
+	)
+	(text "Bulk Cap\n25V"
+		(exclude_from_sim no)
+		(at 207.518 68.072 0)
+		(effects
+			(font
+				(size 1.524 1.524)
+				(thickness 0.127)
+			)
+		)
+		(uuid "b97fddd0-a8d2-4125-a610-be96faac2e51")
+	)
 	(text "20V 2.5A\nhttps://www.infineon.com/assets/row/public/documents/24/49/\ninfineon-ez-pd-bcr-datasheet-usb-type-c-port-controller-for-power-sinks-datasheet-en.pdf"
 		(exclude_from_sim no)
 		(at 178.054 170.18 0)
@@ -2844,6 +2866,12 @@
 		(uuid "38719300-89eb-4707-bbe1-e5567f9e6293")
 	)
 	(junction
+		(at 213.36 49.53)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "3be291ab-52b1-4f50-8524-7403fed80e6f")
+	)
+	(junction
 		(at 175.26 78.74)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2868,12 +2896,6 @@
 		(uuid "67be2ea8-9da7-4770-a67b-4e7d6d324f77")
 	)
 	(junction
-		(at 213.36 49.53)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "688853c2-efd0-486e-9835-34dc418f1306")
-	)
-	(junction
 		(at 104.14 49.53)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2884,12 +2906,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "738514cc-f100-4b42-b2a2-874f728b6595")
-	)
-	(junction
-		(at 204.47 49.53)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "7d1bc30c-7b82-499b-8ef8-c94662e6ccca")
 	)
 	(junction
 		(at 99.06 49.53)
@@ -2940,10 +2956,22 @@
 		(uuid "ad5d0be3-be90-4726-ad57-71b05bf2fcc9")
 	)
 	(junction
+		(at 224.79 49.53)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "bc4ec151-4b59-48a2-9b91-5e4577cbbfef")
+	)
+	(junction
 		(at 77.47 110.49)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "c258c8cf-02a4-4674-a80d-3233b56feffe")
+	)
+	(junction
+		(at 194.31 49.53)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e687a972-c95b-4f41-b4f2-d587705a5c43")
 	)
 	(junction
 		(at 160.02 147.32)
@@ -3097,6 +3125,16 @@
 	)
 	(wire
 		(pts
+			(xy 194.31 49.53) (xy 213.36 49.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1da961b1-1064-409c-807d-1f635ddec62e")
+	)
+	(wire
+		(pts
 			(xy 72.39 110.49) (xy 77.47 110.49)
 		)
 		(stroke
@@ -3247,6 +3285,16 @@
 	)
 	(wire
 		(pts
+			(xy 213.36 49.53) (xy 213.36 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4f36d497-5473-42b2-863e-23bec14bfcf6")
+	)
+	(wire
+		(pts
 			(xy 207.01 106.68) (xy 207.01 102.87)
 		)
 		(stroke
@@ -3277,7 +3325,7 @@
 	)
 	(wire
 		(pts
-			(xy 175.26 49.53) (xy 204.47 49.53)
+			(xy 175.26 49.53) (xy 194.31 49.53)
 		)
 		(stroke
 			(width 0)
@@ -3417,7 +3465,7 @@
 	)
 	(wire
 		(pts
-			(xy 213.36 49.53) (xy 213.36 46.99)
+			(xy 224.79 49.53) (xy 224.79 45.72)
 		)
 		(stroke
 			(width 0)
@@ -3477,7 +3525,7 @@
 	)
 	(wire
 		(pts
-			(xy 213.36 49.53) (xy 213.36 91.44)
+			(xy 224.79 49.53) (xy 224.79 91.44)
 		)
 		(stroke
 			(width 0)
@@ -3497,7 +3545,7 @@
 	)
 	(wire
 		(pts
-			(xy 204.47 68.58) (xy 204.47 62.23)
+			(xy 194.31 68.58) (xy 194.31 62.23)
 		)
 		(stroke
 			(width 0)
@@ -3587,7 +3635,7 @@
 	)
 	(wire
 		(pts
-			(xy 204.47 49.53) (xy 204.47 54.61)
+			(xy 194.31 49.53) (xy 194.31 54.61)
 		)
 		(stroke
 			(width 0)
@@ -3604,16 +3652,6 @@
 			(type default)
 		)
 		(uuid "b88f63ab-fb52-4bb0-9d87-22791f030a4a")
-	)
-	(wire
-		(pts
-			(xy 204.47 49.53) (xy 213.36 49.53)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b9719e3c-d64e-4071-9f39-bceff8d838b9")
 	)
 	(wire
 		(pts
@@ -3637,13 +3675,23 @@
 	)
 	(wire
 		(pts
-			(xy 146.05 91.44) (xy 213.36 91.44)
+			(xy 146.05 91.44) (xy 224.79 91.44)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "c6af205d-50c1-4b9c-b5b1-81af21aa9e18")
+	)
+	(wire
+		(pts
+			(xy 213.36 66.04) (xy 213.36 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c89251ef-18a6-45cd-be8d-70fb1e80f466")
 	)
 	(wire
 		(pts
@@ -3657,13 +3705,23 @@
 	)
 	(wire
 		(pts
-			(xy 170.18 68.58) (xy 204.47 68.58)
+			(xy 170.18 68.58) (xy 194.31 68.58)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "d037b753-6802-4dc0-80a3-27b841c93bb6")
+	)
+	(wire
+		(pts
+			(xy 213.36 49.53) (xy 224.79 49.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d07402a3-844a-47c1-aab5-bcc3ec136687")
 	)
 	(wire
 		(pts
@@ -4060,7 +4118,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 204.47 58.42 180)
+		(at 194.31 58.42 180)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -4071,7 +4129,7 @@
 		(fields_autoplaced yes)
 		(uuid "1a6dce3c-7549-4b36-b00a-d2038d9ee08d")
 		(property "Reference" "C55"
-			(at 200.66 59.6901 0)
+			(at 190.5 59.6901 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4082,7 +4140,7 @@
 			)
 		)
 		(property "Value" "1uF"
-			(at 200.66 57.1501 0)
+			(at 190.5 57.1501 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4093,7 +4151,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
-			(at 203.5048 54.61 0)
+			(at 193.3448 54.61 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4104,7 +4162,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 204.47 58.42 0)
+			(at 194.31 58.42 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4115,7 +4173,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 204.47 58.42 0)
+			(at 194.31 58.42 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4398,7 +4456,7 @@
 	)
 	(symbol
 		(lib_id "power_ver2:VBUS")
-		(at 213.36 46.99 0)
+		(at 224.79 45.72 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -4409,7 +4467,7 @@
 		(fields_autoplaced yes)
 		(uuid "20da63cb-4989-451a-be02-66f1bf502598")
 		(property "Reference" "#PWR0129"
-			(at 213.36 50.8 0)
+			(at 224.79 49.53 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4420,7 +4478,7 @@
 			)
 		)
 		(property "Value" "VBUS"
-			(at 213.36 41.91 0)
+			(at 224.79 40.64 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4430,7 +4488,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 213.36 46.99 0)
+			(at 224.79 45.72 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4441,7 +4499,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 213.36 46.99 0)
+			(at 224.79 45.72 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4452,7 +4510,7 @@
 			)
 		)
 		(property "Description" "VBUS (5–12 V, USB-PD)"
-			(at 213.36 46.99 0)
+			(at 224.79 45.72 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4704,6 +4762,88 @@
 			(project "RSC_extension_board"
 				(path "/1f48ed4c-84ce-4e77-88fc-25bf92dcee2d/05204050-0c20-42af-9081-73af52e92f24"
 					(reference "#PWR0122")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 213.36 62.23 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "2f5dd131-550c-41d1-88ea-daa2cf2fe2e4")
+		(property "Reference" "C56"
+			(at 209.55 63.5001 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100uF"
+			(at 209.55 60.9601 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
+			(at 212.3948 58.42 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 213.36 62.23 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 213.36 62.23 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "2d5404a6-88cc-4ca8-afe9-203fecd7e4e5")
+		)
+		(pin "2"
+			(uuid "ad35d16d-aa12-421c-88dd-300df31eddbc")
+		)
+		(instances
+			(project "RSC_extension_board"
+				(path "/1f48ed4c-84ce-4e77-88fc-25bf92dcee2d/05204050-0c20-42af-9081-73af52e92f24"
+					(reference "C56")
 					(unit 1)
 				)
 			)
@@ -7299,6 +7439,85 @@
 			(project "RSC_extension_board"
 				(path "/1f48ed4c-84ce-4e77-88fc-25bf92dcee2d/05204050-0c20-42af-9081-73af52e92f24"
 					(reference "#PWR0125")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power_ver2:GND")
+		(at 213.36 71.12 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c1bd363c-f2fe-4703-bad2-eb74283688bf")
+		(property "Reference" "#PWR0131"
+			(at 213.36 77.47 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 213.36 76.2 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 213.36 71.12 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 213.36 71.12 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 213.36 71.12 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "8b62711b-ca03-432b-9487-524077ee26ab")
+		)
+		(instances
+			(project "RSC_extension_board"
+				(path "/1f48ed4c-84ce-4e77-88fc-25bf92dcee2d/05204050-0c20-42af-9081-73af52e92f24"
+					(reference "#PWR0131")
 					(unit 1)
 				)
 			)
