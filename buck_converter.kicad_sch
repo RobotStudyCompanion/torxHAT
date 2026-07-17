@@ -5,10 +5,10 @@
 	(uuid "b0166988-f56e-4755-8421-ed3cc94b0183")
 	(paper "A4")
 	(title_block
-		(title "RSC hat board")
-		(date "2026-06-01")
-		(rev "A")
-		(comment 1 "Author: Raiko Torga")
+		(title "RSC hat board - TorxHAT")
+		(date "2026-07-17")
+		(rev "B")
+		(comment 1 "Authors: Raiko Torga, Matevz B. Zorec")
 	)
 	(lib_symbols
 		(symbol "74438356015HT:74438356015HT"

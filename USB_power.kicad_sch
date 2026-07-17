@@ -5,10 +5,10 @@
 	(uuid "2f7452f9-2a6e-4bda-b206-f55469b57409")
 	(paper "A4")
 	(title_block
-		(title "RSC hat board")
-		(date "2026-06-01")
-		(rev "A")
-		(comment 1 "Author: Raiko Torga")
+		(title "RSC hat board - TorxHAT")
+		(date "2026-07-17")
+		(rev "B")
+		(comment 1 "Authors: Raiko Torga, Matevz B. Zorec")
 	)
 	(lib_symbols
 		(symbol "BAT54WS-7-F:BAT54WS-7-F"
@@ -4000,7 +4000,7 @@
 				)
 			)
 		)
-		(property "Value" "1k"
+		(property "Value" "68"
 			(at 160.02 99.06 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4718,7 +4718,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(in_pos_files yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "35ffbf77-1109-4aca-969a-6cf7c2528f7a")
 		(property "Reference" "R13"
@@ -4732,7 +4732,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "5.1k"
+		(property "Value" "DNP"
 			(at 129.54 153.6699 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4814,7 +4814,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "5.1k"
+		(property "Value" "0"
 			(at 129.54 143.5099 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6990,7 +6990,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(in_pos_files yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "9eb5a92c-67cc-4fcb-924d-21c7bc5de1d3")
 		(property "Reference" "R10"
@@ -7004,7 +7004,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "1k"
+		(property "Value" "DNP"
 			(at 111.76 153.6699 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7086,7 +7086,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "5.1k"
+		(property "Value" "0"
 			(at 111.76 143.5099 0)
 			(show_name no)
 			(do_not_autoplace no)
