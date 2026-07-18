@@ -19736,10 +19736,10 @@
 	(footprint "SparkFun-Qwiic:qwiic_5mm"
 		(layer "F.Cu")
 		(uuid "e27b40e5-1cce-4ce3-8968-a7940248318b")
-		(at 97.25 58 -90)
+		(at 126.225 93.825)
 		(tags "SparkFun")
 		(property "Reference" "G1"
-			(at 0 -1.27 270)
+			(at 0 -1.27 0)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "17086271-c610-4d75-bfbd-a906a8faf905")
@@ -19751,7 +19751,7 @@
 			)
 		)
 		(property "Value" "qwiic_Logo"
-			(at 0 1.27 270)
+			(at 0 1.27 0)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "4a074ee5-f693-47aa-bd36-7e209e095aa1")
@@ -19763,7 +19763,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 0 0 270)
+			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -19776,7 +19776,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 0 0 270)
+			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -35631,7 +35631,15 @@
 		(width 0.25)
 		(layer "F.Cu")
 		(net "Net-(J5-Pin_2)")
-		(uuid "88dcdbcb-ebb8-444d-b0d7-7f07ff284f74")
+		(uuid "3392be41-2620-4bc0-8f4f-8a4566b9df1e")
+	)
+	(segment
+		(start 109.825 83.5625)
+		(end 109.383372 84.004128)
+		(width 0.25)
+		(layer "F.Cu")
+		(net "Net-(J5-Pin_2)")
+		(uuid "ca0da000-9df5-4f72-bea4-28825b6385c4")
 	)
 	(segment
 		(start 109.825 83.425)
@@ -35640,14 +35648,6 @@
 		(layer "F.Cu")
 		(net "Net-(J5-Pin_2)")
 		(uuid "d4f24516-41dc-44d0-bd0a-6131e43447ba")
-	)
-	(segment
-		(start 109.825 83.5625)
-		(end 109.383372 84.004128)
-		(width 0.25)
-		(layer "F.Cu")
-		(net "Net-(J5-Pin_2)")
-		(uuid "e834e9ea-b8ff-4ae8-b246-e362f5002be7")
 	)
 	(zone
 		(net "GND")
