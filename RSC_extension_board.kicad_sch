@@ -4893,12 +4893,6 @@
 		(uuid "1f3e96db-c442-4ec8-b266-c1c0c1819c93")
 	)
 	(junction
-		(at 83.82 130.81)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "204363aa-627b-4a40-acd3-567f27072983")
-	)
-	(junction
 		(at 184.15 119.38)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4914,7 +4908,13 @@
 		(at 83.82 120.65)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "4921a24b-84c8-4a91-a512-df0a356fec88")
+		(uuid "45b643f5-0ca3-4a29-b1a9-3481ca1d81f7")
+	)
+	(junction
+		(at 83.82 130.81)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "4748ab80-f97d-4854-856a-2a8c906a6465")
 	)
 	(junction
 		(at 81.28 35.56)
@@ -5008,7 +5008,7 @@
 	)
 	(wire
 		(pts
-			(xy 88.9 130.81) (xy 83.82 130.81)
+			(xy 87.63 130.81) (xy 83.82 130.81)
 		)
 		(stroke
 			(width 0)
@@ -5068,7 +5068,7 @@
 	)
 	(wire
 		(pts
-			(xy 88.9 127) (xy 88.9 130.81)
+			(xy 87.63 127) (xy 87.63 130.81)
 		)
 		(stroke
 			(width 0)
@@ -5398,7 +5398,7 @@
 	)
 	(wire
 		(pts
-			(xy 88.9 121.92) (xy 88.9 120.65)
+			(xy 87.63 121.92) (xy 87.63 120.65)
 		)
 		(stroke
 			(width 0)
@@ -5958,7 +5958,7 @@
 	)
 	(wire
 		(pts
-			(xy 101.6 127) (xy 88.9 127)
+			(xy 101.6 127) (xy 87.63 127)
 		)
 		(stroke
 			(width 0)
@@ -6128,7 +6128,7 @@
 	)
 	(wire
 		(pts
-			(xy 88.9 124.46) (xy 101.6 124.46)
+			(xy 90.17 124.46) (xy 101.6 124.46)
 		)
 		(stroke
 			(width 0)
@@ -6358,7 +6358,7 @@
 	)
 	(wire
 		(pts
-			(xy 88.9 120.65) (xy 83.82 120.65)
+			(xy 87.63 120.65) (xy 83.82 120.65)
 		)
 		(stroke
 			(width 0)
@@ -6368,7 +6368,7 @@
 	)
 	(wire
 		(pts
-			(xy 101.6 121.92) (xy 88.9 121.92)
+			(xy 101.6 121.92) (xy 87.63 121.92)
 		)
 		(stroke
 			(width 0)
@@ -6757,7 +6757,7 @@
 		(uuid "0fc61226-623a-4265-8f74-4c3a571ec75f")
 	)
 	(label "BUTTON_LED"
-		(at 88.9 124.46 0)
+		(at 90.17 124.46 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7327,7 +7327,7 @@
 		(uuid "cb3453b7-b2c0-4f7e-86f8-6f4729ef8857")
 	)
 	(label "BUTTON"
-		(at 91.44 129.54 0)
+		(at 90.17 129.54 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7810,7 +7810,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical"
+		(property "Footprint" "Connector_JST:JST_PH_B4B-PH-K_1x04_P2.00mm_Vertical"
 			(at 266.7 140.97 0)
 			(hide yes)
 			(show_name no)
@@ -9246,7 +9246,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_JST:JST_PH_B3B-PH-K_1x03_P2.00mm_Vertical"
 			(at 177.8 135.89 0)
 			(hide yes)
 			(show_name no)
@@ -11188,7 +11188,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_JST:JST_PH_B4B-PH-K_1x04_P2.00mm_Vertical"
 			(at 106.68 124.46 0)
 			(hide yes)
 			(show_name no)
