@@ -13044,7 +13044,7 @@
 		(dnp no)
 		(uuid "eb5aaf7e-fb87-4651-b2ae-2e26ce4ccfc6")
 		(property "Reference" "LED1"
-			(at 237.236 70.358 0)
+			(at 237.236 75.438 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -13053,8 +13053,8 @@
 				)
 			)
 		)
-		(property "Value" "KW_EELP41.RU-S1U1-3K6L-3X4X-5-R18"
-			(at 244.094 68.58 0)
+		(property "Value" "LW Y1SG-BFOO-GKJM-1"
+			(at 244.094 69.596 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -13063,7 +13063,7 @@
 				)
 			)
 		)
-		(property "Footprint" "KWEELP41RUS1U13K6L3X4X5R18"
+		(property "Footprint" "mbz_Library:LW-Y1SG-BFOO-GKJM-1"
 			(at 237.49 -19.99 0)
 			(hide yes)
 			(show_name no)
@@ -13075,7 +13075,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Datasheet" "https://look.ams-osram.com/m/154cb4bb5a0ca73d/original/KW-EELP41-RU.pdf"
+		(property "Datasheet" "https://www.mouser.ee/datasheet/3/5912/1/LW_Y1SG_EN.pdf"
 			(at 237.49 -119.99 0)
 			(hide yes)
 			(show_name no)
@@ -13087,7 +13087,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Description" "White LED Indication - Discrete 2.75V 0603 (1608 Metric)"
+		(property "Description" "White side firing LED Indicator - Discrete Vf=3.3V 2808 SMT package"
 			(at 250.19 73.66 0)
 			(hide yes)
 			(show_name no)
@@ -13098,7 +13098,7 @@
 				)
 			)
 		)
-		(property "Height" "0.5"
+		(property "Height" "0.9mm"
 			(at 237.49 -319.99 0)
 			(hide yes)
 			(show_name no)
@@ -13122,7 +13122,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Manufacturer_Part_Number" "KW EELP41.RU-S1U1-3K6L-3X4X-5-R18"
+		(property "Manufacturer_Part_Number" "LW Y1SG-BFOO-GKJM-1 "
 			(at 237.49 -519.99 0)
 			(hide yes)
 			(show_name no)
@@ -13134,7 +13134,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Mouser Part Number" "720-P41RUS1U13K6L345"
+		(property "Mouser Part Number" "720-LWY1SGA8460 "
 			(at 237.49 -619.99 0)
 			(hide yes)
 			(show_name no)
@@ -13146,7 +13146,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/ams-OSRAM/KW-EELP41.RU-S1U1-3K6L-3X4X-5-R18?qs=ZcfC38r4PovE0VJj4jOecw%3D%3D"
+		(property "Mouser Price/Stock" "https://www.mouser.ee/en/ProductDetail/ams-OSRAM/LW-Y1SG-BFOO-GKJM-1?qs=xC%252BE9h5iuX7XOsFap%252B6qmQ%3D%3D"
 			(at 237.49 -719.99 0)
 			(hide yes)
 			(show_name no)
