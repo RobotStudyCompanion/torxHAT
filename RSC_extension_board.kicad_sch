@@ -4634,7 +4634,7 @@
 	)
 	(rectangle
 		(start 19.05 159.512)
-		(end 93.472 195.326)
+		(end 99.822 195.326)
 		(stroke
 			(width 0)
 			(type dash)
@@ -6378,6 +6378,16 @@
 	)
 	(wire
 		(pts
+			(xy 97.79 172.72) (xy 86.36 172.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d82f8197-cadb-4d46-bb60-070641285aed")
+	)
+	(wire
+		(pts
 			(xy 101.6 53.34) (xy 110.49 53.34)
 		)
 		(stroke
@@ -7425,6 +7435,16 @@
 			(justify left bottom)
 		)
 		(uuid "ea56e31b-eaa8-4cd2-8210-901a5ec9969c")
+	)
+	(label "SERVO_EN"
+		(at 97.79 172.72 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "f0038b27-c828-4e3a-a068-7308060fb8c5")
 	)
 	(label "M1_PWM"
 		(at 39.37 76.2 0)
@@ -12232,7 +12252,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "PRT-14417"
+		(property "Value" "BM04B-SRSS"
 			(at 245.618 120.142 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12243,7 +12263,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "PRT-14417:SPARKFUN_PRT-14417"
+		(property "Footprint" "Connector_JST:JST_SH_BM04B-SRSS-TB_1x04-1MP_P1.00mm_Vertical"
 			(at 251.46 113.03 0)
 			(hide yes)
 			(show_name no)
@@ -12277,7 +12297,7 @@
 				)
 			)
 		)
-		(property "MF" "SparkFun Electronics"
+		(property "MF" "JST"
 			(at 251.46 113.03 0)
 			(hide yes)
 			(show_name no)
@@ -12289,7 +12309,7 @@
 				(justify bottom)
 			)
 		)
-		(property "MAXIMUM_PACKAGE_HEIGHT" "2.9 mm"
+		(property "MAXIMUM_PACKAGE_HEIGHT" ""
 			(at 251.46 113.03 0)
 			(hide yes)
 			(show_name no)
@@ -12325,7 +12345,7 @@
 				(justify bottom)
 			)
 		)
-		(property "Check_prices" "https://www.snapeda.com/parts/PRT-14417/SparkFun/view-part/?ref=eda"
+		(property "Check_prices" ""
 			(at 251.46 113.03 0)
 			(hide yes)
 			(show_name no)
@@ -12337,7 +12357,7 @@
 				(justify bottom)
 			)
 		)
-		(property "STANDARD" "Manufacturer Recommendations"
+		(property "STANDARD" ""
 			(at 251.46 113.03 0)
 			(hide yes)
 			(show_name no)
@@ -12349,7 +12369,7 @@
 				(justify bottom)
 			)
 		)
-		(property "PARTREV" "NA"
+		(property "PARTREV" ""
 			(at 251.46 113.03 0)
 			(hide yes)
 			(show_name no)
@@ -12361,7 +12381,7 @@
 				(justify bottom)
 			)
 		)
-		(property "SnapEDA_Link" "https://www.snapeda.com/parts/PRT-14417/SparkFun/view-part/?ref=snap"
+		(property "SnapEDA_Link" ""
 			(at 251.46 113.03 0)
 			(hide yes)
 			(show_name no)
@@ -12373,7 +12393,7 @@
 				(justify bottom)
 			)
 		)
-		(property "MP" "PRT-14417"
+		(property "MP" ""
 			(at 251.46 113.03 0)
 			(hide yes)
 			(show_name no)
@@ -12385,7 +12405,7 @@
 				(justify bottom)
 			)
 		)
-		(property "Description_1" "QWIIC JST CONNECTOR - SMD 4-PIN"
+		(property "Description_1" ""
 			(at 251.46 113.03 0)
 			(hide yes)
 			(show_name no)
@@ -12397,7 +12417,7 @@
 				(justify bottom)
 			)
 		)
-		(property "Availability" "In Stock"
+		(property "Availability" ""
 			(at 251.46 113.03 0)
 			(hide yes)
 			(show_name no)
@@ -12409,7 +12429,7 @@
 				(justify bottom)
 			)
 		)
-		(property "MANUFACTURER" "SparkFun Electronics"
+		(property "MANUFACTURER" ""
 			(at 251.46 113.03 0)
 			(hide yes)
 			(show_name no)
@@ -13063,7 +13083,7 @@
 				)
 			)
 		)
-		(property "Footprint" "mbz_Library:LW-Y1SG-BFOO-GKJM-1"
+		(property "Footprint" "MyParts:LWY1SGBFOOGKJM1"
 			(at 237.49 -19.99 0)
 			(hide yes)
 			(show_name no)
@@ -13693,6 +13713,16 @@
 					(size 1.27 1.27)
 				)
 				(justify left top)
+			)
+		)
+		(pin "SERVO_EN" bidirectional
+			(at 86.36 172.72 0)
+			(uuid "01c71f2c-2dc2-44ab-8ba6-32383e7c1142")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
 			)
 		)
 		(instances

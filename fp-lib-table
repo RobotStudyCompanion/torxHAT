@@ -1,0 +1,4 @@
+(fp_lib_table
+	(version 7)
+	(lib (name "mbz_Library") (type "KiCad") (uri "/home/mbz/.var/app/org.kicad.KiCad/data/kicad/9.0/footprints/mbz_Library.pretty") (options "") (descr ""))
+)

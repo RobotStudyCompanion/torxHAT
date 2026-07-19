@@ -1552,6 +1552,12 @@
 		(uuid "0e1f2778-b784-4170-845b-c2d8b833de3f")
 	)
 	(junction
+		(at 96.52 123.19)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "0fbbd762-9aa1-4b72-a346-2bdd6313ac3d")
+	)
+	(junction
 		(at 149.86 59.69)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2147,6 +2153,16 @@
 	)
 	(wire
 		(pts
+			(xy 96.52 123.19) (xy 96.52 119.38)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6bf30efa-a445-436c-afb3-fdc171bff8e2")
+	)
+	(wire
+		(pts
 			(xy 83.82 40.64) (xy 96.52 40.64)
 		)
 		(stroke
@@ -2347,12 +2363,11 @@
 	)
 	(wire
 		(pts
-			(xy 93.98 123.19) (xy 132.08 123.19)
+			(xy 93.98 123.19) (xy 96.52 123.19)
 		)
 		(stroke
 			(width 0)
 			(type default)
-			(color 42 29 255 1)
 		)
 		(uuid "b05689a2-c1bd-4327-a913-f37736de3f59")
 	)
@@ -2558,6 +2573,16 @@
 	)
 	(wire
 		(pts
+			(xy 96.52 123.19) (xy 132.08 123.19)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f36ae680-926c-4c17-aa1e-d48b85f801a5")
+	)
+	(wire
+		(pts
 			(xy 71.12 48.26) (xy 78.74 48.26)
 		)
 		(stroke
@@ -2616,15 +2641,16 @@
 		)
 		(uuid "fd37be0f-302b-4291-9948-7b208e9e79b6")
 	)
-	(label "SERVO_EN"
-		(at 96.52 123.19 0)
+	(hierarchical_label "SERVO_EN"
+		(shape bidirectional)
+		(at 96.52 119.38 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left bottom)
+			(justify left)
 		)
-		(uuid "01166306-aa8a-48d2-b908-ac7702c450c7")
+		(uuid "edf5c9b7-9de2-4619-ab60-7abb930ec6d5")
 	)
 	(symbol
 		(lib_id "Device:C")
@@ -3664,85 +3690,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector:TestPoint")
-		(at 163.83 144.78 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom no)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "3874f37d-6ad4-4712-9c0e-79884bbface1")
-		(property "Reference" "TP10"
-			(at 166.37 140.2079 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "GND2"
-			(at 166.37 142.7479 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
-			(at 168.91 144.78 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 168.91 144.78 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "test point"
-			(at 163.83 144.78 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "91caf423-1caf-4790-b491-44c406d42e27")
-		)
-		(instances
-			(project "RSC_extension_board"
-				(path "/1f48ed4c-84ce-4e77-88fc-25bf92dcee2d/8a23fee1-8a0a-4a00-88d2-3a4147ed7fcf"
-					(reference "TP10")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:R")
 		(at 199.39 140.97 0)
 		(unit 1)
@@ -4131,85 +4078,6 @@
 			(project "RSC_extension_board"
 				(path "/1f48ed4c-84ce-4e77-88fc-25bf92dcee2d/8a23fee1-8a0a-4a00-88d2-3a4147ed7fcf"
 					(reference "TP1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power_ver2:GND")
-		(at 163.83 144.78 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "538aba7f-21b3-461b-ad98-a7a28715bafc")
-		(property "Reference" "#PWR0102"
-			(at 163.83 151.13 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GND"
-			(at 163.83 149.86 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 163.83 144.78 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 163.83 144.78 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 163.83 144.78 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "a92d34c7-ee42-436c-badb-2a8b00f2a1d8")
-		)
-		(instances
-			(project "RSC_extension_board"
-				(path "/1f48ed4c-84ce-4e77-88fc-25bf92dcee2d/8a23fee1-8a0a-4a00-88d2-3a4147ed7fcf"
-					(reference "#PWR0102")
 					(unit 1)
 				)
 			)
@@ -7720,85 +7588,6 @@
 	)
 	(symbol
 		(lib_id "power_ver2:GND")
-		(at 152.4 81.28 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "c65cc6fd-ae7b-4544-998f-5990c707fe66")
-		(property "Reference" "#PWR0101"
-			(at 152.4 87.63 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GND"
-			(at 152.4 86.36 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 152.4 81.28 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 152.4 81.28 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 152.4 81.28 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "a6de0da5-f8f8-4d61-a707-c1db67bcbbec")
-		)
-		(instances
-			(project "RSC_extension_board"
-				(path "/1f48ed4c-84ce-4e77-88fc-25bf92dcee2d/8a23fee1-8a0a-4a00-88d2-3a4147ed7fcf"
-					(reference "#PWR0101")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power_ver2:GND")
 		(at 109.22 82.55 0)
 		(unit 1)
 		(body_style 1)
@@ -8431,85 +8220,6 @@
 			(project "RSC_extension_board"
 				(path "/1f48ed4c-84ce-4e77-88fc-25bf92dcee2d/8a23fee1-8a0a-4a00-88d2-3a4147ed7fcf"
 					(reference "R6")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:TestPoint")
-		(at 152.4 81.28 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom no)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "f880450c-be4b-4f8c-bedf-0abc200cd768")
-		(property "Reference" "TP9"
-			(at 154.94 76.7079 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "GND1"
-			(at 154.94 79.2479 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
-			(at 157.48 81.28 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 157.48 81.28 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "test point"
-			(at 152.4 81.28 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "b5a9e9bf-6dc8-425a-a911-984644bf345b")
-		)
-		(instances
-			(project "RSC_extension_board"
-				(path "/1f48ed4c-84ce-4e77-88fc-25bf92dcee2d/8a23fee1-8a0a-4a00-88d2-3a4147ed7fcf"
-					(reference "TP9")
 					(unit 1)
 				)
 			)
