@@ -39,9 +39,9 @@
         "other_text_thickness": 0.15,
         "other_text_upright": false,
         "pads": {
-          "drill": 0.0,
-          "height": 3.7,
-          "width": 0.98
+          "drill": 1.02,
+          "height": 1.37,
+          "width": 1.37
         },
         "silk_line_width": 0.1,
         "silk_text_italic": false,
@@ -291,32 +291,7 @@
     "equivalence_files": []
   },
   "erc": {
-    "erc_exclusions": [
-      [
-        "power_pin_not_driven|1041400|952500|bcdb2617-42f8-4b8d-af97-bab9027615a9|00000000-0000-0000-0000-000000000000|/1f48ed4c-84ce-4e77-88fc-25bf92dcee2d/05204050-0c20-42af-9081-73af52e92f24|/1f48ed4c-84ce-4e77-88fc-25bf92dcee2d/05204050-0c20-42af-9081-73af52e92f24|",
-        ""
-      ],
-      [
-        "power_pin_not_driven|342900|1689100|ab0cac97-7103-4085-89c0-39f7e0d84b1f|00000000-0000-0000-0000-000000000000|/1f48ed4c-84ce-4e77-88fc-25bf92dcee2d/ac972c32-50eb-4eea-9775-75e5d24ce2c2|/1f48ed4c-84ce-4e77-88fc-25bf92dcee2d/ac972c32-50eb-4eea-9775-75e5d24ce2c2|",
-        ""
-      ],
-      [
-        "power_pin_not_driven|393700|368300|c1c37e83-dc9c-4e2a-a32f-e27296dd586d|00000000-0000-0000-0000-000000000000|/1f48ed4c-84ce-4e77-88fc-25bf92dcee2d/ac972c32-50eb-4eea-9775-75e5d24ce2c2|/1f48ed4c-84ce-4e77-88fc-25bf92dcee2d/ac972c32-50eb-4eea-9775-75e5d24ce2c2|",
-        ""
-      ],
-      [
-        "power_pin_not_driven|711200|406400|b73f02db-96ca-4f6e-9b0e-44abc4105206|00000000-0000-0000-0000-000000000000|/1f48ed4c-84ce-4e77-88fc-25bf92dcee2d/8a23fee1-8a0a-4a00-88d2-3a4147ed7fcf|/1f48ed4c-84ce-4e77-88fc-25bf92dcee2d/8a23fee1-8a0a-4a00-88d2-3a4147ed7fcf|",
-        ""
-      ],
-      [
-        "power_pin_not_driven|749300|990600|14f89f35-effb-4c77-81b1-75d44363d396|00000000-0000-0000-0000-000000000000|/1f48ed4c-84ce-4e77-88fc-25bf92dcee2d/ac972c32-50eb-4eea-9775-75e5d24ce2c2|/1f48ed4c-84ce-4e77-88fc-25bf92dcee2d/ac972c32-50eb-4eea-9775-75e5d24ce2c2|",
-        ""
-      ],
-      [
-        "power_pin_not_driven|812800|1739900|02c596b6-e0ba-4dc8-9128-2befbe1ecb73|00000000-0000-0000-0000-000000000000|/1f48ed4c-84ce-4e77-88fc-25bf92dcee2d/ac972c32-50eb-4eea-9775-75e5d24ce2c2|/1f48ed4c-84ce-4e77-88fc-25bf92dcee2d/ac972c32-50eb-4eea-9775-75e5d24ce2c2|",
-        ""
-      ]
-    ],
+    "erc_exclusions": [],
     "meta": {
       "version": 0
     },
@@ -626,6 +601,10 @@
       {
         "netclass": "Power",
         "pattern": "+5V"
+      },
+      {
+        "netclass": "FinePitch",
+        "pattern": "GND"
       }
     ]
   },
