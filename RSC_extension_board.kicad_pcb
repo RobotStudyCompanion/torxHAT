@@ -27204,27 +27204,6 @@
 		(net "+5V_Servo")
 		(uuid "4782ae72-ccff-4978-9f19-ece89adc6317")
 	)
-	(gr_arc
-		(start 94 130.625)
-		(mid 94.87868 128.50368)
-		(end 97 127.625)
-		(stroke
-			(width 0.05)
-			(type solid)
-		)
-		(layer "Dwgs.User")
-		(uuid "05cf9444-e678-4908-9539-06048ddae38c")
-	)
-	(gr_line
-		(start 94 181.175)
-		(end 94 130.625)
-		(stroke
-			(width 0.05)
-			(type solid)
-		)
-		(layer "Dwgs.User")
-		(uuid "44e90312-588f-486e-8aa4-9ad16174cd96")
-	)
 	(gr_rect
 		(start 95 45)
 		(end 160 75)
@@ -27248,69 +27227,6 @@
 		(locked yes)
 		(layer "Dwgs.User")
 		(uuid "7e0516dd-30b4-406c-93da-fbe183b8cd04")
-	)
-	(gr_line
-		(start 97 127.625)
-		(end 156 127.625)
-		(stroke
-			(width 0.05)
-			(type solid)
-		)
-		(layer "Dwgs.User")
-		(uuid "7f62dde5-3a16-42c6-8c67-57daf1517ad0")
-	)
-	(gr_arc
-		(start 97 184.175)
-		(mid 94.87868 183.29632)
-		(end 94 181.175)
-		(stroke
-			(width 0.05)
-			(type solid)
-		)
-		(layer "Dwgs.User")
-		(uuid "ce0e21ce-a1f4-4776-893d-c95876ce6d1a")
-	)
-	(gr_arc
-		(start 156 127.625)
-		(mid 158.12132 128.50368)
-		(end 159 130.625)
-		(stroke
-			(width 0.05)
-			(type solid)
-		)
-		(layer "Dwgs.User")
-		(uuid "6247ad14-a657-498a-b042-dfe0efe066ab")
-	)
-	(gr_line
-		(start 156 184.175)
-		(end 97 184.175)
-		(stroke
-			(width 0.05)
-			(type solid)
-		)
-		(layer "Dwgs.User")
-		(uuid "1b1fd410-278f-449c-bc5d-9fd3766a3443")
-	)
-	(gr_line
-		(start 159 130.625)
-		(end 159 181.175)
-		(stroke
-			(width 0.05)
-			(type solid)
-		)
-		(layer "Dwgs.User")
-		(uuid "80cd056a-b8f3-41af-8aaa-cacbe6f773dd")
-	)
-	(gr_arc
-		(start 159 181.175)
-		(mid 158.12132 183.29632)
-		(end 156 184.175)
-		(stroke
-			(width 0.05)
-			(type solid)
-		)
-		(layer "Dwgs.User")
-		(uuid "d5098167-1c73-44a7-bb47-a3c750aef61f")
 	)
 	(gr_arc
 		(start 95 47.45)
@@ -27600,6 +27516,32 @@
 			(justify left bottom)
 		)
 	)
+	(gr_text "PWM"
+		(at 130.925 70.375 0)
+		(layer "F.SilkS")
+		(uuid "babe3ea3-5c8c-4d83-8ca9-4a92078656ac")
+		(effects
+			(font
+				(size 0.75 0.75)
+				(thickness 0.15)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+	)
+	(gr_text "5"
+		(at 134 70.65 0)
+		(layer "F.SilkS")
+		(uuid "b749e91d-ac8f-4d5d-ab3f-c94c3d549c2f")
+		(effects
+			(font
+				(size 0.75 0.75)
+				(thickness 0.15)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+	)
 	(gr_text "LED"
 		(at 143.5 70.7 0)
 		(layer "F.SilkS")
@@ -27708,19 +27650,6 @@
 		(at 126.002381 82.675 0)
 		(layer "F.SilkS")
 		(uuid "9a936c47-8cbb-4363-a843-4d86839e3943")
-		(effects
-			(font
-				(size 1 1)
-				(thickness 0.25)
-				(bold yes)
-			)
-			(justify left bottom)
-		)
-	)
-	(gr_text "5"
-		(at 132.925 70.425 0)
-		(layer "F.SilkS")
-		(uuid "b749e91d-ac8f-4d5d-ab3f-c94c3d549c2f")
 		(effects
 			(font
 				(size 1 1)
@@ -28054,8 +27983,8 @@
 			(justify left bottom mirror)
 		)
 	)
-	(gr_text "torxHAT, Rev B, \nRaiko Torga & Matevz B. Zorec, \n2026"
-		(at 154.775 67.45 0)
+	(gr_text "torxHAT  |  Rev B  |  2026\nRaiko Torga & Matevz B. Zorec"
+		(at 154.375 67.025 0)
 		(layer "B.SilkS" knockout)
 		(uuid "324a14f5-11f9-41cd-95b3-302dba8bb3a4")
 		(effects
