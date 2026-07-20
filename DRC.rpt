@@ -1,8 +1,418 @@
 ** Drc report for RSC_extension_board.kicad_pcb **
-** Created on 2026-07-19T20:11:23 **
-** Report includes: Errors **
+** Created on 2026-07-20T12:00:11 **
+** Report includes: Errors, Warnings **
 
-** Found 0 DRC violations **
+** Found 125 DRC violations **
+[via_dangling]: Via is not connected or connected on only one layer
+    Local override; warning
+    @(148.8750 mm, 66.8000 mm): Via [Net-(Q1-G)] on F.Cu - B.Cu
+[silk_edge_clearance]: Silkscreen clipped by board edge
+    Rule: board setup constraints silk; warning
+    @(98.0000 mm, 44.4500 mm): Segment on Edge.Cuts
+    @(127.5000 mm, 40.8250 mm): Segment on F.Silkscreen
+[hole_to_hole]: Drilled hole too close to other hole (board setup constraints min 0.2495 mm; actual 0.2494 mm)
+    Rule: board setup constraints; warning
+    @(100.1706 mm, 71.8380 mm): Via [GND] on F.Cu - B.Cu
+    @(100.4250 mm, 72.3250 mm): Via [GND] on F.Cu - B.Cu
+[lib_footprint_mismatch]: Footprint 'C_0805_2012Metric_Pad1.18x1.45mm_HandSolder' does not match copy in library 'Capacitor_SMD'
+    Local override; warning
+    @(105.4250 mm, 79.7750 mm): Footprint C39
+[lib_footprint_mismatch]: Footprint 'C_0805_2012Metric_Pad1.18x1.45mm_HandSolder' does not match copy in library 'Capacitor_SMD'
+    Local override; warning
+    @(109.3250 mm, 77.0250 mm): Footprint C37
+[lib_footprint_mismatch]: Footprint 'R_0603_1608Metric_Pad0.98x0.95mm_HandSolder' does not match copy in library 'Resistor_SMD'
+    Local override; warning
+    @(114.4350 mm, 72.9750 mm): Footprint RT2
+[lib_footprint_mismatch]: Footprint 'R_0603_1608Metric_Pad0.98x0.95mm_HandSolder' does not match copy in library 'Resistor_SMD'
+    Local override; warning
+    @(123.0600 mm, 71.8750 mm): Footprint RFBT2
+[lib_footprint_issues]: The current configuration does not include the footprint library '74438356015HT'
+    Local override; warning
+    @(106.2750 mm, 69.4000 mm): Footprint L1
+[lib_footprint_issues]: The current configuration does not include the footprint library '74438356015HT'
+    Local override; warning
+    @(124.4600 mm, 77.1250 mm): Footprint L2
+[lib_footprint_mismatch]: Footprint 'QFN-24-1EP_4x4mm_P0.5mm_EP2.75x2.75mm' does not match copy in library 'Package_DFN_QFN'
+    Local override; warning
+    @(103.8250 mm, 88.2500 mm): Footprint U5
+[lib_footprint_mismatch]: Footprint 'C_0603_1608Metric_Pad1.08x0.95mm_HandSolder' does not match copy in library 'Capacitor_SMD'
+    Local override; warning
+    @(113.1735 mm, 85.4925 mm): Footprint C55
+[lib_footprint_mismatch]: Footprint 'C_0603_1608Metric_Pad1.08x0.95mm_HandSolder' does not match copy in library 'Capacitor_SMD'
+    Local override; warning
+    @(141.5750 mm, 69.7000 mm): Footprint C8
+[lib_footprint_mismatch]: Footprint 'C_0603_1608Metric_Pad1.08x0.95mm_HandSolder' does not match copy in library 'Capacitor_SMD'
+    Local override; warning
+    @(119.0750 mm, 87.7075 mm): Footprint C5
+[lib_footprint_mismatch]: Footprint 'R_0603_1608Metric_Pad0.98x0.95mm_HandSolder' does not match copy in library 'Resistor_SMD'
+    Local override; warning
+    @(112.9600 mm, 72.9750 mm): Footprint PFM2
+[lib_footprint_mismatch]: Footprint 'C_0603_1608Metric_Pad1.08x0.95mm_HandSolder' does not match copy in library 'Capacitor_SMD'
+    Local override; warning
+    @(108.1525 mm, 90.0600 mm): Footprint C53
+[lib_footprint_mismatch]: Footprint 'R_0603_1608Metric_Pad0.98x0.95mm_HandSolder' does not match copy in library 'Resistor_SMD'
+    Local override; warning
+    @(131.8000 mm, 66.9875 mm): Footprint R3
+[lib_footprint_mismatch]: Footprint 'C_0805_2012Metric_Pad1.18x1.45mm_HandSolder' does not match copy in library 'Capacitor_SMD'
+    Local override; warning
+    @(114.1600 mm, 77.9750 mm): Footprint C38
+[lib_footprint_mismatch]: Footprint 'R_0603_1608Metric_Pad0.98x0.95mm_HandSolder' does not match copy in library 'Resistor_SMD'
+    Local override; warning
+    @(99.5500 mm, 69.9500 mm): Footprint RFBB1
+[lib_footprint_mismatch]: Footprint 'C_0805_2012Metric_Pad1.18x1.45mm_HandSolder' does not match copy in library 'Capacitor_SMD'
+    Local override; warning
+    @(100.9000 mm, 67.3250 mm): Footprint C45
+[lib_footprint_mismatch]: Footprint 'R_0603_1608Metric_Pad0.98x0.95mm_HandSolder' does not match copy in library 'Resistor_SMD'
+    Local override; warning
+    @(120.6850 mm, 71.7250 mm): Footprint RFBB2
+[lib_footprint_issues]: The current configuration does not include the footprint library 'BAT54WS-7-F'
+    Local override; warning
+    @(112.2630 mm, 89.7675 mm): Footprint D1
+[lib_footprint_issues]: The current configuration does not include the footprint library '2N7002-7-F'
+    Local override; warning
+    @(145.3250 mm, 67.9350 mm): Footprint Q1
+[lib_footprint_mismatch]: Footprint 'C_0603_1608Metric_Pad1.08x0.95mm_HandSolder' does not match copy in library 'Capacitor_SMD'
+    Local override; warning
+    @(124.8250 mm, 87.7075 mm): Footprint C6
+[lib_footprint_mismatch]: Footprint 'R_0603_1608Metric_Pad0.98x0.95mm_HandSolder' does not match copy in library 'Resistor_SMD'
+    Local override; warning
+    @(115.9100 mm, 76.0750 mm): Footprint RENT2
+[lib_footprint_mismatch]: Footprint 'R_0603_1608Metric_Pad0.98x0.95mm_HandSolder' does not match copy in library 'Resistor_SMD'
+    Local override; warning
+    @(104.6135 mm, 82.8975 mm): Footprint R10
+[lib_footprint_mismatch]: Footprint 'C_0603_1608Metric_Pad1.08x0.95mm_HandSolder' does not match copy in library 'Capacitor_SMD'
+    Local override; warning
+    @(104.7750 mm, 93.4625 mm): Footprint C49
+[lib_footprint_mismatch]: Footprint 'R_0603_1608Metric_Pad0.98x0.95mm_HandSolder' does not match copy in library 'Resistor_SMD'
+    Local override; warning
+    @(97.1500 mm, 82.8975 mm): Footprint R18
+[lib_footprint_mismatch]: Footprint 'C_0603_1608Metric_Pad1.08x0.95mm_HandSolder' does not match copy in library 'Capacitor_SMD'
+    Local override; warning
+    @(108.1480 mm, 91.5350 mm): Footprint C54
+[lib_footprint_mismatch]: Footprint 'C_0603_1608Metric_Pad1.08x0.95mm_HandSolder' does not match copy in library 'Capacitor_SMD'
+    Local override; warning
+    @(101.4750 mm, 93.6250 mm): Footprint C47
+[lib_footprint_mismatch]: Footprint 'R_0603_1608Metric_Pad0.98x0.95mm_HandSolder' does not match copy in library 'Resistor_SMD'
+    Local override; warning
+    @(103.1135 mm, 82.8975 mm): Footprint R9
+[lib_footprint_mismatch]: Footprint 'C_0603_1608Metric_Pad1.08x0.95mm_HandSolder' does not match copy in library 'Capacitor_SMD'
+    Local override; warning
+    @(149.2000 mm, 68.9600 mm): Footprint C1
+[lib_footprint_mismatch]: Footprint 'R_0603_1608Metric_Pad0.98x0.95mm_HandSolder' does not match copy in library 'Resistor_SMD'
+    Local override; warning
+    @(105.1000 mm, 78.0500 mm): Footprint RENT1
+[lib_footprint_mismatch]: Footprint 'C_0603_1608Metric_Pad1.08x0.95mm_HandSolder' does not match copy in library 'Capacitor_SMD'
+    Local override; warning
+    @(108.1336 mm, 88.5600 mm): Footprint C52
+[lib_footprint_mismatch]: Footprint 'R_0603_1608Metric_Pad0.98x0.95mm_HandSolder' does not match copy in library 'Resistor_SMD'
+    Local override; warning
+    @(99.6135 mm, 87.7225 mm): Footprint R20
+[lib_footprint_mismatch]: Footprint 'C_0805_2012Metric_Pad1.18x1.45mm_HandSolder' does not match copy in library 'Capacitor_SMD'
+    Local override; warning
+    @(112.1850 mm, 77.9750 mm): Footprint C40
+[lib_footprint_mismatch]: Footprint 'C_0805_2012Metric_Pad1.18x1.45mm_HandSolder' does not match copy in library 'Capacitor_SMD'
+    Local override; warning
+    @(125.6850 mm, 72.2000 mm): Footprint C46
+[lib_footprint_mismatch]: Footprint 'R_0603_1608Metric_Pad0.98x0.95mm_HandSolder' does not match copy in library 'Resistor_SMD'
+    Local override; warning
+    @(100.1135 mm, 82.8975 mm): Footprint R15
+[lib_footprint_mismatch]: Footprint 'R_0603_1608Metric_Pad0.98x0.95mm_HandSolder' does not match copy in library 'Resistor_SMD'
+    Local override; warning
+    @(101.6135 mm, 82.8975 mm): Footprint R16
+[lib_footprint_mismatch]: Footprint 'R_0603_1608Metric_Pad0.98x0.95mm_HandSolder' does not match copy in library 'Resistor_SMD'
+    Local override; warning
+    @(102.5000 mm, 69.9500 mm): Footprint R5
+[lib_footprint_mismatch]: Footprint 'C_0603_1608Metric_Pad1.08x0.95mm_HandSolder' does not match copy in library 'Capacitor_SMD'
+    Local override; warning
+    @(108.1314 mm, 87.0600 mm): Footprint C50
+[lib_footprint_mismatch]: Footprint 'R_0603_1608Metric_Pad0.98x0.95mm_HandSolder' does not match copy in library 'Resistor_SMD'
+    Local override; warning
+    @(101.7750 mm, 77.1000 mm): Footprint FPWM1
+[lib_footprint_mismatch]: Footprint 'R_0603_1608Metric_Pad0.98x0.95mm_HandSolder' does not match copy in library 'Resistor_SMD'
+    Local override; warning
+    @(113.5735 mm, 92.6175 mm): Footprint R8
+[lib_footprint_mismatch]: Footprint 'R_0603_1608Metric_Pad0.98x0.95mm_HandSolder' does not match copy in library 'Resistor_SMD'
+    Local override; warning
+    @(98.6135 mm, 82.8975 mm): Footprint R19
+[lib_footprint_mismatch]: Footprint 'R_0603_1608Metric_Pad0.98x0.95mm_HandSolder' does not match copy in library 'Resistor_SMD'
+    Local override; warning
+    @(115.9350 mm, 72.7750 mm): Footprint FPWM2
+[lib_footprint_mismatch]: Footprint 'R_0603_1608Metric_Pad0.98x0.95mm_HandSolder' does not match copy in library 'Resistor_SMD'
+    Local override; warning
+    @(99.7750 mm, 79.4750 mm): Footprint PFM1
+[lib_footprint_mismatch]: Footprint 'R_0603_1608Metric_Pad0.98x0.95mm_HandSolder' does not match copy in library 'Resistor_SMD'
+    Local override; warning
+    @(123.0600 mm, 73.3500 mm): Footprint R6
+[lib_footprint_mismatch]: Footprint 'PinHeader_1x03_P2.54mm_Vertical' does not match copy in library 'Connector_PinHeader_2.54mm'
+    Local override; warning
+    @(121.6000 mm, 84.3050 mm): Footprint J8
+[lib_footprint_mismatch]: Footprint 'R_0603_1608Metric_Pad0.98x0.95mm_HandSolder' does not match copy in library 'Resistor_SMD'
+    Local override; warning
+    @(112.2625 mm, 87.8845 mm): Footprint R14
+[lib_footprint_mismatch]: Footprint 'R_0603_1608Metric_Pad0.98x0.95mm_HandSolder' does not match copy in library 'Resistor_SMD'
+    Local override; warning
+    @(102.7250 mm, 79.4750 mm): Footprint RENB1
+[lib_footprint_issues]: The current configuration does not include the footprint library 'KiCad'
+    Local override; warning
+    @(118.3100 mm, 75.7000 mm): Footprint U4
+[lib_footprint_mismatch]: Footprint 'C_0603_1608Metric_Pad1.08x0.95mm_HandSolder' does not match copy in library 'Capacitor_SMD'
+    Local override; warning
+    @(107.6000 mm, 77.1500 mm): Footprint C41
+[lib_footprint_mismatch]: Footprint 'R_0603_1608Metric_Pad0.98x0.95mm_HandSolder' does not match copy in library 'Resistor_SMD'
+    Local override; warning
+    @(98.1135 mm, 87.7225 mm): Footprint R17
+[lib_footprint_mismatch]: Footprint 'R_0603_1608Metric_Pad0.98x0.95mm_HandSolder' does not match copy in library 'Resistor_SMD'
+    Local override; warning
+    @(111.3485 mm, 85.4925 mm): Footprint R11
+[lib_footprint_issues]: The current configuration does not include the footprint library 'KR_EELP41.22-Q1S1-36-A8J8-020-R18'
+    Local override; warning
+    @(98.8635 mm, 90.8100 mm): Footprint LED2
+[lib_footprint_mismatch]: Footprint 'R_0603_1608Metric_Pad0.98x0.95mm_HandSolder' does not match copy in library 'Resistor_SMD'
+    Local override; warning
+    @(107.6135 mm, 82.8975 mm): Footprint R13
+[lib_footprint_mismatch]: Footprint 'R_0603_1608Metric_Pad0.98x0.95mm_HandSolder' does not match copy in library 'Resistor_SMD'
+    Local override; warning
+    @(101.2500 mm, 79.4750 mm): Footprint RT1
+[lib_footprint_mismatch]: Footprint 'C_0603_1608Metric_Pad1.08x0.95mm_HandSolder' does not match copy in library 'Capacitor_SMD'
+    Local override; warning
+    @(112.1000 mm, 92.6425 mm): Footprint C51
+[lib_footprint_mismatch]: Footprint 'C_0603_1608Metric_Pad1.08x0.95mm_HandSolder' does not match copy in library 'Capacitor_SMD'
+    Local override; warning
+    @(105.4500 mm, 73.1875 mm): Footprint C43
+[lib_footprint_mismatch]: Footprint 'PinHeader_1x03_P2.54mm_Vertical' does not match copy in library 'Connector_PinHeader_2.54mm'
+    Local override; warning
+    @(127.3250 mm, 84.3050 mm): Footprint J7
+[lib_footprint_mismatch]: Footprint 'C_0603_1608Metric_Pad1.08x0.95mm_HandSolder' does not match copy in library 'Capacitor_SMD'
+    Local override; warning
+    @(155.9125 mm, 73.6750 mm): Footprint C7
+[lib_footprint_mismatch]: Footprint 'R_0603_1608Metric_Pad0.98x0.95mm_HandSolder' does not match copy in library 'Resistor_SMD'
+    Local override; warning
+    @(106.1135 mm, 82.8975 mm): Footprint R12
+[lib_footprint_mismatch]: Footprint 'C_0603_1608Metric_Pad1.08x0.95mm_HandSolder' does not match copy in library 'Capacitor_SMD'
+    Local override; warning
+    @(120.6850 mm, 75.7250 mm): Footprint C44
+[lib_footprint_mismatch]: Footprint 'R_0603_1608Metric_Pad0.98x0.95mm_HandSolder' does not match copy in library 'Resistor_SMD'
+    Local override; warning
+    @(115.6250 mm, 97.4750 mm): Footprint R1
+[lib_footprint_mismatch]: Footprint 'C_0603_1608Metric_Pad1.08x0.95mm_HandSolder' does not match copy in library 'Capacitor_SMD'
+    Local override; warning
+    @(116.7850 mm, 78.4500 mm): Footprint C42
+[lib_footprint_mismatch]: Footprint 'C_0603_1608Metric_Pad1.08x0.95mm_HandSolder' does not match copy in library 'Capacitor_SMD'
+    Local override; warning
+    @(108.2500 mm, 93.5000 mm): Footprint C48
+[lib_footprint_mismatch]: Footprint 'R_0603_1608Metric_Pad0.98x0.95mm_HandSolder' does not match copy in library 'Resistor_SMD'
+    Local override; warning
+    @(108.1279 mm, 85.5641 mm): Footprint R7
+[lib_footprint_issues]: The current configuration does not include the footprint library 'KiCad'
+    Local override; warning
+    @(105.4000 mm, 75.5750 mm): Footprint U3
+[lib_footprint_mismatch]: Footprint 'R_0603_1608Metric_Pad0.98x0.95mm_HandSolder' does not match copy in library 'Resistor_SMD'
+    Local override; warning
+    @(113.4850 mm, 75.3500 mm): Footprint RENB2
+[lib_footprint_issues]: The current configuration does not include the footprint library 'SparkFun-Qwiic'
+    Local override; warning
+    @(125.2500 mm, 99.6000 mm): Footprint G1
+[lib_footprint_mismatch]: Footprint 'USB_C_Receptacle_GCT_USB4125-xx-x-0190_6P_TopMnt_Horizontal' does not match copy in library 'Connector_USB'
+    Local override; warning
+    @(106.8200 mm, 98.7000 mm): Footprint J16
+[lib_footprint_mismatch]: Footprint 'R_0603_1608Metric_Pad0.98x0.95mm_HandSolder' does not match copy in library 'Resistor_SMD'
+    Local override; warning
+    @(148.8750 mm, 66.0250 mm): Footprint R2
+[lib_footprint_mismatch]: Footprint 'R_0603_1608Metric_Pad0.98x0.95mm_HandSolder' does not match copy in library 'Resistor_SMD'
+    Local override; warning
+    @(138.8000 mm, 66.9875 mm): Footprint R4
+[lib_footprint_mismatch]: Footprint 'R_0603_1608Metric_Pad0.98x0.95mm_HandSolder' does not match copy in library 'Resistor_SMD'
+    Local override; warning
+    @(101.0250 mm, 69.9500 mm): Footprint RFBT1
+[text_height]: Text height out of range (board setup constraints silk text height min height 0.8000 mm; actual 0.7500 mm)
+    Rule: board setup constraints silk text height; warning
+    @(130.9250 mm, 70.3750 mm): PCB text 'PWM' on F.Silkscreen
+[text_height]: Text height out of range (board setup constraints silk text height min height 0.8000 mm; actual 0.6000 mm)
+    Rule: board setup constraints silk text height; warning
+    @(111.8000 mm, 99.0250 mm): PCB text 'Peripheral' on F.Silkscreen
+[text_height]: Text height out of range (board setup constraints silk text height min height 0.8000 mm; actual 0.6000 mm)
+    Rule: board setup constraints silk text height; warning
+    @(117.1000 mm, 99.9000 mm): PCB text 'Debug' on F.Silkscreen
+[text_height]: Text height out of range (board setup constraints silk text height min height 0.8000 mm; actual 0.7500 mm)
+    Rule: board setup constraints silk text height; warning
+    @(145.9500 mm, 70.7000 mm): PCB text 'G' on F.Silkscreen
+[text_height]: Text height out of range (board setup constraints silk text height min height 0.8000 mm; actual 0.7500 mm)
+    Rule: board setup constraints silk text height; warning
+    @(147.8000 mm, 70.7250 mm): PCB text 'SW' on F.Silkscreen
+[text_height]: Text height out of range (board setup constraints silk text height min height 0.8000 mm; actual 0.7500 mm)
+    Rule: board setup constraints silk text height; warning
+    @(95.7250 mm, 92.3000 mm): PCB text 'PD STATUS' on F.Silkscreen
+[text_height]: Text height out of range (board setup constraints silk text height min height 0.8000 mm; actual 0.7500 mm)
+    Rule: board setup constraints silk text height; warning
+    @(122.8250 mm, 88.1000 mm): PCB text '5V' on F.Silkscreen
+[text_height]: Text height out of range (board setup constraints silk text height min height 0.8000 mm; actual 0.7500 mm)
+    Rule: board setup constraints silk text height; warning
+    @(123.0250 mm, 84.9500 mm): PCB text 'PWM' on F.Silkscreen
+[text_height]: Text height out of range (board setup constraints silk text height min height 0.8000 mm; actual 0.7500 mm)
+    Rule: board setup constraints silk text height; warning
+    @(123.1750 mm, 90.6000 mm): PCB text 'GND' on F.Silkscreen
+[text_height]: Text height out of range (board setup constraints silk text height min height 0.8000 mm; actual 0.7500 mm)
+    Rule: board setup constraints silk text height; warning
+    @(143.5000 mm, 70.7000 mm): PCB text 'LED' on F.Silkscreen
+[text_height]: Text height out of range (board setup constraints silk text height min height 0.8000 mm; actual 0.7500 mm)
+    Rule: board setup constraints silk text height; warning
+    @(153.4250 mm, 68.5750 mm): PCB text '3.3V' on F.Silkscreen
+[text_height]: Text height out of range (board setup constraints silk text height min height 0.8000 mm; actual 0.7500 mm)
+    Rule: board setup constraints silk text height; warning
+    @(111.9750 mm, 94.2500 mm): PCB text 'PD IN' on F.Silkscreen
+[text_height]: Text height out of range (board setup constraints silk text height min height 0.8000 mm; actual 0.7500 mm)
+    Rule: board setup constraints silk text height; warning
+    @(153.3000 mm, 66.5750 mm): PCB text 'RX' on F.Silkscreen
+[text_height]: Text height out of range (board setup constraints silk text height min height 0.8000 mm; actual 0.7500 mm)
+    Rule: board setup constraints silk text height; warning
+    @(153.4000 mm, 69.0250 mm): PCB text 'TX' on F.Silkscreen
+[text_height]: Text height out of range (board setup constraints silk text height min height 0.8000 mm; actual 0.7500 mm)
+    Rule: board setup constraints silk text height; warning
+    @(134.0000 mm, 70.6500 mm): PCB text '5' on F.Silkscreen
+[text_height]: Text height out of range (board setup constraints silk text height min height 0.8000 mm; actual 0.6000 mm)
+    Rule: board setup constraints silk text height; warning
+    @(123.5750 mm, 96.0000 mm): PCB text '+' on F.Silkscreen
+[text_height]: Text height out of range (board setup constraints silk text height min height 0.8000 mm; actual 0.5000 mm)
+    Rule: board setup constraints silk text height; warning
+    @(124.2500 mm, 95.3250 mm): PCB text 'SDA' on F.Silkscreen
+[text_height]: Text height out of range (board setup constraints silk text height min height 0.8000 mm; actual 0.5000 mm)
+    Rule: board setup constraints silk text height; warning
+    @(123.8000 mm, 93.0000 mm): PCB text 'SCL' on F.Silkscreen
+[text_height]: Text height out of range (board setup constraints silk text height min height 0.8000 mm; actual 0.5000 mm)
+    Rule: board setup constraints silk text height; warning
+    @(123.7250 mm, 97.7000 mm): PCB text 'GND' on F.Silkscreen
+[silk_overlap]: Silkscreen clearance
+    Rule: board setup constraints silk; warning
+    @(131.0400 mm, 70.5150 mm): Segment of J2 on F.Silkscreen
+    @(131.1750 mm, 75.1000 mm): PCB text 'RING' on F.Silkscreen
+[silk_overlap]: Silkscreen clearance
+    Rule: board setup constraints silk; warning
+    @(120.1375 mm, 85.4500 mm): Rectangle on F.Silkscreen
+    @(120.2200 mm, 85.5750 mm): Segment of J8 on F.Silkscreen
+[silk_overlap]: Silkscreen clearance
+    Rule: board setup constraints silk; warning
+    @(120.1375 mm, 85.4500 mm): Rectangle on F.Silkscreen
+    @(120.2200 mm, 85.5750 mm): Segment of J8 on F.Silkscreen
+[silk_overlap]: Silkscreen clearance
+    Rule: board setup constraints silk; warning
+    @(120.2200 mm, 90.7650 mm): Segment of J8 on F.Silkscreen
+    @(120.1750 mm, 88.1500 mm): Rectangle on F.Silkscreen
+[silk_overlap]: Silkscreen clearance
+    Rule: board setup constraints silk; warning
+    @(125.9450 mm, 85.5750 mm): Segment of J7 on F.Silkscreen
+    @(120.1750 mm, 88.1500 mm): Rectangle on F.Silkscreen
+[silk_overlap]: Silkscreen clearance
+    Rule: board setup constraints silk; warning
+    @(120.2200 mm, 85.5750 mm): Segment of J8 on F.Silkscreen
+    @(120.1750 mm, 88.1500 mm): Rectangle on F.Silkscreen
+[silk_overlap]: Silkscreen clearance
+    Rule: board setup constraints silk; warning
+    @(122.9800 mm, 85.5750 mm): Segment of J8 on F.Silkscreen
+    @(120.1750 mm, 88.1500 mm): Rectangle on F.Silkscreen
+[silk_overlap]: Silkscreen clearance
+    Rule: board setup constraints silk; warning
+    @(120.1750 mm, 88.1500 mm): Rectangle on F.Silkscreen
+    @(125.9450 mm, 90.7650 mm): Segment of J7 on F.Silkscreen
+[silk_overlap]: Silkscreen clearance
+    Rule: board setup constraints silk; warning
+    @(128.7050 mm, 85.5750 mm): Segment of J7 on F.Silkscreen
+    @(120.1750 mm, 88.1500 mm): Rectangle on F.Silkscreen
+[silk_overlap]: Silkscreen clearance
+    Rule: board setup constraints silk; warning
+    @(122.9800 mm, 85.5750 mm): Segment of J8 on F.Silkscreen
+    @(122.8250 mm, 88.1000 mm): PCB text '5V' on F.Silkscreen
+[silk_overlap]: Silkscreen clearance
+    Rule: board setup constraints silk; warning
+    @(120.1375 mm, 85.4500 mm): Rectangle on F.Silkscreen
+    @(122.8250 mm, 88.1000 mm): PCB text '5V' on F.Silkscreen
+[silk_overlap]: Silkscreen clearance
+    Rule: board setup constraints silk; warning
+    @(120.1750 mm, 88.1500 mm): Rectangle on F.Silkscreen
+    @(122.8250 mm, 88.1000 mm): PCB text '5V' on F.Silkscreen
+[silk_overlap]: Silkscreen clearance
+    Rule: board setup constraints silk; warning
+    @(125.9450 mm, 85.5750 mm): Segment of J7 on F.Silkscreen
+    @(120.1375 mm, 85.4500 mm): Rectangle on F.Silkscreen
+[silk_overlap]: Silkscreen clearance
+    Rule: board setup constraints silk; warning
+    @(128.7050 mm, 85.5750 mm): Segment of J7 on F.Silkscreen
+    @(120.1375 mm, 85.4500 mm): Rectangle on F.Silkscreen
+[silk_overlap]: Silkscreen clearance
+    Rule: board setup constraints silk; warning
+    @(120.1375 mm, 85.4500 mm): Rectangle on F.Silkscreen
+    @(125.9450 mm, 85.5750 mm): Segment of J7 on F.Silkscreen
+[silk_overlap]: Silkscreen clearance
+    Rule: board setup constraints silk; warning
+    @(120.1375 mm, 85.4500 mm): Rectangle on F.Silkscreen
+    @(122.9800 mm, 85.5750 mm): Segment of J8 on F.Silkscreen
+[silk_overlap]: Silkscreen clearance
+    Rule: board setup constraints silk; warning
+    @(127.5000 mm, 40.8250 mm): Segment on F.Silkscreen
+    @(102.1334 mm, 52.7050 mm): Segment of J4 on F.Silkscreen
+[silk_overlap]: Silkscreen clearance
+    Rule: board setup constraints silk; warning
+    @(102.1334 mm, 55.2450 mm): Segment of J4 on F.Silkscreen
+    @(127.5000 mm, 40.8250 mm): Segment on F.Silkscreen
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(120.1750 mm, 88.1500 mm): Rectangle on F.Silkscreen
+    @(124.8250 mm, 88.5700 mm): Pad 2 [GND] of C6 on F.Cu
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(120.1375 mm, 85.4500 mm): Rectangle on F.Silkscreen
+    @(124.8250 mm, 88.5700 mm): Pad 2 [GND] of C6 on F.Cu
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(98.5000 mm, 48.5000 mm): Segment on F.Silkscreen
+    @(156.5000 mm, 48.5000 mm): NPTH pad of REF**
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(98.5000 mm, 48.5000 mm): Segment on F.Silkscreen
+    @(98.5000 mm, 48.5000 mm): NPTH pad of REF**
+[silk_overlap]: Silkscreen clearance
+    Rule: board setup constraints silk; warning
+    @(115.1224 mm, 72.7656 mm): Circle of TP8 on B.Silkscreen
+    @(117.1750 mm, 72.3000 mm): PCB text 'RT2' on B.Silkscreen
+[silk_overlap]: Silkscreen clearance
+    Rule: board setup constraints silk; warning
+    @(107.1401 mm, 82.0424 mm): Polygon of G*** on B.Silkscreen
+    @(117.9750 mm, 85.2500 mm): PCB text 'VIN2' on B.Silkscreen
+[silk_overlap]: Silkscreen clearance
+    Rule: board setup constraints silk; warning
+    @(107.1401 mm, 82.0424 mm): Polygon of G*** on B.Silkscreen
+    @(116.2110 mm, 83.2425 mm): Circle of TP5 on B.Silkscreen
+[silk_overlap]: Silkscreen clearance
+    Rule: board setup constraints silk; warning
+    @(117.9750 mm, 85.2500 mm): PCB text 'VIN2' on B.Silkscreen
+    @(114.1456 mm, 83.8817 mm): Polygon of G*** on B.Silkscreen
+[silk_overlap]: Silkscreen clearance
+    Rule: board setup constraints silk; warning
+    @(113.8975 mm, 71.1250 mm): Circle of TP6 on B.Silkscreen
+    @(117.1750 mm, 72.3000 mm): PCB text 'RT2' on B.Silkscreen
+[silk_overlap]: Silkscreen clearance
+    Rule: board setup constraints silk; warning
+    @(103.0250 mm, 78.6750 mm): Circle of TP1 on B.Silkscreen
+    @(102.8500 mm, 78.3000 mm): PCB text 'EN1' on B.Silkscreen
+[silk_overlap]: Silkscreen clearance
+    Rule: board setup constraints silk; warning
+    @(107.5000 mm, 77.3000 mm): PCB text 'RT1' on B.Silkscreen
+    @(104.2500 mm, 77.0750 mm): Circle of TP7 on B.Silkscreen
+[silk_overlap]: Silkscreen clearance
+    Rule: board setup constraints silk; warning
+    @(107.1750 mm, 71.5250 mm): Circle of TP11 on B.Silkscreen
+    @(107.4250 mm, 71.0750 mm): PCB text 'SW1' on B.Silkscreen
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(148.1421 mm, 68.4001 mm): Polygon of G*** on B.Silkscreen
+    @(146.4500 mm, 72.6250 mm): PTH pad 3 [GND] of J3
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(148.1421 mm, 68.4001 mm): Polygon of G*** on B.Silkscreen
+    @(148.4500 mm, 72.6250 mm): PTH pad 4 [/BUTTON] of J3
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(107.1401 mm, 82.0424 mm): Polygon of G*** on B.Silkscreen
+    @(116.2110 mm, 83.2425 mm): Pad 1 [VBUS] of TP5 on B.Cu
 
 ** Found 0 unconnected pads **
 
