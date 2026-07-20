@@ -1552,6 +1552,12 @@
 		(uuid "0e1f2778-b784-4170-845b-c2d8b833de3f")
 	)
 	(junction
+		(at 187.96 59.69)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "0ec88ab7-429c-494a-9f2b-923b5f516e7a")
+	)
+	(junction
 		(at 96.52 123.19)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1726,18 +1732,6 @@
 		(uuid "a29f536c-e859-4fd6-beb4-e99136b42952")
 	)
 	(junction
-		(at 191.77 59.69)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "b24d7c9e-12f0-4b6f-8fd2-fe04191a7e45")
-	)
-	(junction
-		(at 187.96 59.69)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "b5f60ac5-dc9e-4f38-b8a9-0320f4e516df")
-	)
-	(junction
 		(at 161.29 123.19)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1784,6 +1778,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "ecd68c50-63d8-471a-9ce0-f2beeed131a2")
+	)
+	(junction
+		(at 191.77 59.69)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "fcf53301-5658-421e-b127-769cd55bdebe")
 	)
 	(junction
 		(at 109.22 72.39)
@@ -2719,6 +2719,17 @@
 				)
 			)
 		)
+		(property "LCSC Part #" "C5159426"
+			(at 83.82 44.45 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "72884f0c-9138-4421-b8f5-5024837887b2")
 		)
@@ -2869,6 +2880,17 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 187.96 64.77 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part #" "C54921082"
 			(at 187.96 64.77 0)
 			(hide yes)
 			(show_name no)
@@ -3276,6 +3298,17 @@
 				)
 			)
 		)
+		(property "LCSC Part #" "C1591"
+			(at 149.86 55.88 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "8eecd111-15e8-468c-868f-6d45965d251e")
 		)
@@ -3513,6 +3546,17 @@
 				)
 			)
 		)
+		(property "LCSC Part #" "C54973939"
+			(at 152.4 40.64 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "f1052897-6cc5-4c62-8c8f-ec13b9ecacaa")
 		)
@@ -3674,6 +3718,17 @@
 				)
 			)
 		)
+		(property "LCSC Part #" "C1591"
+			(at 107.95 107.95 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "673c18e9-c378-44b7-8a5d-a8050593c315")
 		)
@@ -3746,6 +3801,17 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 199.39 140.97 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part #" "C54973936"
 			(at 199.39 140.97 0)
 			(hide yes)
 			(show_name no)
@@ -4148,6 +4214,17 @@
 				)
 			)
 		)
+		(property "LCSC Part #" "C100699"
+			(at 115.57 72.39 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "5f46aeff-e6a8-40b9-9155-d4d9c437dd65")
 		)
@@ -4220,6 +4297,17 @@
 			)
 		)
 		(property "Description" ""
+			(at 71.12 44.45 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part #" "C5159426"
 			(at 71.12 44.45 0)
 			(hide yes)
 			(show_name no)
@@ -4346,7 +4434,7 @@
 				)
 			)
 		)
-		(property "Value" "74438356015HT"
+		(property "Value" "1.5uH"
 			(at 189.23 119.38 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4356,7 +4444,7 @@
 				)
 			)
 		)
-		(property "Footprint" "74438356015HT"
+		(property "Footprint" "Inductor_SMD:L_Taiyo-Yuden_MD-3030"
 			(at 195.58 219.38 0)
 			(hide yes)
 			(show_name no)
@@ -4368,7 +4456,7 @@
 				(justify left top)
 			)
 		)
-		(property "Datasheet" "https://www.we-online.com/components/products/download/3D_WE-IndMAPI_SSMC-4020_3D+%28rev1%29.pdf"
+		(property "Datasheet" "https://www.lcsc.com/product-detail/C49009144.html?s_z=n_q_l_Power%2520Inductors%2520-%2520SMD%2520WE-MAPI%25201.5uH%25205.5A%2520DCR%253D20.7mOhms%2520AEC-Q200&spm=wm.fly.bg.0.xh___wm.ssy.ml.21-28.ent&lcsc_vid=EVJeVAAAFQJZA1ZRTlFXUlwFRFddBVRVRlcKVgFUQgUxVlNeQ1RYV1NVQVJXUDsOAxUeFF5JWBYZEEoKFBINSQcJGk4dAgUUFAk%3D"
 			(at 195.58 319.38 0)
 			(hide yes)
 			(show_name no)
@@ -4380,7 +4468,7 @@
 				(justify left top)
 			)
 		)
-		(property "Description" "WE-MAPI SMT Power Inductor Size 4020; L = 1.5 H +/-20%; IR = 7.45 A; Isat = 9 A; RDC = 20.7 m"
+		(property "Description" "Fixed Inductor 1.5µH ±20%, Isat 7.2A(min)/8.2A(typ), Irms 6.6A(min)/7.0A(typ), DCR 20mΩ(typ)/26mΩ(max), SMD 3.0x3.0x1.8mm, Metal Powder Core, AEC-Q200"
 			(at 179.07 123.19 0)
 			(hide yes)
 			(show_name no)
@@ -4391,7 +4479,7 @@
 				)
 			)
 		)
-		(property "Height" "2"
+		(property "Height" "1.8"
 			(at 195.58 519.38 0)
 			(hide yes)
 			(show_name no)
@@ -4403,7 +4491,7 @@
 				(justify left top)
 			)
 		)
-		(property "Manufacturer_Name" "Wurth Elektronik"
+		(property "Manufacturer_Name" "ZE"
 			(at 195.58 619.38 0)
 			(hide yes)
 			(show_name no)
@@ -4415,7 +4503,7 @@
 				(justify left top)
 			)
 		)
-		(property "Manufacturer_Part_Number" "74438356015HT"
+		(property "Manufacturer_Part_Number" "ZET-CORE-303018DT1R5MBCA"
 			(at 195.58 719.38 0)
 			(hide yes)
 			(show_name no)
@@ -4473,6 +4561,17 @@
 					(size 1.27 1.27)
 				)
 				(justify left top)
+			)
+		)
+		(property "LCSC Part #" "C49009144"
+			(at 179.07 123.19 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "1"
@@ -4626,6 +4725,17 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 99.06 55.88 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part #" "C100699"
 			(at 99.06 55.88 0)
 			(hide yes)
 			(show_name no)
@@ -4795,6 +4905,17 @@
 				)
 			)
 		)
+		(property "LCSC Part #" "C53133025"
+			(at 207.01 63.5 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "c685953e-9027-4ce3-abda-9f72b5f8c0f2")
 		)
@@ -4877,6 +4998,17 @@
 				)
 			)
 		)
+		(property "LCSC Part #" "C54921082"
+			(at 199.39 128.27 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "93de74a8-d01d-4444-a7d7-0df6b8c52c0e")
 		)
@@ -4949,6 +5081,17 @@
 			)
 		)
 		(property "Description" ""
+			(at 96.52 44.45 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part #" "C1591"
 			(at 96.52 44.45 0)
 			(hide yes)
 			(show_name no)
@@ -5113,6 +5256,17 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 132.08 142.24 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part #" "C22812"
 			(at 132.08 142.24 0)
 			(hide yes)
 			(show_name no)
@@ -5536,6 +5690,183 @@
 		)
 	)
 	(symbol
+		(lib_id "74438356015HT:74438356015HT")
+		(at 167.64 59.69 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "8fd79485-2188-448a-b931-2a811d3a1aba")
+		(property "Reference" "L3"
+			(at 177.8 53.34 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "1.5uH"
+			(at 177.8 55.88 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Inductor_SMD:L_Taiyo-Yuden_MD-3030"
+			(at 184.15 155.88 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Datasheet" "https://www.lcsc.com/product-detail/C49009144.html?s_z=n_q_l_Power%2520Inductors%2520-%2520SMD%2520WE-MAPI%25201.5uH%25205.5A%2520DCR%253D20.7mOhms%2520AEC-Q200&spm=wm.fly.bg.0.xh___wm.ssy.ml.21-28.ent&lcsc_vid=EVJeVAAAFQJZA1ZRTlFXUlwFRFddBVRVRlcKVgFUQgUxVlNeQ1RYV1NVQVJXUDsOAxUeFF5JWBYZEEoKFBINSQcJGk4dAgUUFAk%3D"
+			(at 184.15 255.88 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Description" "Fixed Inductor 1.5µH ±20%, Isat 7.2A(min)/8.2A(typ), Irms 6.6A(min)/7.0A(typ), DCR 20mΩ(typ)/26mΩ(max), SMD 3.0x3.0x1.8mm, Metal Powder Core, AEC-Q200"
+			(at 167.64 59.69 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Height" "1.8"
+			(at 184.15 455.88 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Manufacturer_Name" "ZE"
+			(at 184.15 555.88 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Manufacturer_Part_Number" "ZET-CORE-303018DT1R5MBCA"
+			(at 184.15 655.88 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Mouser Part Number" "710-74438356015HT"
+			(at 184.15 755.88 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Wurth-Elektronik/74438356015HT?qs=YwPsRIUVAOfpPPVEP0CZZQ%3D%3D"
+			(at 184.15 855.88 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Arrow Part Number" ""
+			(at 184.15 955.88 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Arrow Price/Stock" ""
+			(at 184.15 1055.88 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "LCSC Part #" "C49009144"
+			(at 167.64 59.69 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "7fb2be64-e60a-434f-96e0-0509a7f3db11")
+		)
+		(pin "2"
+			(uuid "cac46d26-7e7f-49bf-bfe0-7d989e8d0f74")
+		)
+		(instances
+			(project "RSC_extension_board"
+				(path "/1f48ed4c-84ce-4e77-88fc-25bf92dcee2d/8a23fee1-8a0a-4a00-88d2-3a4147ed7fcf"
+					(reference "L3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C")
 		(at 218.44 127 0)
 		(unit 1)
@@ -5602,6 +5933,17 @@
 				)
 			)
 		)
+		(property "LCSC Part #" "C53133025"
+			(at 218.44 127 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "46bfff85-391d-4b7c-bad8-6a4f3c38d26c")
 		)
@@ -5612,172 +5954,6 @@
 			(project "RSC_extension_board"
 				(path "/1f48ed4c-84ce-4e77-88fc-25bf92dcee2d/8a23fee1-8a0a-4a00-88d2-3a4147ed7fcf"
 					(reference "C46")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "74438356015HT:74438356015HT")
-		(at 167.64 59.69 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "9482e48b-3131-4fdf-9abd-994d7e455901")
-		(property "Reference" "L1"
-			(at 177.8 53.34 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "74438356015HT"
-			(at 177.8 55.88 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "74438356015HT"
-			(at 184.15 155.88 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(property "Datasheet" "https://www.we-online.com/components/products/download/3D_WE-IndMAPI_SSMC-4020_3D+%28rev1%29.pdf"
-			(at 184.15 255.88 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(property "Description" "WE-MAPI SMT Power Inductor Size 4020; L = 1.5 H +/-20%; IR = 7.45 A; Isat = 9 A; RDC = 20.7 m"
-			(at 167.64 59.69 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Height" "2"
-			(at 184.15 455.88 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(property "Manufacturer_Name" "Wurth Elektronik"
-			(at 184.15 555.88 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(property "Manufacturer_Part_Number" "74438356015HT"
-			(at 184.15 655.88 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(property "Mouser Part Number" "710-74438356015HT"
-			(at 184.15 755.88 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Wurth-Elektronik/74438356015HT?qs=YwPsRIUVAOfpPPVEP0CZZQ%3D%3D"
-			(at 184.15 855.88 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(property "Arrow Part Number" ""
-			(at 184.15 955.88 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(property "Arrow Price/Stock" ""
-			(at 184.15 1055.88 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(pin "1"
-			(uuid "e7bc2d99-9204-4b4b-a513-82506884fbb6")
-		)
-		(pin "2"
-			(uuid "101f9ed3-48b9-4a34-92e9-ae699c51b814")
-		)
-		(instances
-			(project "RSC_extension_board"
-				(path "/1f48ed4c-84ce-4e77-88fc-25bf92dcee2d/8a23fee1-8a0a-4a00-88d2-3a4147ed7fcf"
-					(reference "L1")
 					(unit 1)
 				)
 			)
@@ -5840,6 +6016,17 @@
 			)
 		)
 		(property "Description" ""
+			(at 226.06 63.5 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part #" "C53133025"
 			(at 226.06 63.5 0)
 			(hide yes)
 			(show_name no)
@@ -5932,6 +6119,17 @@
 				)
 			)
 		)
+		(property "LCSC Part #" "C54973939"
+			(at 110.49 127 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "1fd01941-1b4a-49f8-b903-9c865d7bd495")
 		)
@@ -5953,10 +6151,10 @@
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(in_pos_files yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "9dfa6629-3c79-47bd-9af7-84bbdba539d9")
 		(property "Reference" "U3"
@@ -6002,6 +6200,17 @@
 			)
 		)
 		(property "Description" ""
+			(at 128.27 53.34 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part #" ""
 			(at 128.27 53.34 0)
 			(hide yes)
 			(show_name no)
@@ -6113,6 +6322,17 @@
 				)
 			)
 		)
+		(property "LCSC Part #" "C100699"
+			(at 127 135.89 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "0197bacf-7b7f-4f47-9e55-d0321480ec2e")
 		)
@@ -6134,10 +6354,10 @@
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(in_pos_files yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "a0a1977c-e862-4b18-9721-46e91fe144ec")
 		(property "Reference" "U4"
@@ -6183,6 +6403,17 @@
 			)
 		)
 		(property "Description" ""
+			(at 139.7 116.84 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part #" ""
 			(at 139.7 116.84 0)
 			(hide yes)
 			(show_name no)
@@ -6286,6 +6517,17 @@
 			)
 		)
 		(property "Description" ""
+			(at 161.29 119.38 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part #" "C1591"
 			(at 161.29 119.38 0)
 			(hide yes)
 			(show_name no)
@@ -7009,6 +7251,17 @@
 				)
 			)
 		)
+		(property "LCSC Part #" "C54973936"
+			(at 187.96 77.47 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "75ab42d8-83f3-4617-82c5-288a4dc887cb")
 		)
@@ -7091,6 +7344,17 @@
 				)
 			)
 		)
+		(property "LCSC Part #" "C53133025"
+			(at 233.68 127 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "f1a2d9b6-0698-4b16-a484-d888fbf3ff8e")
 		)
@@ -7163,6 +7427,17 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 120.65 78.74 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part #" "C22812"
 			(at 120.65 78.74 0)
 			(hide yes)
 			(show_name no)
@@ -7571,6 +7846,17 @@
 				)
 			)
 		)
+		(property "LCSC Part #" "C5159426"
+			(at 82.55 107.95 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "07e17410-f9a0-46af-a759-7c5eed1cb61b")
 		)
@@ -7908,7 +8194,7 @@
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp yes)
@@ -7959,6 +8245,17 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 110.49 119.38 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part #" "C100699"
 			(at 110.49 119.38 0)
 			(hide yes)
 			(show_name no)
@@ -8130,6 +8427,17 @@
 				)
 			)
 		)
+		(property "LCSC Part #" "C5159426"
+			(at 95.25 107.95 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "ff7cb1c7-085a-4c67-83c9-c28b8471eb94")
 		)
@@ -8201,6 +8509,17 @@
 		)
 		(property "Description" "Resistor"
 			(at 165.1 104.14 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part #" "C54973939"
+			(at 165.1 104.14 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)

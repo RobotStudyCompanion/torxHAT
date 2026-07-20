@@ -641,7 +641,7 @@
     },
     "bom_presets": [],
     "bom_settings": {
-      "exclude_dnp": true,
+      "exclude_dnp": false,
       "fields_ordered": [
         {
           "group_by": false,
@@ -822,6 +822,12 @@
           "label": "Qty",
           "name": "${QUANTITY}",
           "show": false
+        },
+        {
+          "group_by": false,
+          "label": "LCSC Part #",
+          "name": "LCSC Part #",
+          "show": true
         }
       ],
       "filter_string": "",
@@ -888,7 +894,7 @@
         "uuid": "1f48ed4c-84ce-4e77-88fc-25bf92dcee2d"
       }
     ],
-    "used_designators": "J2-3,J5,#FLG1-6,C2,C56-62,#PWR20,#PWR45-46,#PWR48,#PWR130-137,R21-23",
+    "used_designators": "L3,J2-3,J5,#FLG1-6,C2,C56-62,#PWR20,#PWR45-46,#PWR48,#PWR130-137,R21-23",
     "variants": []
   },
   "sheets": [

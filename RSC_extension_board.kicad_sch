@@ -7690,6 +7690,17 @@
 				)
 			)
 		)
+		(property "LCSC Part #" "C2937625"
+			(at 264.16 40.64 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "7810f9f2-0dc1-49b6-9cdd-7ebd415ebb45")
 		)
@@ -7843,6 +7854,17 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 266.7 140.97 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part #" "C131334"
 			(at 266.7 140.97 0)
 			(hide yes)
 			(show_name no)
@@ -8017,6 +8039,17 @@
 				)
 			)
 		)
+		(property "LCSC Part #" "C2937625"
+			(at 232.41 40.64 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "1f7645e8-a094-45ec-8dcc-20196f7fef93")
 		)
@@ -8091,6 +8124,17 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 83.82 125.73 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part #" "C1591"
 			(at 83.82 125.73 0)
 			(hide yes)
 			(show_name no)
@@ -8498,6 +8542,17 @@
 				)
 			)
 		)
+		(property "LCSC Part #" "C101254"
+			(at 166.37 114.3 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "d6e257da-ffa0-41b1-84ef-1e932bf7f732")
 		)
@@ -8570,6 +8625,17 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 184.15 114.3 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part #" "C101254"
 			(at 184.15 114.3 0)
 			(hide yes)
 			(show_name no)
@@ -9289,6 +9355,17 @@
 				)
 			)
 		)
+		(property "LCSC Part #" "C131339"
+			(at 177.8 135.89 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "ba4231ac-03a1-432f-b258-e7dbc7e72741")
 		)
@@ -9362,6 +9439,17 @@
 		)
 		(property "Description" "Resistor"
 			(at 227.33 73.66 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part #" "C2907002"
+			(at 227.33 73.66 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9549,10 +9637,10 @@
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(in_pos_files yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "61b690f8-bea5-40a3-9039-3f0e78375567")
 		(property "Reference" "J1"
@@ -9692,6 +9780,17 @@
 					(size 1.27 1.27)
 				)
 				(justify left top)
+			)
+		)
+		(property "LCSC Part #" ""
+			(at 48.26 35.56 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "29"
@@ -9889,6 +9988,17 @@
 				)
 			)
 		)
+		(property "LCSC Part #" "C1591"
+			(at 90.17 134.62 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "090db673-e8fd-4e00-b5b5-2f66eb6a44ee")
 		)
@@ -10047,6 +10157,17 @@
 				)
 			)
 		)
+		(property "LCSC Part #" "C2907002"
+			(at 254 143.51 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "128731fd-98b6-4311-8722-345c03d9d027")
 		)
@@ -10194,6 +10315,17 @@
 		)
 		(property "Description" "Resistor"
 			(at 128.27 128.27 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part #" "C2906994"
+			(at 128.27 128.27 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10442,6 +10574,17 @@
 				)
 			)
 		)
+		(property "LCSC Part #" "C1591"
+			(at 246.38 44.45 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "98993d85-e7a0-471c-9899-dbaab96abcef")
 		)
@@ -10512,6 +10655,17 @@
 		)
 		(property "Description" "Resistor"
 			(at 254 140.97 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part #" "C2907002"
+			(at 254 140.97 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10592,6 +10746,17 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 134.62 135.89 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part #" "C54973939"
 			(at 134.62 135.89 0)
 			(hide yes)
 			(show_name no)
@@ -11231,6 +11396,17 @@
 				)
 			)
 		)
+		(property "LCSC Part #" "C131334"
+			(at 106.68 124.46 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "a6ce36f9-781b-43f0-9055-31a44f9b8c80")
 		)
@@ -11310,6 +11486,17 @@
 		)
 		(property "Description" "50V Vds, 0.22A Id, N-Channel MOSFET, SOT-23"
 			(at 175.26 116.84 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part #" "C52895"
+			(at 175.26 116.84 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11568,6 +11755,17 @@
 				(justify left top)
 			)
 		)
+		(property "LCSC Part #" "C85049"
+			(at 137.16 128.27 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "c17d84f3-2e8c-4c64-afde-64028b308fb0")
 		)
@@ -11642,6 +11840,17 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 156.21 135.89 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part #" "C1591"
 			(at 156.21 135.89 0)
 			(hide yes)
 			(show_name no)
@@ -11958,6 +12167,17 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 214.63 44.45 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part #" "C1591"
 			(at 214.63 44.45 0)
 			(hide yes)
 			(show_name no)
@@ -12431,6 +12651,17 @@
 				(justify bottom)
 			)
 		)
+		(property "LCSC Part #" "C160390"
+			(at 251.46 113.03 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "4"
 			(uuid "c78a958d-507e-4b04-8f1b-d8c335747efc")
 		)
@@ -12768,10 +12999,10 @@
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(in_pos_files yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "e9d8b6cc-a491-4e95-a4b1-2a6b3270d7a4")
 		(property "Reference" "J4"
@@ -12911,6 +13142,17 @@
 					(size 1.27 1.27)
 				)
 				(justify left top)
+			)
+		)
+		(property "LCSC Part #" ""
+			(at 133.35 83.82 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "24"
@@ -13190,6 +13432,17 @@
 					(size 1.27 1.27)
 				)
 				(justify left bottom)
+			)
+		)
+		(property "LCSC Part #" "C29549378"
+			(at 250.19 73.66 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "1"
@@ -13576,6 +13829,17 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 231.14 142.24 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part #" "C1591"
 			(at 231.14 142.24 0)
 			(hide yes)
 			(show_name no)
