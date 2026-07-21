@@ -6,8 +6,9 @@ TorxHAT features USB Power Delivery and peripheral connectivity, including UART,
 
 [![Licensed under CERN-OHL-W v2](https://img.shields.io/badge/Hardware%20License-CERN--OHL--W%20v2-blueviolet)](https://ohwr.org/cern_ohl_w_v2.pdf)
 
-
+Revision B Preview:
 ![torxHat_3D_view](./pcb_3d_topView.png)
+Pending validation testing; PCB in fabrication.
 
 ---
 
